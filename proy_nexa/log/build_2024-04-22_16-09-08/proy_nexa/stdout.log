@@ -1,0 +1,21 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa
+-- Install configuration: ""
+-- Up-to-date: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/ament_index/resource_index/package_run_dependencies/proy_nexa
+-- Installing: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/ament_index/resource_index/parent_prefix_path/proy_nexa
+-- Up-to-date: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/environment/ament_prefix_path.sh
+-- Installing: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/environment/path.sh
+-- Installing: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/environment/path.dsv
+-- Up-to-date: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/local_setup.bash
+-- Up-to-date: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/local_setup.sh
+-- Up-to-date: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/local_setup.zsh
+-- Installing: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/local_setup.dsv
+-- Installing: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/package.dsv
+-- Up-to-date: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/ament_index/resource_index/packages/proy_nexa
+-- Up-to-date: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/cmake/proy_nexaConfig.cmake
+-- Up-to-date: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/cmake/proy_nexaConfig-version.cmake
+-- Installing: /home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/install/proy_nexa/share/proy_nexa/package.xml
