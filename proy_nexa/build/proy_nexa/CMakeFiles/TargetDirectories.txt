@@ -1,9 +1,0 @@
-/home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa/CMakeFiles/install/strip.dir
-/home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa/CMakeFiles/install/local.dir
-/home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa/CMakeFiles/install.dir
-/home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa/CMakeFiles/list_install_components.dir
-/home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa/CMakeFiles/rebuild_cache.dir
-/home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa/CMakeFiles/edit_cache.dir
-/home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa/CMakeFiles/test.dir
-/home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa/CMakeFiles/proy_nexa_uninstall.dir
-/home/chen/turtlebot3_ws/src/proy_nexa/proy_nexa/build/proy_nexa/CMakeFiles/uninstall.dir
