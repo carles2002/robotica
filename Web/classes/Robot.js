@@ -33,7 +33,26 @@ export class Robot{
     //---------------------------------------
     // METODOS
     //---------------------------------------
-
+    connect(){
+        console.log("Inicio connect()")
+        fetch('http://localhost:5000/connect', {
+            headers:{
+                "Content-Type": "application/json",
+            }
+         })
+         .then(info =>{
+            // Code
+            console.log("Conectado")
+            //console.log("Info: ")
+            //console.log(info)
+         })
+         .catch(error =>{
+            // catch error
+            console.log("Error: "+error)
+         });
+        //Fin
+        console.log("connect() hecho")
+    }
     //---------------------------------------
     // button, url_move:txt --> move_forward()
     // Descripcion: Hace una llamada al Servidor para moverse hacia adelante
@@ -42,9 +61,9 @@ export class Robot{
         //Llamar a Servidor
         fetch(url_move, {
             method: "POST",
-            body: {'move':"forward"},
+            body: JSON.stringify({'move':"forward"}),
             headers:{
-                "content-type": "application/json; charset=UTF-8",
+                "Content-Type": "application/json",
             }
          })
          .then(info =>{
@@ -68,9 +87,9 @@ export class Robot{
         //Llamar a Servidor
         fetch(url_move, {
             method: "POST",
-            body: {'move':"backward"},
+            body: JSON.stringify({'move':"backward"}),
             headers:{
-                "content-type": "application/json; charset=UTF-8",
+                "Content-Type": "application/json",
             }
          })
          .then(info =>{
@@ -94,9 +113,9 @@ export class Robot{
         //Llamar a Servidor
         fetch(url_move, {
             method: "POST",
-            body: {'move':"right"},
+            body: JSON.stringify({'move':"right"}),
             headers:{
-                "content-type": "application/json; charset=UTF-8",
+                "Content-Type": "application/json",
             }
          })
          .then(info =>{
@@ -120,9 +139,9 @@ export class Robot{
         //Llamar a Servidor
         fetch(url_move, {
             method: "POST",
-            body: {'move':"left"},
+            body: JSON.stringify({'move':"left"}),
             headers:{
-                "content-type": "application/json; charset=UTF-8",
+                "Content-Type": "application/json",
             }
          })
          .then(info =>{
@@ -146,9 +165,9 @@ export class Robot{
         //Llamar a Servidor
         fetch(url_move, {
             method: "POST",
-            body: {'move':"stop"},
+            body: JSON.stringify({'move':"stop"}),
             headers:{
-                "content-type": "application/json; charset=UTF-8",
+                "Content-Type": "application/json",
             }
          })
          .then(info =>{

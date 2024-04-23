@@ -26,7 +26,6 @@ class Robot:
     #------------------------------------------------------------
     def move_forward(self):
         #Mover
-        os.system("ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist '{linear: {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.1}}'")
         return
     #------------------------------------------------------------
     # move_backward()
@@ -41,6 +40,7 @@ class Robot:
     #------------------------------------------------------------
     def move_right(self):
         #Mover
+        os.system("bash ../comandos/girar.bash")
         return
     #------------------------------------------------------------
     # move_left()
@@ -48,6 +48,7 @@ class Robot:
     #------------------------------------------------------------
     def move_left(self):
         #Mover
+        os.system("bash ../comandos/girar.bash")
         return
     #------------------------------------------------------------
     # stop_move()
@@ -55,5 +56,17 @@ class Robot:
     #------------------------------------------------------------
     def stop_move(self):
         #Parar
-        os.system("ros2 topic pub --once /cmd_vel geometry_msgs/msg/Twist '{linear: {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}'")
+        os.system("bash ../comandos/detener.bash")
         return
+    def console(self, move):
+        print("Robot_console")
+        if(move=="left"):
+            self.move_left()
+        elif(move=="right"):
+            self.move_right()
+        elif(move=="backward"):
+            self.move_backward()
+        elif(move=="forward"):
+            self.move_forward()
+        else:
+            return "Error 404 - No move"
