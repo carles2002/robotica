@@ -1,0 +1,147 @@
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.2
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+-- Found turtlebot3_gazebo: 2.2.4 (/home/chen/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chen/repositorio2/Robot/build/my_world
+[100%] Built target turtlebot3_drive
+-- Install configuration: ""
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/lib/my_world/turtlebot3_drive
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//launch
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger_pi
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger_pi/model.sdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger_pi/model-1_4.sdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger_pi/model.config
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/lds.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/tire.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/burger_base.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/model.sdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/model.config
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/meshes
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/meshes/agriculture_world.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/materials
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/materials/textures
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/materials/textures/AgriBakeLarge.jpg
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/materials/textures/SolarPanelsPolycrystallineTypeBFramedClean001_COL_3K.jpg
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/materials/textures/WoodPlanksWornWhite33_COL_VAR1_3K.jpg
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/materials/textures/WoodPlanksWorn33_COL_VAR1_3K.jpg
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/materials/textures/WoodPlanksWornRed33_COL_VAR1_3K.jpg
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/cpr_agriculture/materials/textures/MetalCorrugatedIronSheet002_METALNESS_3K_METALNESS.jpg
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/monkey
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/monkey/model.sdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/monkey/model.config
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/monkey/meshes
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/monkey/meshes/monkey.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/lion
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/lion/model.sdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/lion/model.config
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/lion/meshes
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/lion/meshes/lion.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/my_world
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/my_world/model.sdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/my_world/model.config
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/girafe
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/girafe/model.sdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/girafe/model.config
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/girafe/meshes
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//models/girafe/meshes/Giraffe.dae
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//world
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//world/burger.model
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//world/agriculture.world
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//world/burger_pi.model
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//urdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//urdf/turtlebot3_burger_pi.urdf
+-- Up-to-date: /home/chen/repositorio2/Robot/install/my_world/share/my_world//urdf/turtlebot3_burger.urdf
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/include/
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/environment/ament_prefix_path.sh
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/environment/ament_prefix_path.dsv
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/environment/path.sh
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/environment/path.dsv
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/local_setup.bash
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/local_setup.sh
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/local_setup.zsh
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/local_setup.dsv
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/package.dsv
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/ament_index/resource_index/packages/my_world
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/cmake/my_worldConfig.cmake
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/cmake/my_worldConfig-version.cmake
+-- Installing: /home/chen/repositorio2/Robot/install/my_world/share/my_world/package.xml

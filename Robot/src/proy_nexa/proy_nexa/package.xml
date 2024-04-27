@@ -19,6 +19,7 @@
   <exec_depend>proy_nexa_interface</exec_depend>
   <exec_depend>proy_nexa_service</exec_depend>
   <exec_depend>proy_nexa_show_msg</exec_depend>
+  <exec_depend>my_world</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
