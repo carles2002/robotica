@@ -26,6 +26,7 @@ class Robot:
     #------------------------------------------------------------
     def move_forward(self):
         #Mover
+        os.system("bash ../comandos/movimiento/adelante.bash")
         return
     #------------------------------------------------------------
     # move_backward()
@@ -33,6 +34,7 @@ class Robot:
     #------------------------------------------------------------
     def move_backward(self):
         #Mover
+        os.system("bash ../comandos/movimiento/atras.bash")
         return
     #------------------------------------------------------------
     # move_right()
@@ -40,7 +42,7 @@ class Robot:
     #------------------------------------------------------------
     def move_right(self):
         #Mover
-        os.system("bash ../comandos/girar.bash")
+        os.system("bash ../comandos/movimiento/derecha.bash")
         return
     #------------------------------------------------------------
     # move_left()
@@ -48,7 +50,7 @@ class Robot:
     #------------------------------------------------------------
     def move_left(self):
         #Mover
-        os.system("bash ../comandos/girar.bash")
+        os.system("bash ../comandos/movimiento/izquierda.bash")
         return
     #------------------------------------------------------------
     # stop_move()
@@ -56,7 +58,7 @@ class Robot:
     #------------------------------------------------------------
     def stop_move(self):
         #Parar
-        os.system("bash ../comandos/detener.bash")
+        os.system("bash ../comandos/movimiento/stop.bash")
         return
     def console(self, move):
         print("Robot_console")
