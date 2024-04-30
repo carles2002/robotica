@@ -24,7 +24,7 @@ import { Robot } from "../classes/Robot.js"
 //------------------------------------------------
 // Variables y Constantes Globales
 //------------------------------------------------
-var default_ip = "127.0.0.1"
+var default_ip = "192.168.0.64"
 const localStorageIp = localStorage.getItem("robot_ip")
 
 var key_pressed = false
@@ -45,8 +45,13 @@ console.log(robot)
 
 // Escuchar cambio de IP
 document.getElementById('btn_robotIp').addEventListener("click", cambiar_ip);
-// Escuchar KeyPad
 
+// Escuchar conectar
+document.getElementById("btn_robotConnect").addEventListener("click", function(){
+    robot.connect()
+ });
+
+// Escuchar KeyPad
 document.addEventListener('keydown', (event) => {
     if (!key_pressed) {
         if (input_valido.includes(event.code))
@@ -95,10 +100,6 @@ function informacion() {
     span_rub.innerHTML = "Ubicación:"+robot.get_position()
 }
 informacion()
-//------------------------------------------------
-// MOVER ROBOT
-//------------------------------------------------
-
 //---------------------------------------
 // form --> cambiar_ip()
 // Descripcion: Recoge una nueva IP de la página del admin y la cambia por la antigua
