@@ -1,0 +1,40 @@
+[1.026s] Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_my_slam': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_my_slam/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_my_slam build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/install.log --single-version-externally-managed
+[1.207s] running egg_info
+[1.208s] creating ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info
+[1.208s] writing ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/PKG-INFO
+[1.209s] writing dependency_links to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/dependency_links.txt
+[1.209s] writing entry points to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/entry_points.txt
+[1.210s] writing requirements to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/requires.txt
+[1.210s] writing top-level names to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/top_level.txt
+[1.215s] writing manifest file '../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/SOURCES.txt'
+[1.245s] reading manifest file '../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/SOURCES.txt'
+[1.246s] writing manifest file '../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/SOURCES.txt'
+[1.246s] running build
+[1.247s] running build_py
+[1.247s] creating /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build
+[1.247s] creating /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build/lib
+[1.247s] creating /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build/lib/proy_nexa_my_slam
+[1.247s] copying proy_nexa_my_slam/__init__.py -> /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build/lib/proy_nexa_my_slam
+[1.248s] running install
+[1.249s] running install_lib
+[1.250s] creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam
+[1.250s] copying /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build/lib/proy_nexa_my_slam/__init__.py -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam
+[1.250s] byte-compiling /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam/__init__.py to __init__.cpython-38.pyc
+[1.252s] running install_data
+[1.252s] creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/ament_index
+[1.253s] creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/ament_index/resource_index
+[1.253s] creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/ament_index/resource_index/packages
+[1.253s] copying resource/proy_nexa_my_slam -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/ament_index/resource_index/packages
+[1.253s] copying package.xml -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam
+[1.253s] creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/map
+[1.254s] creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/rviz
+[1.254s] copying rviz/escaneo.rviz -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/rviz
+[1.254s] creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/launch
+[1.254s] copying launch/proy_nexa_my_slam.launch.py -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/launch
+[1.254s] creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/config
+[1.254s] copying config/proy_nexa_my_slam.lua -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/config
+[1.256s] running install_egg_info
+[1.257s] Copying ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam-0.0.0-py3.8.egg-info
+[1.258s] running install_scripts
+[1.280s] writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_my_slam/install.log'
+[1.299s] Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_my_slam' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_my_slam/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_my_slam build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/install.log --single-version-externally-managed
