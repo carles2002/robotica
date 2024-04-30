@@ -1,0 +1,38 @@
+running egg_info
+creating ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info
+writing ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/PKG-INFO
+writing dependency_links to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/dependency_links.txt
+writing entry points to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/entry_points.txt
+writing requirements to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/requires.txt
+writing top-level names to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/top_level.txt
+writing manifest file '../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/SOURCES.txt'
+reading manifest file '../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/SOURCES.txt'
+writing manifest file '../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build
+creating /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build/lib
+creating /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build/lib/proy_nexa_my_slam
+copying proy_nexa_my_slam/__init__.py -> /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build/lib/proy_nexa_my_slam
+running install
+running install_lib
+creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam
+copying /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build/lib/proy_nexa_my_slam/__init__.py -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam
+byte-compiling /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/ament_index
+creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/ament_index/resource_index
+creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/ament_index/resource_index/packages
+copying resource/proy_nexa_my_slam -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/ament_index/resource_index/packages
+copying package.xml -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam
+creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/map
+creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/rviz
+copying rviz/escaneo.rviz -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/rviz
+creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/launch
+copying launch/proy_nexa_my_slam.launch.py -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/launch
+creating /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/config
+copying config/proy_nexa_my_slam.lua -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/config
+running install_egg_info
+Copying ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_my_slam/install.log'
