@@ -24,7 +24,8 @@
 //------------------------------------------------
 import "../classes/Robot.js"
 import { Robot } from "../classes/Robot.js"
-import { Voice } from "../classes/Voice.js"
+import { FakeVoice } from "../classes/FakeVoice.js"
+import { Habitat } from "../classes/Habitat.js"
 //------------------------------------------------
 // Variables y Constantes Globales
 //------------------------------------------------
@@ -48,45 +49,59 @@ console.log(robot)
 // MICROFONO ROBOT
 //------------------------------------------------
 const btn_microfono = document.getElementById("btn_microfono");
-const voice = new Voice();
+const fakevoice = new FakeVoice();
 var micro_pressed = true
 
 btn_microfono.addEventListener("click", function(){
     if(micro_pressed){
         micro_pressed = false
-        console.log("Micro presionado")
-        voice.listen()
-        console.log(voice.recognition)
+        fakevoice.voice.listen()
     }
     else{
         micro_pressed = true
-        console.log("Micro No presionado")
-        voice.stopListen()
+        fakevoice.voice.stopListen()
     }
 });
-voice.recognition.onresult = (event) => {
-    voice.stopListen()
-    const text = event.results[event.results.length - 1][0].transcript;
+
+fakevoice.voice.recognition.onresult = (event) => {
+    micro_pressed = true
+    fakevoice.voice.stopListen()
+    var text = event.results[event.results.length - 1][0].transcript;
+    text = text.toLowerCase()
     console.log("Text:" + text)
     
     var lugar = "Vamos a ver a"
-    if(text.includes("leon"||"leones")){
-        //Mover al punto de leones
-        console.log("Iendo a los leones")
-        lugar+=" los leones"
-        voice.speech(lugar)
-    }
-    else if(text.includes("mono"||"monos")){
-        //Mover al punto de los monos
-        console.log("Iendo a los monos")
-        lugar+=" los monos"
-        voice.speech(lugar)
-    }
-    else if(text.includes("jirafa"||"jirafas")){
-        //Mover al punto de las jirafa
-        console.log("Iendo a las jirafas")
-        lugar+=" las jirafas"
-        voice.speech(lugar)
+    var habitat = null;
+
+    if(text.includes("ver")||text.includes("ir a")){
+
+        if(text.includes("león")||text.includes("leones")){
+            //Mover al punto de leones
+            console.log("Iendo a los leones")
+            lugar+=" los leones"
+            fakevoice.voice.speech(lugar)
+    
+            habitat = new Habitat("leon")
+            habitat.ir()
+        }
+        else if(text.includes("mono"||"monos")){
+            //Mover al punto de los monos
+            console.log("Iendo a los monos")
+            lugar+=" los monos"
+            fakevoice.voice.speech(lugar)
+            
+            habitat = new Habitat("mono")
+            habitat.ir()
+        }
+        else if(text.includes("jirafa"||"jirafas")){
+            //Mover al punto de las jirafa
+            console.log("Iendo a las jirafas")
+            lugar+=" las jirafas"
+            fakevoice.voice.speech(lugar)
+            
+            habitat = new Habitat("jirafa")
+            habitat.ir()
+        }
     }
 }
 //------------------------------------------------
@@ -149,6 +164,11 @@ function informacion() {
     span_rub.innerHTML = "Ubicación:"+robot.get_position()
 }
 informacion()
+
+//---------------------------------------
+// METODOS
+//---------------------------------------
+
 //---------------------------------------
 // form --> cambiar_ip()
 // Descripcion: Recoge una nueva IP de la página del admin y la cambia por la antigua
