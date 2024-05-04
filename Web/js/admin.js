@@ -6,6 +6,8 @@
 // · Cambiar IP del Robot
 // · Consola para mover al Robot
 // · Pantalla para ver lo que ve el Robot
+// · Comandos por voz
+// · Respuesta del robot
 //-------------------------------------------------------------------------------------------------
 
 //------------------------------------------------
@@ -14,6 +16,7 @@
 // · No hay pantalla
 // · La IP se guarda mediante la sesión Local (localstorage)
 // · Es posible controlar el movimiento con las flechas del teclado
+// · Se importa una clase para interactuar con comandos de voz con el robot
 //------------------------------------------------
 
 //------------------------------------------------
@@ -21,6 +24,7 @@
 //------------------------------------------------
 import "../classes/Robot.js"
 import { Robot } from "../classes/Robot.js"
+import { Voice } from "../classes/Voice.js"
 //------------------------------------------------
 // Variables y Constantes Globales
 //------------------------------------------------
@@ -39,6 +43,52 @@ if (localStorageIp) {
 
 console.log("Robot")
 console.log(robot)
+
+//------------------------------------------------
+// MICROFONO ROBOT
+//------------------------------------------------
+const btn_microfono = document.getElementById("btn_microfono");
+const voice = new Voice();
+var micro_pressed = true
+
+btn_microfono.addEventListener("click", function(){
+    if(micro_pressed){
+        micro_pressed = false
+        console.log("Micro presionado")
+        voice.listen()
+        console.log(voice.recognition)
+    }
+    else{
+        micro_pressed = true
+        console.log("Micro No presionado")
+        voice.stopListen()
+    }
+});
+voice.recognition.onresult = (event) => {
+    voice.stopListen()
+    const text = event.results[event.results.length - 1][0].transcript;
+    console.log("Text:" + text)
+    
+    var lugar = "Vamos a ver a"
+    if(text.includes("leon"||"leones")){
+        //Mover al punto de leones
+        console.log("Iendo a los leones")
+        lugar+=" los leones"
+        voice.speech(lugar)
+    }
+    else if(text.includes("mono"||"monos")){
+        //Mover al punto de los monos
+        console.log("Iendo a los monos")
+        lugar+=" los monos"
+        voice.speech(lugar)
+    }
+    else if(text.includes("jirafa"||"jirafas")){
+        //Mover al punto de las jirafa
+        console.log("Iendo a las jirafas")
+        lugar+=" las jirafas"
+        voice.speech(lugar)
+    }
+}
 //------------------------------------------------
 // EVENTLISTENERS
 //------------------------------------------------
@@ -88,7 +138,6 @@ function btn_listen() {
     }
 }
 btn_listen()
-
 //------------------------------------------------
 // INFORMACIÓN ROBOT
 //------------------------------------------------
