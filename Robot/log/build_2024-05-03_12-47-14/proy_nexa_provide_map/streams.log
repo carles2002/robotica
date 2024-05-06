@@ -1,0 +1,40 @@
+[1.885s] Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_provide_map': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_provide_map/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_provide_map build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/install.log --single-version-externally-managed
+[2.205s] running egg_info
+[2.206s] creating ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info
+[2.206s] writing ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/PKG-INFO
+[2.207s] writing dependency_links to ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/dependency_links.txt
+[2.208s] writing entry points to ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/entry_points.txt
+[2.208s] writing requirements to ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/requires.txt
+[2.208s] writing top-level names to ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/top_level.txt
+[2.209s] writing manifest file '../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/SOURCES.txt'
+[2.255s] reading manifest file '../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/SOURCES.txt'
+[2.257s] writing manifest file '../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/SOURCES.txt'
+[2.257s] running build
+[2.257s] running build_py
+[2.257s] creating /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build
+[2.257s] creating /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build/lib
+[2.257s] creating /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build/lib/proy_nexa_provide_map
+[2.257s] copying proy_nexa_provide_map/__init__.py -> /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build/lib/proy_nexa_provide_map
+[2.257s] running install
+[2.258s] running install_lib
+[2.260s] creating /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages/proy_nexa_provide_map
+[2.260s] copying /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build/lib/proy_nexa_provide_map/__init__.py -> /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages/proy_nexa_provide_map
+[2.261s] byte-compiling /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages/proy_nexa_provide_map/__init__.py to __init__.cpython-38.pyc
+[2.262s] running install_data
+[2.264s] creating /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/ament_index
+[2.264s] creating /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/ament_index/resource_index
+[2.264s] creating /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/ament_index/resource_index/packages
+[2.264s] copying resource/proy_nexa_provide_map -> /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/ament_index/resource_index/packages
+[2.264s] copying package.xml -> /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map
+[2.264s] creating /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/map
+[2.264s] copying map/my_map.pgm -> /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/map
+[2.271s] copying map/my_map.yaml -> /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/map
+[2.271s] creating /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/rviz
+[2.271s] copying rviz/escaneo.rviz -> /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/rviz
+[2.273s] creating /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/launch
+[2.273s] copying launch/proy_nexa_provide_map.launch.py -> /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/launch
+[2.273s] running install_egg_info
+[2.276s] Copying ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages/proy_nexa_provide_map-0.0.0-py3.8.egg-info
+[2.277s] running install_scripts
+[2.304s] writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_provide_map/install.log'
+[2.331s] Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_provide_map' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_provide_map/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_provide_map build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/install.log --single-version-externally-managed

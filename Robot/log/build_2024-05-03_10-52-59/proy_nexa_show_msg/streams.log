@@ -1,0 +1,22 @@
+[2.846s] Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_show_msg': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_show_msg/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_show_msg build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_show_msg/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_show_msg/install.log --single-version-externally-managed
+[3.149s] running egg_info
+[3.150s] writing ../../../build/proy_nexa_show_msg/proy_nexa_show_msg.egg-info/PKG-INFO
+[3.151s] writing dependency_links to ../../../build/proy_nexa_show_msg/proy_nexa_show_msg.egg-info/dependency_links.txt
+[3.152s] writing entry points to ../../../build/proy_nexa_show_msg/proy_nexa_show_msg.egg-info/entry_points.txt
+[3.153s] writing requirements to ../../../build/proy_nexa_show_msg/proy_nexa_show_msg.egg-info/requires.txt
+[3.154s] writing top-level names to ../../../build/proy_nexa_show_msg/proy_nexa_show_msg.egg-info/top_level.txt
+[3.242s] reading manifest file '../../../build/proy_nexa_show_msg/proy_nexa_show_msg.egg-info/SOURCES.txt'
+[3.243s] writing manifest file '../../../build/proy_nexa_show_msg/proy_nexa_show_msg.egg-info/SOURCES.txt'
+[3.244s] running build
+[3.244s] running build_py
+[3.244s] running install
+[3.246s] running install_lib
+[3.248s] running install_data
+[3.249s] running install_egg_info
+[3.251s] removing '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages/proy_nexa_show_msg-0.0.0-py3.8.egg-info' (and everything under it)
+[3.252s] Copying ../../../build/proy_nexa_show_msg/proy_nexa_show_msg.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages/proy_nexa_show_msg-0.0.0-py3.8.egg-info
+[3.253s] running install_scripts
+[3.283s] Installing proy_nexa_show_msg script to /home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/proy_nexa_show_msg
+[3.284s] Installing proy_nexa_show_msg_param script to /home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/proy_nexa_show_msg
+[3.285s] writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_show_msg/install.log'
+[3.657s] Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_show_msg' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_show_msg/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_show_msg build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_show_msg/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_show_msg/install.log --single-version-externally-managed

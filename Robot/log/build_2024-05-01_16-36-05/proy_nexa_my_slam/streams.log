@@ -1,0 +1,22 @@
+[1.407s] Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_my_slam': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_my_slam/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_my_slam build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/install.log --single-version-externally-managed
+[1.578s] running egg_info
+[1.579s] writing ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/PKG-INFO
+[1.580s] writing dependency_links to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/dependency_links.txt
+[1.581s] writing entry points to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/entry_points.txt
+[1.581s] writing requirements to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/requires.txt
+[1.582s] writing top-level names to ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/top_level.txt
+[1.609s] reading manifest file '../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/SOURCES.txt'
+[1.622s] writing manifest file '../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info/SOURCES.txt'
+[1.623s] running build
+[1.638s] running build_py
+[1.638s] running install
+[1.639s] running install_lib
+[1.640s] running install_data
+[1.640s] copying map/my_map.pgm -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/map
+[1.641s] copying map/my_map.yaml -> /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/map
+[1.641s] running install_egg_info
+[1.642s] removing '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam-0.0.0-py3.8.egg-info' (and everything under it)
+[1.642s] Copying ../../../build/proy_nexa_my_slam/proy_nexa_my_slam.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages/proy_nexa_my_slam-0.0.0-py3.8.egg-info
+[1.644s] running install_scripts
+[1.662s] writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_my_slam/install.log'
+[1.804s] Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_my_slam' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_my_slam/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_my_slam build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/install.log --single-version-externally-managed
