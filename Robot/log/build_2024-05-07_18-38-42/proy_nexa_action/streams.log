@@ -1,0 +1,25 @@
+[1.363s] Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_action': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_action/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_action build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_action/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_action/install.log --single-version-externally-managed
+[1.526s] running egg_info
+[1.526s] writing ../../../build/proy_nexa_action/proy_nexa_action.egg-info/PKG-INFO
+[1.530s] writing dependency_links to ../../../build/proy_nexa_action/proy_nexa_action.egg-info/dependency_links.txt
+[1.530s] writing entry points to ../../../build/proy_nexa_action/proy_nexa_action.egg-info/entry_points.txt
+[1.531s] writing requirements to ../../../build/proy_nexa_action/proy_nexa_action.egg-info/requires.txt
+[1.531s] writing top-level names to ../../../build/proy_nexa_action/proy_nexa_action.egg-info/top_level.txt
+[1.558s] reading manifest file '../../../build/proy_nexa_action/proy_nexa_action.egg-info/SOURCES.txt'
+[1.559s] writing manifest file '../../../build/proy_nexa_action/proy_nexa_action.egg-info/SOURCES.txt'
+[1.559s] running build
+[1.559s] running build_py
+[1.561s] copying proy_nexa_action/proy_nexa_action_client.py -> /home/chen/repositorio2/Robot/build/proy_nexa_action/build/lib/proy_nexa_action
+[1.562s] running install
+[1.563s] running install_lib
+[1.564s] copying /home/chen/repositorio2/Robot/build/proy_nexa_action/build/lib/proy_nexa_action/proy_nexa_action_client.py -> /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action
+[1.565s] byte-compiling /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action/proy_nexa_action_client.py to proy_nexa_action_client.cpython-38.pyc
+[1.566s] running install_data
+[1.567s] running install_egg_info
+[1.568s] removing '/home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action-0.0.0-py3.8.egg-info' (and everything under it)
+[1.568s] Copying ../../../build/proy_nexa_action/proy_nexa_action.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action-0.0.0-py3.8.egg-info
+[1.570s] running install_scripts
+[1.584s] Installing proy_nexa_action_client script to /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/proy_nexa_action
+[1.586s] Installing proy_nexa_action_server script to /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/proy_nexa_action
+[1.586s] writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_action/install.log'
+[1.608s] Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_action' returned '0': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_action/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_action build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_action/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_action/install.log --single-version-externally-managed

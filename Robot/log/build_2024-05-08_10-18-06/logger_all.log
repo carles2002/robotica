@@ -1,0 +1,599 @@
+[2.009s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.009s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f62f0d12070>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f62f0d12070>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f62f0cb2af0>)
+[2.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chen/repositorio2/Robot'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extensions ['ignore', 'ignore_ament_install']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extension 'ignore'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extension 'ignore_ament_install'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extensions ['colcon_pkg']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extension 'colcon_pkg'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extensions ['colcon_meta']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extension 'colcon_meta'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extensions ['ros']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extension 'ros'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extensions ['cmake', 'python']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extension 'cmake'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extension 'python'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extensions ['python_setup_py']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa) by extension 'python_setup_py'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/my_world) by extensions ['ignore', 'ignore_ament_install']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/my_world) by extension 'ignore'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/my_world) by extension 'ignore_ament_install'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/my_world) by extensions ['colcon_pkg']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/my_world) by extension 'colcon_pkg'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/my_world) by extensions ['colcon_meta']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/my_world) by extension 'colcon_meta'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/my_world) by extensions ['ros']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/my_world) by extension 'ros'
+[2.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proy_nexa/my_world' with type 'ros.ament_cmake' and name 'my_world'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa) by extensions ['ignore', 'ignore_ament_install']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa) by extension 'ignore'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa) by extension 'ignore_ament_install'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa) by extensions ['colcon_pkg']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa) by extension 'colcon_pkg'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa) by extensions ['colcon_meta']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa) by extension 'colcon_meta'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa) by extensions ['ros']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa) by extension 'ros'
+[2.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proy_nexa/proy_nexa' with type 'ros.ament_cmake' and name 'proy_nexa'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_action) by extensions ['ignore', 'ignore_ament_install']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_action) by extension 'ignore'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_action) by extension 'ignore_ament_install'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_action) by extensions ['colcon_pkg']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_action) by extension 'colcon_pkg'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_action) by extensions ['colcon_meta']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_action) by extension 'colcon_meta'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_action) by extensions ['ros']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_action) by extension 'ros'
+[2.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proy_nexa/proy_nexa_action' with type 'ros.ament_python' and name 'proy_nexa_action'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_interface) by extension 'ignore'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_interface) by extension 'ignore_ament_install'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_interface) by extensions ['colcon_pkg']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_interface) by extension 'colcon_pkg'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_interface) by extensions ['colcon_meta']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_interface) by extension 'colcon_meta'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_interface) by extensions ['ros']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_interface) by extension 'ros'
+[2.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proy_nexa/proy_nexa_interface' with type 'ros.ament_cmake' and name 'proy_nexa_interface'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_my_slam) by extensions ['ignore', 'ignore_ament_install']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_my_slam) by extension 'ignore'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_my_slam) by extension 'ignore_ament_install'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_my_slam) by extensions ['colcon_pkg']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_my_slam) by extension 'colcon_pkg'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_my_slam) by extensions ['colcon_meta']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_my_slam) by extension 'colcon_meta'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_my_slam) by extensions ['ros']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_my_slam) by extension 'ros'
+[2.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proy_nexa/proy_nexa_my_slam' with type 'ros.ament_python' and name 'proy_nexa_my_slam'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_nav2_system) by extensions ['ignore', 'ignore_ament_install']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_nav2_system) by extension 'ignore'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_nav2_system) by extension 'ignore_ament_install'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_nav2_system) by extensions ['colcon_pkg']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_nav2_system) by extension 'colcon_pkg'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_nav2_system) by extensions ['colcon_meta']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_nav2_system) by extension 'colcon_meta'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_nav2_system) by extensions ['ros']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_nav2_system) by extension 'ros'
+[2.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proy_nexa/proy_nexa_nav2_system' with type 'ros.ament_python' and name 'proy_nexa_nav2_system'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_provide_map) by extensions ['ignore', 'ignore_ament_install']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_provide_map) by extension 'ignore'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_provide_map) by extension 'ignore_ament_install'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_provide_map) by extensions ['colcon_pkg']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_provide_map) by extension 'colcon_pkg'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_provide_map) by extensions ['colcon_meta']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_provide_map) by extension 'colcon_meta'
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_provide_map) by extensions ['ros']
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_provide_map) by extension 'ros'
+[2.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proy_nexa/proy_nexa_provide_map' with type 'ros.ament_python' and name 'proy_nexa_provide_map'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_service) by extensions ['ignore', 'ignore_ament_install']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_service) by extension 'ignore'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_service) by extension 'ignore_ament_install'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_service) by extensions ['colcon_pkg']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_service) by extension 'colcon_pkg'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_service) by extensions ['colcon_meta']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_service) by extension 'colcon_meta'
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_service) by extensions ['ros']
+[2.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_service) by extension 'ros'
+[2.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proy_nexa/proy_nexa_service' with type 'ros.ament_python' and name 'proy_nexa_service'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_show_msg) by extensions ['ignore', 'ignore_ament_install']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_show_msg) by extension 'ignore'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_show_msg) by extension 'ignore_ament_install'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_show_msg) by extensions ['colcon_pkg']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_show_msg) by extension 'colcon_pkg'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_show_msg) by extensions ['colcon_meta']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_show_msg) by extension 'colcon_meta'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_show_msg) by extensions ['ros']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/proy_nexa/proy_nexa_show_msg) by extension 'ros'
+[2.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/proy_nexa/proy_nexa_show_msg' with type 'ros.ament_python' and name 'proy_nexa_show_msg'
+[2.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.426s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in //home/chen/repositorio2/Robot/install
+[2.481s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/chen/turtlebot3_ws/install
+[2.513s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/chen/turtlebot3_ws/src/my_first_service/install
+[2.552s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 336 installed packages in /opt/ros/galactic
+[2.554s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'my_world' build argument 'cmake_args' from command line to 'None'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'my_world' build argument 'cmake_target' from command line to 'None'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'my_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'my_world' build argument 'cmake_clean_cache' from command line to 'False'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'my_world' build argument 'cmake_clean_first' from command line to 'False'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'my_world' build argument 'cmake_force_configure' from command line to 'False'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'my_world' build argument 'ament_cmake_args' from command line to 'None'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'my_world' build argument 'catkin_cmake_args' from command line to 'None'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'my_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.896s] DEBUG:colcon.colcon_core.verb:Building package 'my_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/build/my_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/install/my_world', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/proy_nexa/my_world', 'symlink_install': False, 'test_result_base': None}
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_interface' build argument 'cmake_args' from command line to 'None'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_interface' build argument 'cmake_target' from command line to 'None'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.926s] DEBUG:colcon.colcon_core.verb:Building package 'proy_nexa_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/build/proy_nexa_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/install/proy_nexa_interface', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_interface', 'symlink_install': False, 'test_result_base': None}
+[2.956s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_my_slam' build argument 'cmake_args' from command line to 'None'
+[2.956s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_my_slam' build argument 'cmake_target' from command line to 'None'
+[2.956s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_my_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.956s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_my_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[2.956s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_my_slam' build argument 'cmake_clean_first' from command line to 'False'
+[2.956s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_my_slam' build argument 'cmake_force_configure' from command line to 'False'
+[2.956s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_my_slam' build argument 'ament_cmake_args' from command line to 'None'
+[2.956s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_my_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[2.956s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_my_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.956s] DEBUG:colcon.colcon_core.verb:Building package 'proy_nexa_my_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/build/proy_nexa_my_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_my_slam', 'symlink_install': False, 'test_result_base': None}
+[2.985s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_nav2_system' build argument 'cmake_args' from command line to 'None'
+[2.985s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_nav2_system' build argument 'cmake_target' from command line to 'None'
+[2.985s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_nav2_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.985s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_nav2_system' build argument 'cmake_clean_cache' from command line to 'False'
+[2.985s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_nav2_system' build argument 'cmake_clean_first' from command line to 'False'
+[2.985s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_nav2_system' build argument 'cmake_force_configure' from command line to 'False'
+[2.985s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_nav2_system' build argument 'ament_cmake_args' from command line to 'None'
+[2.985s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_nav2_system' build argument 'catkin_cmake_args' from command line to 'None'
+[2.985s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_nav2_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.985s] DEBUG:colcon.colcon_core.verb:Building package 'proy_nexa_nav2_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/build/proy_nexa_nav2_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_nav2_system', 'symlink_install': False, 'test_result_base': None}
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_provide_map' build argument 'cmake_args' from command line to 'None'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_provide_map' build argument 'cmake_target' from command line to 'None'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_provide_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_provide_map' build argument 'cmake_clean_cache' from command line to 'False'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_provide_map' build argument 'cmake_clean_first' from command line to 'False'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_provide_map' build argument 'cmake_force_configure' from command line to 'False'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_provide_map' build argument 'ament_cmake_args' from command line to 'None'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_provide_map' build argument 'catkin_cmake_args' from command line to 'None'
+[3.015s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_provide_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.015s] DEBUG:colcon.colcon_core.verb:Building package 'proy_nexa_provide_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/build/proy_nexa_provide_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_provide_map', 'symlink_install': False, 'test_result_base': None}
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_show_msg' build argument 'cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_show_msg' build argument 'cmake_target' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_show_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_show_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_show_msg' build argument 'cmake_clean_first' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_show_msg' build argument 'cmake_force_configure' from command line to 'False'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_show_msg' build argument 'ament_cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_show_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_show_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.045s] DEBUG:colcon.colcon_core.verb:Building package 'proy_nexa_show_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/build/proy_nexa_show_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_show_msg', 'symlink_install': False, 'test_result_base': None}
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_action' build argument 'cmake_args' from command line to 'None'
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_action' build argument 'cmake_target' from command line to 'None'
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_action' build argument 'cmake_clean_cache' from command line to 'False'
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_action' build argument 'cmake_clean_first' from command line to 'False'
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_action' build argument 'cmake_force_configure' from command line to 'False'
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_action' build argument 'ament_cmake_args' from command line to 'None'
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_action' build argument 'catkin_cmake_args' from command line to 'None'
+[3.085s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.085s] DEBUG:colcon.colcon_core.verb:Building package 'proy_nexa_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/build/proy_nexa_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/install/proy_nexa_action', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_action', 'symlink_install': False, 'test_result_base': None}
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_service' build argument 'cmake_args' from command line to 'None'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_service' build argument 'cmake_target' from command line to 'None'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_service' build argument 'cmake_clean_cache' from command line to 'False'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_service' build argument 'cmake_clean_first' from command line to 'False'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_service' build argument 'cmake_force_configure' from command line to 'False'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_service' build argument 'ament_cmake_args' from command line to 'None'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_service' build argument 'catkin_cmake_args' from command line to 'None'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.114s] DEBUG:colcon.colcon_core.verb:Building package 'proy_nexa_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/build/proy_nexa_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/install/proy_nexa_service', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_service', 'symlink_install': False, 'test_result_base': None}
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa' build argument 'cmake_args' from command line to 'None'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa' build argument 'cmake_target' from command line to 'None'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa' build argument 'cmake_clean_cache' from command line to 'False'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa' build argument 'cmake_clean_first' from command line to 'False'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa' build argument 'cmake_force_configure' from command line to 'False'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa' build argument 'ament_cmake_args' from command line to 'None'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa' build argument 'catkin_cmake_args' from command line to 'None'
+[3.143s] Level 5:colcon.colcon_core.verb:set package 'proy_nexa' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.143s] DEBUG:colcon.colcon_core.verb:Building package 'proy_nexa' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/build/proy_nexa', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/install/proy_nexa', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa', 'symlink_install': False, 'test_result_base': None}
+[3.172s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_interface' with build type 'ament_cmake'
+[3.202s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_interface'
+[3.246s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.398s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/repositorio2/Robot/src/proy_nexa/my_world' with build type 'ament_cmake'
+[3.398s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/repositorio2/Robot/src/proy_nexa/my_world'
+[3.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/build/proy_nexa_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --build /home/chen/repositorio2/Robot/build/proy_nexa_interface -- -j2 -l2
+[3.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --build /home/chen/repositorio2/Robot/build/my_world -- -j2 -l2
+[3.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --build /home/chen/repositorio2/Robot/build/my_world -- -j2 -l2
+[3.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --install /home/chen/repositorio2/Robot/build/my_world
+[4.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_world)
+[4.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --install /home/chen/repositorio2/Robot/build/my_world
+[4.072s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world' for CMake module files
+[4.072s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world' for CMake config files
+[4.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_world', 'cmake_prefix_path')
+[4.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/my_world/share/my_world/hook/cmake_prefix_path.ps1'
+[4.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/my_world/share/my_world/hook/cmake_prefix_path.dsv'
+[4.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/my_world/share/my_world/hook/cmake_prefix_path.sh'
+[4.116s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/lib'
+[4.116s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/bin'
+[4.116s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/lib/pkgconfig/my_world.pc'
+[4.116s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/lib/python3.8/site-packages'
+[4.116s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/bin'
+[4.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.ps1'
+[4.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.dsv'
+[4.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.sh'
+[4.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.bash'
+[4.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.zsh'
+[4.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/my_world/share/colcon-core/packages/my_world)
+[4.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_world)
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world' for CMake module files
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world' for CMake config files
+[4.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_world', 'cmake_prefix_path')
+[4.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/my_world/share/my_world/hook/cmake_prefix_path.ps1'
+[4.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/my_world/share/my_world/hook/cmake_prefix_path.dsv'
+[4.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/my_world/share/my_world/hook/cmake_prefix_path.sh'
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/lib'
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/bin'
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/lib/pkgconfig/my_world.pc'
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/lib/python3.8/site-packages'
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/my_world/bin'
+[4.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.ps1'
+[4.336s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.dsv'
+[4.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.sh'
+[4.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.bash'
+[4.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/my_world/share/my_world/package.zsh'
+[4.338s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/my_world/share/colcon-core/packages/my_world)
+[4.340s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_show_msg' with build type 'ament_python'
+[4.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_show_msg', 'ament_prefix_path')
+[4.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/hook/ament_prefix_path.ps1'
+[4.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/hook/ament_prefix_path.dsv'
+[4.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/hook/ament_prefix_path.sh'
+[4.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/build/proy_nexa_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --build /home/chen/repositorio2/Robot/build/proy_nexa_interface -- -j2 -l2
+[4.771s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_show_msg'
+[4.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/build/proy_nexa_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --install /home/chen/repositorio2/Robot/build/proy_nexa_interface
+[5.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa_interface)
+[5.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/build/proy_nexa_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --install /home/chen/repositorio2/Robot/build/proy_nexa_interface
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface' for CMake module files
+[5.108s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface' for CMake config files
+[5.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_interface', 'cmake_prefix_path')
+[5.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/cmake_prefix_path.ps1'
+[5.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/cmake_prefix_path.dsv'
+[5.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/cmake_prefix_path.sh'
+[5.142s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib'
+[5.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_interface', 'ld_library_path_lib')
+[5.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/ld_library_path_lib.ps1'
+[5.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/ld_library_path_lib.dsv'
+[5.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/ld_library_path_lib.sh'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/bin'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/pkgconfig/proy_nexa_interface.pc'
+[5.191s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages'
+[5.191s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_interface', 'pythonpath')
+[5.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/pythonpath.ps1'
+[5.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/pythonpath.dsv'
+[5.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/pythonpath.sh'
+[5.237s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/bin'
+[5.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.ps1'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.dsv'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.sh'
+[5.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.bash'
+[5.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.zsh'
+[5.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/colcon-core/packages/proy_nexa_interface)
+[5.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa_interface)
+[5.458s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface' for CMake module files
+[5.459s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface' for CMake config files
+[5.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_interface', 'cmake_prefix_path')
+[5.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/cmake_prefix_path.ps1'
+[5.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/cmake_prefix_path.dsv'
+[5.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/cmake_prefix_path.sh'
+[5.490s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib'
+[5.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_interface', 'ld_library_path_lib')
+[5.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/ld_library_path_lib.ps1'
+[5.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/ld_library_path_lib.dsv'
+[5.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/ld_library_path_lib.sh'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/bin'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/pkgconfig/proy_nexa_interface.pc'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages'
+[5.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_interface', 'pythonpath')
+[5.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/pythonpath.ps1'
+[5.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/pythonpath.dsv'
+[5.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/hook/pythonpath.sh'
+[5.568s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_interface/bin'
+[5.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.ps1'
+[5.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.dsv'
+[5.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.sh'
+[5.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.bash'
+[5.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.zsh'
+[5.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa_interface/share/colcon-core/packages/proy_nexa_interface)
+[5.602s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_service' with build type 'ament_python'
+[5.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_service', 'ament_prefix_path')
+[5.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/hook/ament_prefix_path.ps1'
+[5.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/hook/ament_prefix_path.dsv'
+[5.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/hook/ament_prefix_path.sh'
+[5.683s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.683s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_show_msg': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_show_msg/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_show_msg build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_show_msg/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_show_msg/install.log --single-version-externally-managed
+[6.032s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_service'
+[6.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.070s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_show_msg' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_show_msg/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_show_msg build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_show_msg/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_show_msg/install.log --single-version-externally-managed
+[6.279s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg' for CMake module files
+[6.279s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg' for CMake config files
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib'
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/bin'
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/pkgconfig/proy_nexa_show_msg.pc'
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages'
+[6.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_show_msg', 'pythonpath')
+[6.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/hook/pythonpath.ps1'
+[6.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/hook/pythonpath.dsv'
+[6.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/hook/pythonpath.sh'
+[6.312s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/bin'
+[6.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa_show_msg)
+[6.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/package.ps1'
+[6.344s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/package.dsv'
+[6.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/package.sh'
+[6.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/package.bash'
+[6.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/proy_nexa_show_msg/package.zsh'
+[6.345s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/share/colcon-core/packages/proy_nexa_show_msg)
+[6.346s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_my_slam' with build type 'ament_python'
+[6.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_my_slam', 'ament_prefix_path')
+[6.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/hook/ament_prefix_path.ps1'
+[6.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/hook/ament_prefix_path.dsv'
+[6.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/hook/ament_prefix_path.sh'
+[6.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.792s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_my_slam'
+[6.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_service': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_service/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_service build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_service/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_service/install.log --single-version-externally-managed
+[7.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_service' returned '0': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_service/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_service build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_service/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_service/install.log --single-version-externally-managed
+[7.292s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_service' for CMake module files
+[7.293s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_service' for CMake config files
+[7.294s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_service/lib'
+[7.294s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_service/bin'
+[7.294s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_service/lib/pkgconfig/proy_nexa_service.pc'
+[7.294s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages'
+[7.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_service', 'pythonpath')
+[7.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/hook/pythonpath.ps1'
+[7.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/hook/pythonpath.dsv'
+[7.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/hook/pythonpath.sh'
+[7.327s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_service/bin'
+[7.327s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa_service)
+[7.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/package.ps1'
+[7.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/package.dsv'
+[7.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/package.sh'
+[7.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/package.bash'
+[7.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_service/share/proy_nexa_service/package.zsh'
+[7.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa_service/share/colcon-core/packages/proy_nexa_service)
+[7.367s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_nav2_system' with build type 'ament_python'
+[7.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_nav2_system', 'ament_prefix_path')
+[7.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/hook/ament_prefix_path.ps1'
+[7.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/hook/ament_prefix_path.dsv'
+[7.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/hook/ament_prefix_path.sh'
+[7.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_my_slam': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_my_slam/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_my_slam build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/install.log --single-version-externally-managed
+[7.787s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_nav2_system'
+[7.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_my_slam' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_my_slam/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_my_slam build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_my_slam/install.log --single-version-externally-managed
+[8.021s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam' for CMake module files
+[8.021s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam' for CMake config files
+[8.022s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib'
+[8.022s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/bin'
+[8.022s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/pkgconfig/proy_nexa_my_slam.pc'
+[8.023s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages'
+[8.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_my_slam', 'pythonpath')
+[8.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/hook/pythonpath.ps1'
+[8.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/hook/pythonpath.dsv'
+[8.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/hook/pythonpath.sh'
+[8.064s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/bin'
+[8.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa_my_slam)
+[8.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/package.ps1'
+[8.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/package.dsv'
+[8.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/package.sh'
+[8.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/package.bash'
+[8.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/proy_nexa_my_slam/package.zsh'
+[8.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa_my_slam/share/colcon-core/packages/proy_nexa_my_slam)
+[8.097s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_provide_map' with build type 'ament_python'
+[8.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_provide_map', 'ament_prefix_path')
+[8.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/hook/ament_prefix_path.ps1'
+[8.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/hook/ament_prefix_path.dsv'
+[8.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/hook/ament_prefix_path.sh'
+[8.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.517s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_provide_map'
+[8.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_nav2_system': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_nav2_system build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/install.log --single-version-externally-managed
+[8.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_nav2_system' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_nav2_system build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/install.log --single-version-externally-managed
+[8.990s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system' for CMake module files
+[8.990s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system' for CMake config files
+[8.992s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib'
+[8.992s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/bin'
+[8.992s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/pkgconfig/proy_nexa_nav2_system.pc'
+[8.992s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages'
+[8.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_nav2_system', 'pythonpath')
+[9.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/hook/pythonpath.ps1'
+[9.024s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/hook/pythonpath.dsv'
+[9.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/hook/pythonpath.sh'
+[9.025s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/bin'
+[9.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa_nav2_system)
+[9.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/package.ps1'
+[9.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/package.dsv'
+[9.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/package.sh'
+[9.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/package.bash'
+[9.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/proy_nexa_nav2_system/package.zsh'
+[9.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/share/colcon-core/packages/proy_nexa_nav2_system)
+[9.062s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_action' with build type 'ament_python'
+[9.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_action', 'ament_prefix_path')
+[9.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/hook/ament_prefix_path.ps1'
+[9.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/hook/ament_prefix_path.dsv'
+[9.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/hook/ament_prefix_path.sh'
+[9.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.131s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_provide_map': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_provide_map/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_provide_map build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/install.log --single-version-externally-managed
+[9.489s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_action'
+[9.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_provide_map' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_provide_map/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_provide_map build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/install.log --single-version-externally-managed
+[9.736s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map' for CMake module files
+[9.736s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map' for CMake config files
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/bin'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/pkgconfig/proy_nexa_provide_map.pc'
+[9.738s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages'
+[9.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_provide_map', 'pythonpath')
+[9.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/hook/pythonpath.ps1'
+[9.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/hook/pythonpath.dsv'
+[9.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/hook/pythonpath.sh'
+[9.774s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/bin'
+[9.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa_provide_map)
+[9.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/package.ps1'
+[9.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/package.dsv'
+[9.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/package.sh'
+[9.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/package.bash'
+[9.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/proy_nexa_provide_map/package.zsh'
+[9.807s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/share/colcon-core/packages/proy_nexa_provide_map)
+[9.808s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa' with build type 'ament_cmake'
+[9.808s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa'
+[9.841s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.841s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/build/proy_nexa': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_service:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg:/home/chen/repositorio2/Robot/install/proy_nexa_interface:/home/chen/repositorio2/Robot/install/my_world:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:/home/chen/repositorio2/Robot/install/my_world://home/chen/repositorio2/Robot/install/proy_nexa://home/chen/repositorio2/Robot/install/proy_nexa_interface://home/chen/repositorio2/Robot/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_simulations:/home/chen/turtlebot3_ws/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_gazebo:/home/chen/turtlebot3_ws/install/turtlebot3_fake_node:/home/chen/turtlebot3_ws/install/proy_nexa:/home/chen/turtlebot3_ws/install/proy_nexa_interface:/home/chen/turtlebot3_ws/install/custom_interface://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/repositorio2/Robot/build/proy_nexa -- -j2 -l2
+[10.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/build/proy_nexa' returned '0': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_service:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg:/home/chen/repositorio2/Robot/install/proy_nexa_interface:/home/chen/repositorio2/Robot/install/my_world:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:/home/chen/repositorio2/Robot/install/my_world://home/chen/repositorio2/Robot/install/proy_nexa://home/chen/repositorio2/Robot/install/proy_nexa_interface://home/chen/repositorio2/Robot/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_simulations:/home/chen/turtlebot3_ws/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_gazebo:/home/chen/turtlebot3_ws/install/turtlebot3_fake_node:/home/chen/turtlebot3_ws/install/proy_nexa:/home/chen/turtlebot3_ws/install/proy_nexa_interface:/home/chen/turtlebot3_ws/install/custom_interface://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/chen/repositorio2/Robot/build/proy_nexa -- -j2 -l2
+[10.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/build/proy_nexa': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_service:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg:/home/chen/repositorio2/Robot/install/proy_nexa_interface:/home/chen/repositorio2/Robot/install/my_world:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:/home/chen/repositorio2/Robot/install/my_world://home/chen/repositorio2/Robot/install/proy_nexa://home/chen/repositorio2/Robot/install/proy_nexa_interface://home/chen/repositorio2/Robot/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_simulations:/home/chen/turtlebot3_ws/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_gazebo:/home/chen/turtlebot3_ws/install/turtlebot3_fake_node:/home/chen/turtlebot3_ws/install/proy_nexa:/home/chen/turtlebot3_ws/install/proy_nexa_interface:/home/chen/turtlebot3_ws/install/custom_interface://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/repositorio2/Robot/build/proy_nexa
+[10.127s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa)
+[10.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/build/proy_nexa' returned '0': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_service:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg:/home/chen/repositorio2/Robot/install/proy_nexa_interface:/home/chen/repositorio2/Robot/install/my_world:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:/home/chen/repositorio2/Robot/install/my_world://home/chen/repositorio2/Robot/install/proy_nexa://home/chen/repositorio2/Robot/install/proy_nexa_interface://home/chen/repositorio2/Robot/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_simulations:/home/chen/turtlebot3_ws/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_gazebo:/home/chen/turtlebot3_ws/install/turtlebot3_fake_node:/home/chen/turtlebot3_ws/install/proy_nexa:/home/chen/turtlebot3_ws/install/proy_nexa_interface:/home/chen/turtlebot3_ws/install/custom_interface://home/chen/repositorio2/Robot/install/proy_nexa_action://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/chen/repositorio2/Robot/build/proy_nexa
+[10.159s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa' for CMake module files
+[10.160s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa' for CMake config files
+[10.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa', 'cmake_prefix_path')
+[10.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/hook/cmake_prefix_path.ps1'
+[10.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/hook/cmake_prefix_path.dsv'
+[10.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/hook/cmake_prefix_path.sh'
+[10.193s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa/bin'
+[10.193s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa/lib/pkgconfig/proy_nexa.pc'
+[10.193s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa/lib/python3.8/site-packages'
+[10.193s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa/bin'
+[10.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.ps1'
+[10.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.dsv'
+[10.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.sh'
+[10.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.bash'
+[10.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.zsh'
+[10.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa/share/colcon-core/packages/proy_nexa)
+[10.277s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa)
+[10.307s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa' for CMake module files
+[10.307s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa' for CMake config files
+[10.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa', 'cmake_prefix_path')
+[10.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/hook/cmake_prefix_path.ps1'
+[10.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/hook/cmake_prefix_path.dsv'
+[10.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/hook/cmake_prefix_path.sh'
+[10.352s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa/bin'
+[10.352s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa/lib/pkgconfig/proy_nexa.pc'
+[10.352s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa/lib/python3.8/site-packages'
+[10.353s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa/bin'
+[10.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.ps1'
+[10.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.dsv'
+[10.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.sh'
+[10.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.bash'
+[10.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa/share/proy_nexa/package.zsh'
+[10.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa/share/colcon-core/packages/proy_nexa)
+[10.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_action': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_action/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_action build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_action/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_action/install.log --single-version-externally-managed
+[10.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_action' returned '0': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_action/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_action build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_action/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_action/install.log --single-version-externally-managed
+[10.689s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_action' for CMake module files
+[10.691s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_action' for CMake config files
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_action/lib'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_action/bin'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_action/lib/pkgconfig/proy_nexa_action.pc'
+[10.692s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages'
+[10.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('proy_nexa_action', 'pythonpath')
+[10.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/hook/pythonpath.ps1'
+[10.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/hook/pythonpath.dsv'
+[10.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/hook/pythonpath.sh'
+[10.725s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/install/proy_nexa_action/bin'
+[10.725s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(proy_nexa_action)
+[10.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/package.ps1'
+[10.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/package.dsv'
+[10.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/package.sh'
+[10.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/package.bash'
+[10.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action/package.zsh'
+[10.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/install/proy_nexa_action/share/colcon-core/packages/proy_nexa_action)
+[10.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.762s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.762s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.841s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.841s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.858s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.893s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/repositorio2/Robot/install/local_setup.ps1'
+[10.895s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/repositorio2/Robot/install/_local_setup_util_ps1.py'
+[10.896s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/repositorio2/Robot/install/setup.ps1'
+[10.929s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/repositorio2/Robot/install/local_setup.sh'
+[10.930s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/repositorio2/Robot/install/_local_setup_util_sh.py'
+[10.931s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/repositorio2/Robot/install/setup.sh'
+[10.962s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/repositorio2/Robot/install/local_setup.bash'
+[10.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/repositorio2/Robot/install/setup.bash'
+[10.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/repositorio2/Robot/install/local_setup.zsh'
+[10.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/repositorio2/Robot/install/setup.zsh'

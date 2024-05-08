@@ -1,0 +1,401 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (-) JobUnselected: {'identifier': 'my_world'}
+[0.000307] (-) JobUnselected: {'identifier': 'proy_nexa'}
+[0.000325] (-) JobUnselected: {'identifier': 'proy_nexa_my_slam'}
+[0.000387] (-) JobUnselected: {'identifier': 'proy_nexa_nav2_system'}
+[0.000403] (-) JobUnselected: {'identifier': 'proy_nexa_provide_map'}
+[0.000464] (-) JobUnselected: {'identifier': 'proy_nexa_service'}
+[0.000480] (-) JobUnselected: {'identifier': 'proy_nexa_show_msg'}
+[0.000541] (proy_nexa_interface) JobQueued: {'identifier': 'proy_nexa_interface', 'dependencies': OrderedDict()}
+[0.000559] (proy_nexa_interface) JobStarted: {'identifier': 'proy_nexa_interface'}
+[0.099956] (-) TimerEvent: {}
+[0.208615] (-) TimerEvent: {}
+[0.221627] (proy_nexa_interface) JobProgress: {'identifier': 'proy_nexa_interface', 'progress': 'cmake'}
+[0.223154] (proy_nexa_interface) JobProgress: {'identifier': 'proy_nexa_interface', 'progress': 'build'}
+[0.224191] (proy_nexa_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chen/repositorio2/Robot/build/proy_nexa_interface', '--', '-j2', '-l2'], 'cwd': '/home/chen/repositorio2/Robot/build/proy_nexa_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'chen'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '5654'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '//home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:/home/chen/turtlebot3_ws/install/proy_nexa_interface/lib:/home/chen/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/chen'), ('OLDPWD', '/home/chen/repositorio2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '5436'), ('ROS_LOG_DIR', '/home/chen/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '//home/chen/repositorio2/Robot/install:/home/chen/turtlebot3_ws/install:/home/chen/turtlebot3_ws/src/my_first_service/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:85497'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/chen/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chen:@/tmp/.ICE-unix/5700,unix/chen:/tmp/.ICE-unix/5700'), ('INVOCATION_ID', '720861cbfb24438fa881781df7c2e85c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5854fce_b0c5_4409_ac5a_ee16838e903f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '//home/chen/repositorio2/Robot/install/proy_nexa://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam://home/chen/repositorio2/Robot/install/proy_nexa_interface://home/chen/repositorio2/Robot/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_simulations:/home/chen/turtlebot3_ws/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_gazebo:/home/chen/turtlebot3_ws/install/turtlebot3_fake_node:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/proy_nexa_interface:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/install/custom_interface:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/repositorio2/Robot/build/proy_nexa_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '//home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/proy_nexa_service/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/proy_nexa_interface/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_slam/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '//home/chen/repositorio2/Robot/install/proy_nexa://home/chen/repositorio2/Robot/install/proy_nexa_interface://home/chen/repositorio2/Robot/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_simulations:/home/chen/turtlebot3_ws/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_gazebo:/home/chen/turtlebot3_ws/install/turtlebot3_fake_node:/home/chen/turtlebot3_ws/install/proy_nexa:/home/chen/turtlebot3_ws/install/proy_nexa_interface:/home/chen/turtlebot3_ws/install/custom_interface://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic')]), 'shell': False}
+[0.290358] (proy_nexa_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.310750] (-) TimerEvent: {}
+[0.320427] (proy_nexa_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.320588] (proy_nexa_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.410953] (-) TimerEvent: {}
+[0.424411] (proy_nexa_interface) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.507430] (proy_nexa_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.511477] (-) TimerEvent: {}
+[0.514289] (proy_nexa_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.620937] (-) TimerEvent: {}
+[0.671676] (proy_nexa_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.721081] (-) TimerEvent: {}
+[0.750313] (proy_nexa_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.758046] (proy_nexa_interface) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.785542] (proy_nexa_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.821384] (-) TimerEvent: {}
+[0.921849] (-) TimerEvent: {}
+[0.938546] (proy_nexa_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.954812] (proy_nexa_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.022098] (-) TimerEvent: {}
+[1.049867] (proy_nexa_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.122614] (-) TimerEvent: {}
+[1.192254] (proy_nexa_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[1.231497] (-) TimerEvent: {}
+[1.321706] (proy_nexa_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.332199] (-) TimerEvent: {}
+[1.349187] (proy_nexa_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.376383] (proy_nexa_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.377613] (proy_nexa_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[1.401597] (proy_nexa_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.401773] (proy_nexa_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.401841] (proy_nexa_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.433299] (-) TimerEvent: {}
+[1.442482] (proy_nexa_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.445526] (proy_nexa_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.447431] (proy_nexa_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.466336] (proy_nexa_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.534272] (-) TimerEvent: {}
+[1.562699] (proy_nexa_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.566795] (proy_nexa_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/chen/repositorio2/Robot/build/proy_nexa_interface\n'}
+[1.607585] (proy_nexa_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.634905] (-) TimerEvent: {}
+[1.736375] (-) TimerEvent: {}
+[1.837256] (-) TimerEvent: {}
+[1.938820] (-) TimerEvent: {}
+[2.039268] (-) TimerEvent: {}
+[2.060232] (proy_nexa_interface) StdoutLine: {'line': b'[  2%] Built target proy_nexa_interface__cpp\n'}
+[2.069764] (proy_nexa_interface) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.140529] (-) TimerEvent: {}
+[2.247087] (-) TimerEvent: {}
+[2.350433] (-) TimerEvent: {}
+[2.455502] (-) TimerEvent: {}
+[2.555876] (-) TimerEvent: {}
+[2.562457] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_generator_c\x1b[0m\n'}
+[2.576964] (proy_nexa_interface) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__rosidl_generator_c.dir/rosidl_generator_c/proy_nexa_interface/msg/detail/distvel__functions.c.o\x1b[0m\n'}
+[2.656118] (-) TimerEvent: {}
+[2.756938] (-) TimerEvent: {}
+[2.765022] (proy_nexa_interface) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__rosidl_generator_c.dir/rosidl_generator_c/proy_nexa_interface/srv/detail/my_move_msg__functions.c.o\x1b[0m\n'}
+[2.810670] (proy_nexa_interface) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__rosidl_generator_c.dir/rosidl_generator_c/proy_nexa_interface/action/detail/move__functions.c.o\x1b[0m\n'}
+[2.857397] (-) TimerEvent: {}
+[2.898508] (proy_nexa_interface) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libproy_nexa_interface__rosidl_generator_c.so\x1b[0m\n'}
+[2.956726] (proy_nexa_interface) StdoutLine: {'line': b'[ 12%] Built target proy_nexa_interface__rosidl_generator_c\n'}
+[2.958628] (-) TimerEvent: {}
+[2.967238] (proy_nexa_interface) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.064454] (-) TimerEvent: {}
+[3.202671] (-) TimerEvent: {}
+[3.240605] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.255538] (proy_nexa_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proy_nexa_interface/msg/distvel__type_support.cpp.o\x1b[0m\n'}
+[3.302791] (-) TimerEvent: {}
+[3.403530] (-) TimerEvent: {}
+[3.509935] (-) TimerEvent: {}
+[3.613508] (-) TimerEvent: {}
+[3.658806] (proy_nexa_interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proy_nexa_interface/srv/my_move_msg__type_support.cpp.o\x1b[0m\n'}
+[3.714706] (-) TimerEvent: {}
+[3.815174] (-) TimerEvent: {}
+[3.873884] (proy_nexa_interface) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/proy_nexa_interface/action/move__type_support.cpp.o\x1b[0m\n'}
+[3.916544] (-) TimerEvent: {}
+[4.019695] (-) TimerEvent: {}
+[4.120518] (-) TimerEvent: {}
+[4.225045] (-) TimerEvent: {}
+[4.259490] (proy_nexa_interface) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libproy_nexa_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.303596] (proy_nexa_interface) StdoutLine: {'line': b'[ 23%] Built target proy_nexa_interface__rosidl_typesupport_cpp\n'}
+[4.315520] (proy_nexa_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.325363] (-) TimerEvent: {}
+[4.426347] (-) TimerEvent: {}
+[4.528892] (-) TimerEvent: {}
+[4.629408] (-) TimerEvent: {}
+[4.704651] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.720989] (proy_nexa_interface) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proy_nexa_interface/msg/detail/dds_fastrtps/distvel__type_support.cpp.o\x1b[0m\n'}
+[4.729721] (-) TimerEvent: {}
+[4.834553] (-) TimerEvent: {}
+[5.001811] (-) TimerEvent: {}
+[5.032068] (proy_nexa_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proy_nexa_interface/srv/detail/dds_fastrtps/my_move_msg__type_support.cpp.o\x1b[0m\n'}
+[5.103430] (-) TimerEvent: {}
+[5.327124] (-) TimerEvent: {}
+[5.368161] (proy_nexa_interface) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/proy_nexa_interface/action/detail/dds_fastrtps/move__type_support.cpp.o\x1b[0m\n'}
+[5.428163] (-) TimerEvent: {}
+[5.529461] (-) TimerEvent: {}
+[5.630979] (-) TimerEvent: {}
+[5.731543] (-) TimerEvent: {}
+[5.808956] (proy_nexa_interface) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libproy_nexa_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.833935] (-) TimerEvent: {}
+[5.893146] (proy_nexa_interface) StdoutLine: {'line': b'[ 34%] Built target proy_nexa_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[5.904069] (proy_nexa_interface) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.934949] (-) TimerEvent: {}
+[6.035628] (-) TimerEvent: {}
+[6.136526] (-) TimerEvent: {}
+[6.237169] (-) TimerEvent: {}
+[6.252530] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.267478] (proy_nexa_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proy_nexa_interface/msg/detail/distvel__type_support.c.o\x1b[0m\n'}
+[6.298120] (proy_nexa_interface) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proy_nexa_interface/srv/detail/my_move_msg__type_support.c.o\x1b[0m\n'}
+[6.328078] (proy_nexa_interface) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proy_nexa_interface/action/detail/move__type_support.c.o\x1b[0m\n'}
+[6.337669] (-) TimerEvent: {}
+[6.372984] (proy_nexa_interface) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libproy_nexa_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.403842] (proy_nexa_interface) StdoutLine: {'line': b'[ 44%] Built target proy_nexa_interface__rosidl_typesupport_introspection_c\n'}
+[6.413530] (proy_nexa_interface) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.438276] (-) TimerEvent: {}
+[6.541860] (-) TimerEvent: {}
+[6.684846] (-) TimerEvent: {}
+[6.741937] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.757423] (proy_nexa_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proy_nexa_interface/msg/detail/distvel__type_support.cpp.o\x1b[0m\n'}
+[6.791945] (-) TimerEvent: {}
+[6.894745] (-) TimerEvent: {}
+[6.982883] (proy_nexa_interface) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proy_nexa_interface/srv/detail/my_move_msg__type_support.cpp.o\x1b[0m\n'}
+[6.998246] (-) TimerEvent: {}
+[7.175110] (-) TimerEvent: {}
+[7.190761] (proy_nexa_interface) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/proy_nexa_interface/action/detail/move__type_support.cpp.o\x1b[0m\n'}
+[7.339180] (-) TimerEvent: {}
+[7.522499] (-) TimerEvent: {}
+[7.558710] (proy_nexa_interface) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libproy_nexa_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.621626] (proy_nexa_interface) StdoutLine: {'line': b'[ 55%] Built target proy_nexa_interface__rosidl_typesupport_introspection_cpp\n'}
+[7.622974] (-) TimerEvent: {}
+[7.632920] (proy_nexa_interface) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.733580] (-) TimerEvent: {}
+[7.836638] (-) TimerEvent: {}
+[7.908498] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_typesupport_c\x1b[0m\n'}
+[7.925068] (proy_nexa_interface) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/proy_nexa_interface/msg/distvel__type_support.cpp.o\x1b[0m\n'}
+[7.937532] (-) TimerEvent: {}
+[7.953721] (proy_nexa_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/proy_nexa_interface/srv/my_move_msg__type_support.cpp.o\x1b[0m\n'}
+[7.983391] (proy_nexa_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/proy_nexa_interface/action/move__type_support.cpp.o\x1b[0m\n'}
+[8.027426] (proy_nexa_interface) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libproy_nexa_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.037768] (-) TimerEvent: {}
+[8.066443] (proy_nexa_interface) StdoutLine: {'line': b'[ 65%] Built target proy_nexa_interface__rosidl_typesupport_c\n'}
+[8.077734] (proy_nexa_interface) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.138256] (-) TimerEvent: {}
+[8.238901] (-) TimerEvent: {}
+[8.339844] (-) TimerEvent: {}
+[8.440494] (-) TimerEvent: {}
+[8.449169] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.467765] (proy_nexa_interface) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proy_nexa_interface/msg/detail/distvel__type_support_c.cpp.o\x1b[0m\n'}
+[8.701023] (-) TimerEvent: {}
+[8.722910] (proy_nexa_interface) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proy_nexa_interface/srv/detail/my_move_msg__type_support_c.cpp.o\x1b[0m\n'}
+[8.965899] (-) TimerEvent: {}
+[8.983203] (proy_nexa_interface) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/proy_nexa_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/proy_nexa_interface/action/detail/move__type_support_c.cpp.o\x1b[0m\n'}
+[9.078278] (-) TimerEvent: {}
+[9.181702] (-) TimerEvent: {}
+[9.274772] (proy_nexa_interface) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libproy_nexa_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.282419] (-) TimerEvent: {}
+[9.347986] (proy_nexa_interface) StdoutLine: {'line': b'[ 76%] Built target proy_nexa_interface__rosidl_typesupport_fastrtps_c\n'}
+[9.368151] (proy_nexa_interface) StdoutLine: {'line': b'[ 76%] Built target proy_nexa_interface\n'}
+[9.383726] (-) TimerEvent: {}
+[9.389095] (proy_nexa_interface) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.484367] (-) TimerEvent: {}
+[9.587581] (-) TimerEvent: {}
+[9.688493] (-) TimerEvent: {}
+[9.789821] (-) TimerEvent: {}
+[9.890794] (-) TimerEvent: {}
+[9.991274] (-) TimerEvent: {}
+[10.092835] (-) TimerEvent: {}
+[10.193865] (-) TimerEvent: {}
+[10.234311] (proy_nexa_interface) StdoutLine: {'line': b'[ 78%] Built target proy_nexa_interface__py\n'}
+[10.247234] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__python\x1b[0m\n'}
+[10.264943] (proy_nexa_interface) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__python.dir/rosidl_generator_py/proy_nexa_interface/msg/_distvel_s.c.o\x1b[0m\n'}
+[10.294156] (-) TimerEvent: {}
+[10.395759] (-) TimerEvent: {}
+[10.409841] (proy_nexa_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__python.dir/rosidl_generator_py/proy_nexa_interface/srv/_my_move_msg_s.c.o\x1b[0m\n'}
+[10.477263] (proy_nexa_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__python.dir/rosidl_generator_py/proy_nexa_interface/action/_move_s.c.o\x1b[0m\n'}
+[10.496269] (-) TimerEvent: {}
+[10.573047] (proy_nexa_interface) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/proy_nexa_interface/libproy_nexa_interface__python.so\x1b[0m\n'}
+[10.599117] (-) TimerEvent: {}
+[10.613279] (proy_nexa_interface) StdoutLine: {'line': b'[ 87%] Built target proy_nexa_interface__python\n'}
+[10.626329] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.641934] (proy_nexa_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/proy_nexa_interface/_proy_nexa_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.700796] (-) TimerEvent: {}
+[10.725224] (proy_nexa_interface) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.763010] (proy_nexa_interface) StdoutLine: {'line': b'[ 91%] Built target proy_nexa_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[10.775872] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.791971] (proy_nexa_interface) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/proy_nexa_interface/_proy_nexa_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.801648] (-) TimerEvent: {}
+[10.874985] (proy_nexa_interface) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.902024] (-) TimerEvent: {}
+[10.910098] (proy_nexa_interface) StdoutLine: {'line': b'[ 95%] Built target proy_nexa_interface__rosidl_typesupport_c__pyext\n'}
+[10.922722] (proy_nexa_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target proy_nexa_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.940979] (proy_nexa_interface) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/proy_nexa_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/proy_nexa_interface/_proy_nexa_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.006817] (-) TimerEvent: {}
+[11.022490] (proy_nexa_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.080136] (proy_nexa_interface) StdoutLine: {'line': b'[100%] Built target proy_nexa_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.094097] (proy_nexa_interface) CommandEnded: {'returncode': 0}
+[11.107173] (-) TimerEvent: {}
+[11.204896] (proy_nexa_interface) JobProgress: {'identifier': 'proy_nexa_interface', 'progress': 'install'}
+[11.207696] (-) TimerEvent: {}
+[11.216631] (proy_nexa_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chen/repositorio2/Robot/build/proy_nexa_interface'], 'cwd': '/home/chen/repositorio2/Robot/build/proy_nexa_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'chen'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '5654'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '//home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:/home/chen/turtlebot3_ws/install/proy_nexa_interface/lib:/home/chen/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/chen'), ('OLDPWD', '/home/chen/repositorio2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '5436'), ('ROS_LOG_DIR', '/home/chen/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '//home/chen/repositorio2/Robot/install:/home/chen/turtlebot3_ws/install:/home/chen/turtlebot3_ws/src/my_first_service/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'chen'), ('JOURNAL_STREAM', '8:85497'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chen'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/chen/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chen:@/tmp/.ICE-unix/5700,unix/chen:/tmp/.ICE-unix/5700'), ('INVOCATION_ID', '720861cbfb24438fa881781df7c2e85c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5854fce_b0c5_4409_ac5a_ee16838e903f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '//home/chen/repositorio2/Robot/install/proy_nexa://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam://home/chen/repositorio2/Robot/install/proy_nexa_interface://home/chen/repositorio2/Robot/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_simulations:/home/chen/turtlebot3_ws/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_gazebo:/home/chen/turtlebot3_ws/install/turtlebot3_fake_node:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/proy_nexa_interface:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/install/custom_interface:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chen/repositorio2/Robot/build/proy_nexa_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '//home/chen/repositorio2/Robot/install/proy_nexa_show_msg/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_my_slam/lib/python3.8/site-packages://home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/proy_nexa_service/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/proy_nexa_interface/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/provide_map/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_slam/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_nav2_system/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '//home/chen/repositorio2/Robot/install/proy_nexa://home/chen/repositorio2/Robot/install/proy_nexa_interface://home/chen/repositorio2/Robot/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_simulations:/home/chen/turtlebot3_ws/install/my_world:/home/chen/turtlebot3_ws/install/turtlebot3_gazebo:/home/chen/turtlebot3_ws/install/turtlebot3_fake_node:/home/chen/turtlebot3_ws/install/proy_nexa:/home/chen/turtlebot3_ws/install/proy_nexa_interface:/home/chen/turtlebot3_ws/install/custom_interface://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic')]), 'shell': False}
+[11.224810] (proy_nexa_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.225784] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/ament_index/resource_index/rosidl_interfaces/proy_nexa_interface\n'}
+[11.226013] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface\n'}
+[11.226574] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg\n'}
+[11.226729] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/distvel.h\n'}
+[11.227255] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail\n'}
+[11.227428] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__type_support.h\n'}
+[11.227704] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__functions.h\n'}
+[11.227755] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__struct.h\n'}
+[11.227798] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__functions.c\n'}
+[11.227845] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.228034] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action\n'}
+[11.228080] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail\n'}
+[11.228129] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__functions.c\n'}
+[11.228170] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__struct.h\n'}
+[11.228538] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__type_support.h\n'}
+[11.228767] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__functions.h\n'}
+[11.228946] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/move.h\n'}
+[11.228994] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv\n'}
+[11.229035] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/my_move_msg.h\n'}
+[11.229074] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail\n'}
+[11.229248] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__type_support.h\n'}
+[11.229305] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__struct.h\n'}
+[11.229346] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__functions.h\n'}
+[11.229384] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__functions.c\n'}
+[11.229422] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/library_path.sh\n'}
+[11.229469] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/library_path.dsv\n'}
+[11.229858] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_generator_c.so\n'}
+[11.230252] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_generator_c.so" to ""\n'}
+[11.230438] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface\n'}
+[11.230487] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg\n'}
+[11.230679] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.230728] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail\n'}
+[11.230770] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_c.h\n'}
+[11.230811] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action\n'}
+[11.230850] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail\n'}
+[11.230887] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[11.231178] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv\n'}
+[11.231228] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail\n'}
+[11.231271] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[11.231316] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[11.231629] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.231821] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface\n'}
+[11.231869] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg\n'}
+[11.232152] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.232325] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail\n'}
+[11.232375] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.232418] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/dds_fastrtps\n'}
+[11.232599] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action\n'}
+[11.232657] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail\n'}
+[11.232700] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/dds_fastrtps\n'}
+[11.232741] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.232780] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv\n'}
+[11.232955] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail\n'}
+[11.233004] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.233180] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/dds_fastrtps\n'}
+[11.233224] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.233265] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.233304] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface\n'}
+[11.233794] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg\n'}
+[11.234179] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.234354] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail\n'}
+[11.234548] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__type_support.c\n'}
+[11.234923] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__rosidl_typesupport_introspection_c.h\n'}
+[11.234974] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action\n'}
+[11.235281] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail\n'}
+[11.235448] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__type_support.c\n'}
+[11.235737] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[11.236012] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv\n'}
+[11.236060] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail\n'}
+[11.236357] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_c.h\n'}
+[11.236542] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__type_support.c\n'}
+[11.236592] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_introspection_c.so\n'}
+[11.236634] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.236674] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_c.so\n'}
+[11.236858] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_c.so" to ""\n'}
+[11.236911] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface\n'}
+[11.236954] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg\n'}
+[11.236994] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/distvel.hpp\n'}
+[11.237032] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail\n'}
+[11.237210] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__builder.hpp\n'}
+[11.237259] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__struct.hpp\n'}
+[11.237442] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__traits.hpp\n'}
+[11.237499] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action\n'}
+[11.237540] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail\n'}
+[11.237580] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__builder.hpp\n'}
+[11.237934] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__traits.hpp\n'}
+[11.238118] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__struct.hpp\n'}
+[11.238167] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/move.hpp\n'}
+[11.238210] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv\n'}
+[11.238249] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/my_move_msg.hpp\n'}
+[11.238289] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail\n'}
+[11.238335] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__builder.hpp\n'}
+[11.238374] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__struct.hpp\n'}
+[11.238416] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__traits.hpp\n'}
+[11.238470] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface\n'}
+[11.238509] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg\n'}
+[11.238547] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail\n'}
+[11.238585] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__type_support.cpp\n'}
+[11.238622] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.238664] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action\n'}
+[11.238702] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail\n'}
+[11.238739] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__type_support.cpp\n'}
+[11.241290] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/action/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.241363] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv\n'}
+[11.241407] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail\n'}
+[11.241449] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__type_support.cpp\n'}
+[11.241490] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.241530] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[11.241581] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.241622] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_cpp.so\n'}
+[11.241661] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[11.241699] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/pythonpath.sh\n'}
+[11.241741] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/pythonpath.dsv\n'}
+[11.241779] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/__init__.py\n'}
+[11.269815] (proy_nexa_interface) StdoutLine: {'line': b"Compiling '/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/__init__.py'...\n"}
+[11.273268] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/msg\n'}
+[11.273578] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/msg/_distvel_s.c\n'}
+[11.274005] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/msg/__init__.py\n'}
+[11.274408] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/msg/_distvel.py\n'}
+[11.274581] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/srv\n'}
+[11.274628] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/srv/_my_move_msg_s.c\n'}
+[11.274670] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/srv/__init__.py\n'}
+[11.274708] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/srv/_my_move_msg.py\n'}
+[11.274748] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/action\n'}
+[11.274786] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/action/_move_s.c\n'}
+[11.274825] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/action/_move.py\n'}
+[11.275138] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/action/__init__.py\n'}
+[11.275198] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.275658] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.276015] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.276493] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.276836] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[11.277321] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[11.277521] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__python.so\n'}
+[11.277875] (proy_nexa_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__python.so" to ""\n'}
+[11.278266] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/msg/Distvel.idl\n'}
+[11.278693] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/srv/MyMoveMsg.idl\n'}
+[11.279050] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/action/Move.idl\n'}
+[11.279101] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/msg/Distvel.msg\n'}
+[11.279289] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/srv/MyMoveMsg.srv\n'}
+[11.279335] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/srv/MyMoveMsg_Request.msg\n'}
+[11.279559] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/srv/MyMoveMsg_Response.msg\n'}
+[11.279751] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/action/Move.action\n'}
+[11.279801] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/ament_index/resource_index/package_run_dependencies/proy_nexa_interface\n'}
+[11.279843] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/ament_index/resource_index/parent_prefix_path/proy_nexa_interface\n'}
+[11.279882] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/ament_prefix_path.sh\n'}
+[11.279922] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/ament_prefix_path.dsv\n'}
+[11.280402] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/path.sh\n'}
+[11.280708] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/path.dsv\n'}
+[11.280892] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/local_setup.bash\n'}
+[11.281075] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/local_setup.sh\n'}
+[11.281133] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/local_setup.zsh\n'}
+[11.281177] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/local_setup.dsv\n'}
+[11.281226] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.dsv\n'}
+[11.281270] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/ament_index/resource_index/packages/proy_nexa_interface\n'}
+[11.281832] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_generator_cExport.cmake\n'}
+[11.281898] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.282692] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.282762] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.283418] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_cExport.cmake\n'}
+[11.283623] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.284321] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_generator_cppExport.cmake\n'}
+[11.285102] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.285168] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.285916] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_cppExport.cmake\n'}
+[11.286244] (proy_nexa_interface) StdoutLine: {'line': b'-- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.286722] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[11.286772] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.286816] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.286857] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.287206] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.287270] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.287323] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.287378] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interfaceConfig.cmake\n'}
+[11.287422] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interfaceConfig-version.cmake\n'}
+[11.287462] (proy_nexa_interface) StdoutLine: {'line': b'-- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.xml\n'}
+[11.289299] (proy_nexa_interface) CommandEnded: {'returncode': 0}
+[11.326165] (-) TimerEvent: {}
+[11.431806] (-) TimerEvent: {}
+[11.532411] (-) TimerEvent: {}
+[11.651447] (-) TimerEvent: {}
+[11.745600] (proy_nexa_interface) JobEnded: {'identifier': 'proy_nexa_interface', 'rc': 0}
+[11.746356] (-) EventReactorShutdown: {}

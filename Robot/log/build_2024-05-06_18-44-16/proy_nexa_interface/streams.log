@@ -1,0 +1,149 @@
+[0.408s] Invoking command in '/home/chen/repositorio2/Robot/build/proy_nexa_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --build /home/chen/repositorio2/Robot/build/proy_nexa_interface -- -j2 -l2
+[0.467s] [  2%] Built target proy_nexa_interface__cpp
+[0.489s] [ 12%] Built target proy_nexa_interface__rosidl_generator_c
+[0.498s] [ 23%] Built target proy_nexa_interface__rosidl_typesupport_cpp
+[0.525s] [ 33%] Built target proy_nexa_interface__rosidl_typesupport_fastrtps_cpp
+[0.535s] [ 43%] Built target proy_nexa_interface__rosidl_typesupport_introspection_c
+[0.556s] [ 53%] Built target proy_nexa_interface__rosidl_typesupport_introspection_cpp
+[0.568s] [ 64%] Built target proy_nexa_interface__rosidl_typesupport_c
+[0.606s] [ 74%] Built target proy_nexa_interface__rosidl_typesupport_fastrtps_c
+[0.621s] [ 74%] Built target proy_nexa_interface
+[0.638s] [ 76%] Built target proy_nexa_interface__py
+[0.662s] [ 84%] Built target proy_nexa_interface__python
+[0.704s] [ 89%] Built target proy_nexa_interface__rosidl_typesupport_introspection_c__pyext
+[0.718s] [ 94%] Built target proy_nexa_interface__rosidl_typesupport_c__pyext
+[0.734s] [100%] Built target proy_nexa_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.751s] Invoked command in '/home/chen/repositorio2/Robot/build/proy_nexa_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --build /home/chen/repositorio2/Robot/build/proy_nexa_interface -- -j2 -l2
+[1.149s] Invoking command in '/home/chen/repositorio2/Robot/build/proy_nexa_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --install /home/chen/repositorio2/Robot/build/proy_nexa_interface
+[1.170s] -- Install configuration: ""
+[1.178s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/ament_index/resource_index/rosidl_interfaces/proy_nexa_interface
+[1.179s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface
+[1.179s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg
+[1.179s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/distvel.h
+[1.180s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail
+[1.180s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__type_support.h
+[1.180s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__functions.h
+[1.181s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__struct.h
+[1.182s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__functions.c
+[1.182s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/rosidl_generator_c__visibility_control.h
+[1.182s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv
+[1.182s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/my_move_msg.h
+[1.182s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail
+[1.183s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__type_support.h
+[1.183s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__struct.h
+[1.183s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__functions.h
+[1.183s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__functions.c
+[1.183s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/library_path.sh
+[1.183s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/library_path.dsv
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_generator_c.so
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_c.h
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_c.h
+[1.184s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_fastrtps_c.so
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__rosidl_typesupport_fastrtps_cpp.hpp
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/dds_fastrtps
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/dds_fastrtps
+[1.185s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__type_support.c
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__rosidl_typesupport_introspection_c.h
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_c.h
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__type_support.c
+[1.186s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_introspection_c.so
+[1.187s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_c.so
+[1.187s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface
+[1.187s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg
+[1.187s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/distvel.hpp
+[1.187s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail
+[1.187s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__builder.hpp
+[1.187s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__struct.hpp
+[1.187s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__traits.hpp
+[1.188s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv
+[1.188s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/my_move_msg.hpp
+[1.188s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail
+[1.188s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__builder.hpp
+[1.188s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__struct.hpp
+[1.188s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__traits.hpp
+[1.188s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface
+[1.188s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg
+[1.188s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail
+[1.197s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__type_support.cpp
+[1.197s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/msg/detail/distvel__rosidl_typesupport_introspection_cpp.hpp
+[1.197s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv
+[1.197s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail
+[1.198s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__type_support.cpp
+[1.198s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/include/proy_nexa_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_cpp.hpp
+[1.198s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_introspection_cpp.so
+[1.198s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__rosidl_typesupport_cpp.so
+[1.198s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/pythonpath.sh
+[1.198s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/pythonpath.dsv
+[1.198s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/__init__.py
+[1.291s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/msg
+[1.291s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/msg/_distvel_s.c
+[1.291s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/msg/__init__.py
+[1.292s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/msg/_distvel.py
+[1.292s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/srv
+[1.292s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/srv/_my_move_msg_s.c
+[1.292s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/srv/__init__.py
+[1.292s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/srv/_my_move_msg.py
+[1.292s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.296s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.296s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages/proy_nexa_interface/proy_nexa_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.296s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/libproy_nexa_interface__python.so
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/msg/Distvel.idl
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/srv/MyMoveMsg.idl
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/msg/Distvel.msg
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/srv/MyMoveMsg.srv
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/srv/MyMoveMsg_Request.msg
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/srv/MyMoveMsg_Response.msg
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/ament_index/resource_index/package_run_dependencies/proy_nexa_interface
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/ament_index/resource_index/parent_prefix_path/proy_nexa_interface
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/ament_prefix_path.sh
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/ament_prefix_path.dsv
+[1.297s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/path.sh
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/environment/path.dsv
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/local_setup.bash
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/local_setup.sh
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/local_setup.zsh
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/local_setup.dsv
+[1.298s] -- Installing: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.dsv
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/ament_index/resource_index/packages/proy_nexa_interface
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_generator_cExport.cmake
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_generator_cExport-noconfig.cmake
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.298s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_cExport.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_generator_cppExport.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_cppExport.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/rosidl_cmake-extras.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.299s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.300s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.300s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.300s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.300s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interfaceConfig.cmake
+[1.300s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/cmake/proy_nexa_interfaceConfig-version.cmake
+[1.300s] -- Up-to-date: /home/chen/repositorio2/Robot/install/proy_nexa_interface/share/proy_nexa_interface/package.xml
+[1.674s] Invoked command in '/home/chen/repositorio2/Robot/build/proy_nexa_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}://home/chen/repositorio2/Robot/install/proy_nexa_show_msg://home/chen/repositorio2/Robot/install/proy_nexa_service://home/chen/repositorio2/Robot/install/proy_nexa_provide_map://home/chen/repositorio2/Robot/install/proy_nexa_nav2_system://home/chen/repositorio2/Robot/install/proy_nexa_my_slam:/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic /usr/bin/cmake --install /home/chen/repositorio2/Robot/build/proy_nexa_interface

@@ -1,0 +1,20 @@
+[1.351s] Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_provide_map': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_provide_map/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_provide_map build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/install.log --single-version-externally-managed
+[1.529s] running egg_info
+[1.530s] writing ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/PKG-INFO
+[1.530s] writing dependency_links to ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/dependency_links.txt
+[1.531s] writing entry points to ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/entry_points.txt
+[1.557s] writing requirements to ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/requires.txt
+[1.558s] writing top-level names to ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/top_level.txt
+[1.562s] reading manifest file '../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/SOURCES.txt'
+[1.563s] writing manifest file '../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info/SOURCES.txt'
+[1.563s] running build
+[1.563s] running build_py
+[1.564s] running install
+[1.565s] running install_lib
+[1.566s] running install_data
+[1.566s] running install_egg_info
+[1.568s] removing '/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages/proy_nexa_provide_map-0.0.0-py3.8.egg-info' (and everything under it)
+[1.594s] Copying ../../../build/proy_nexa_provide_map/proy_nexa_provide_map.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages/proy_nexa_provide_map-0.0.0-py3.8.egg-info
+[1.607s] running install_scripts
+[1.621s] writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_provide_map/install.log'
+[1.746s] Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_provide_map' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_provide_map/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_provide_map build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_provide_map/install.log --single-version-externally-managed

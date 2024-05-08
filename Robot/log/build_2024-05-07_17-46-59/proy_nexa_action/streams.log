@@ -1,0 +1,38 @@
+[0.971s] Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_action': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_action/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_action build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_action/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_action/install.log --single-version-externally-managed
+[1.145s] running egg_info
+[1.146s] creating ../../../build/proy_nexa_action/proy_nexa_action.egg-info
+[1.146s] writing ../../../build/proy_nexa_action/proy_nexa_action.egg-info/PKG-INFO
+[1.146s] writing dependency_links to ../../../build/proy_nexa_action/proy_nexa_action.egg-info/dependency_links.txt
+[1.146s] writing entry points to ../../../build/proy_nexa_action/proy_nexa_action.egg-info/entry_points.txt
+[1.146s] writing requirements to ../../../build/proy_nexa_action/proy_nexa_action.egg-info/requires.txt
+[1.146s] writing top-level names to ../../../build/proy_nexa_action/proy_nexa_action.egg-info/top_level.txt
+[1.147s] writing manifest file '../../../build/proy_nexa_action/proy_nexa_action.egg-info/SOURCES.txt'
+[1.171s] reading manifest file '../../../build/proy_nexa_action/proy_nexa_action.egg-info/SOURCES.txt'
+[1.172s] writing manifest file '../../../build/proy_nexa_action/proy_nexa_action.egg-info/SOURCES.txt'
+[1.172s] running build
+[1.172s] running build_py
+[1.172s] creating /home/chen/repositorio2/Robot/build/proy_nexa_action/build
+[1.172s] creating /home/chen/repositorio2/Robot/build/proy_nexa_action/build/lib
+[1.172s] creating /home/chen/repositorio2/Robot/build/proy_nexa_action/build/lib/proy_nexa_action
+[1.172s] copying proy_nexa_action/__init__.py -> /home/chen/repositorio2/Robot/build/proy_nexa_action/build/lib/proy_nexa_action
+[1.172s] copying proy_nexa_action/proy_nexa_action_server.py -> /home/chen/repositorio2/Robot/build/proy_nexa_action/build/lib/proy_nexa_action
+[1.173s] running install
+[1.174s] running install_lib
+[1.175s] creating /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action
+[1.175s] copying /home/chen/repositorio2/Robot/build/proy_nexa_action/build/lib/proy_nexa_action/__init__.py -> /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action
+[1.175s] copying /home/chen/repositorio2/Robot/build/proy_nexa_action/build/lib/proy_nexa_action/proy_nexa_action_server.py -> /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action
+[1.175s] byte-compiling /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action/__init__.py to __init__.cpython-38.pyc
+[1.176s] byte-compiling /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action/proy_nexa_action_server.py to proy_nexa_action_server.cpython-38.pyc
+[1.177s] running install_data
+[1.178s] creating /home/chen/repositorio2/Robot/install/proy_nexa_action/share/ament_index
+[1.178s] creating /home/chen/repositorio2/Robot/install/proy_nexa_action/share/ament_index/resource_index
+[1.178s] creating /home/chen/repositorio2/Robot/install/proy_nexa_action/share/ament_index/resource_index/packages
+[1.178s] copying resource/proy_nexa_action -> /home/chen/repositorio2/Robot/install/proy_nexa_action/share/ament_index/resource_index/packages
+[1.178s] copying package.xml -> /home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action
+[1.178s] copying launch/proy_nexa_action_server.launch.py -> /home/chen/repositorio2/Robot/install/proy_nexa_action/share/proy_nexa_action
+[1.178s] running install_egg_info
+[1.179s] Copying ../../../build/proy_nexa_action/proy_nexa_action.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages/proy_nexa_action-0.0.0-py3.8.egg-info
+[1.180s] running install_scripts
+[1.193s] Installing proy_nexa_action_server script to /home/chen/repositorio2/Robot/install/proy_nexa_action/lib/proy_nexa_action
+[1.193s] writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_action/install.log'
+[1.216s] Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_action' returned '0': AMENT_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_action/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_action/lib/python3.8/site-packages:/home/chen/repositorio2/Robot/install/proy_nexa_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_action build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_action/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_action/install.log --single-version-externally-managed
