@@ -28,7 +28,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'proy_nexa_initial_pose_pub = proy_nexa_nav2_system.proy_nexa_initial_pose_pub:main'
+            'proy_nexa_initial_pose_pub = proy_nexa_nav2_system.proy_nexa_initial_pose_pub:main',
+            'proy_nexa_waypoint_follower = proy_nexa_nav2_system.proy_nexa_waypoint_follower:main'
         ],
     },
 )
