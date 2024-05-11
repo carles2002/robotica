@@ -58,8 +58,8 @@ class MyActionClient(Node):
 
     #definimos la funcion de respuesta al feedback
     def feedback_callback(self, feedback_msg):
-        feedback = feedback_msg.feedback
-        self.get_logger().info('Received feedback: {0}'.format(feedback.feedback))
+        feedback = feedback_msg
+        self.get_logger().info('Received feedback: {0}'.format(feedback))
 
     
 

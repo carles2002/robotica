@@ -50,14 +50,14 @@ def main(args=None):
     waypoints = []
     waypoint1 = PoseStamped()
     waypoint1.header.frame_id='map'
-    waypoint1.pose.position.x = 0.2
-    waypoint1.pose.position.y = 0.0
+    waypoint1.pose.position.x = 1.2
+    waypoint1.pose.position.y = 2.0
     waypoint1.pose.position.z = 0.0
     waypoints.append(waypoint1)
 
     waypoint2 = PoseStamped()
     waypoint2.header.frame_id='map'
-    waypoint2.pose.position.x = 0.4
+    waypoint2.pose.position.x = 0.0
     waypoint2.pose.position.y = 0.2
     waypoint2.pose.position.z = 0.0
     waypoints.append(waypoint2)

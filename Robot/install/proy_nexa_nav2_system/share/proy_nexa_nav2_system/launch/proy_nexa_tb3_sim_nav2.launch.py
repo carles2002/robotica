@@ -73,12 +73,12 @@ def generate_launch_description():
                         {'node_names':['map_server', 'amcl', 'planner_server', 'controller_server', 'recoveries_server', 'bt_navigator']}]
         ),
 
-         Node(
-               package='rviz2',
-               executable='rviz2',
-               name='rviz2',
-               arguments=['-d', rviz_config_dir],
-               parameters=[{'use_sim_time': True}],
-               output='screen'
+        Node(
+            ackage='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            arguments=['-d', rviz_config_dir],
+            parameters=[{'use_sim_time': True}],
+            output='screen'
         )
     ])
