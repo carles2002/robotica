@@ -26,7 +26,11 @@ class Robot:
     #------------------------------------------------------------
     def move_forward(self):
         #Mover
+
         os.system("bash ../comandos/movimiento/adelante.bash")
+        #orden="delante"
+        #os.system("bash ../comandos/movimiento/move.bash")
+        #os.system("bash move "+orden)
         return
     #------------------------------------------------------------
     # move_backward()
