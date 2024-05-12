@@ -1,0 +1,28 @@
+[1.679s] Invoking command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_nav2_system': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_nav2_system build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/install.log --single-version-externally-managed
+[1.856s] running egg_info
+[1.856s] writing ../../../build/proy_nexa_nav2_system/proy_nexa_nav2_system.egg-info/PKG-INFO
+[1.890s] writing dependency_links to ../../../build/proy_nexa_nav2_system/proy_nexa_nav2_system.egg-info/dependency_links.txt
+[1.903s] writing entry points to ../../../build/proy_nexa_nav2_system/proy_nexa_nav2_system.egg-info/entry_points.txt
+[1.904s] writing requirements to ../../../build/proy_nexa_nav2_system/proy_nexa_nav2_system.egg-info/requires.txt
+[1.905s] writing top-level names to ../../../build/proy_nexa_nav2_system/proy_nexa_nav2_system.egg-info/top_level.txt
+[1.944s] reading manifest file '../../../build/proy_nexa_nav2_system/proy_nexa_nav2_system.egg-info/SOURCES.txt'
+[1.949s] writing manifest file '../../../build/proy_nexa_nav2_system/proy_nexa_nav2_system.egg-info/SOURCES.txt'
+[1.953s] running build
+[1.954s] running build_py
+[1.956s] copying proy_nexa_nav2_system/proy_nexa_waypoint_follower.py -> /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/build/lib/proy_nexa_nav2_system
+[1.957s] copying proy_nexa_nav2_system/proy_nexa_initial_pose_pub.py -> /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/build/lib/proy_nexa_nav2_system
+[1.958s] running install
+[1.959s] running install_lib
+[1.960s] copying /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/build/lib/proy_nexa_nav2_system/proy_nexa_waypoint_follower.py -> /home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages/proy_nexa_nav2_system
+[2.073s] copying /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/build/lib/proy_nexa_nav2_system/proy_nexa_initial_pose_pub.py -> /home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages/proy_nexa_nav2_system
+[2.073s] byte-compiling /home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages/proy_nexa_nav2_system/proy_nexa_waypoint_follower.py to proy_nexa_waypoint_follower.cpython-38.pyc
+[2.074s] byte-compiling /home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages/proy_nexa_nav2_system/proy_nexa_initial_pose_pub.py to proy_nexa_initial_pose_pub.cpython-38.pyc
+[2.091s] running install_data
+[2.092s] running install_egg_info
+[2.094s] removing '/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages/proy_nexa_nav2_system-0.0.0-py3.8.egg-info' (and everything under it)
+[2.095s] Copying ../../../build/proy_nexa_nav2_system/proy_nexa_nav2_system.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages/proy_nexa_nav2_system-0.0.0-py3.8.egg-info
+[2.101s] running install_scripts
+[2.113s] Installing proy_nexa_initial_pose_pub script to /home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/proy_nexa_nav2_system
+[2.114s] Installing proy_nexa_waypoint_follower script to /home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/proy_nexa_nav2_system
+[2.115s] writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/install.log'
+[2.166s] Invoked command in '/home/chen/repositorio2/Robot/src/proy_nexa/proy_nexa_nav2_system' returned '0': PYTHONPATH=/home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/prefix_override:/home/chen/repositorio2/Robot/install/proy_nexa_nav2_system/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_nexa_nav2_system build --build-base /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/build install --record /home/chen/repositorio2/Robot/build/proy_nexa_nav2_system/install.log --single-version-externally-managed
