@@ -1,0 +1,20 @@
+running egg_info
+writing ../../../build/proy_nexa_service/proy_nexa_service.egg-info/PKG-INFO
+writing dependency_links to ../../../build/proy_nexa_service/proy_nexa_service.egg-info/dependency_links.txt
+writing entry points to ../../../build/proy_nexa_service/proy_nexa_service.egg-info/entry_points.txt
+writing requirements to ../../../build/proy_nexa_service/proy_nexa_service.egg-info/requires.txt
+writing top-level names to ../../../build/proy_nexa_service/proy_nexa_service.egg-info/top_level.txt
+reading manifest file '../../../build/proy_nexa_service/proy_nexa_service.egg-info/SOURCES.txt'
+writing manifest file '../../../build/proy_nexa_service/proy_nexa_service.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages/proy_nexa_service-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../../build/proy_nexa_service/proy_nexa_service.egg-info to /home/chen/repositorio2/Robot/install/proy_nexa_service/lib/python3.8/site-packages/proy_nexa_service-0.0.0-py3.8.egg-info
+running install_scripts
+Installing proy_nexa_movement_client script to /home/chen/repositorio2/Robot/install/proy_nexa_service/lib/proy_nexa_service
+Installing proy_nexa_movement_server script to /home/chen/repositorio2/Robot/install/proy_nexa_service/lib/proy_nexa_service
+writing list of installed files to '/home/chen/repositorio2/Robot/build/proy_nexa_service/install.log'
