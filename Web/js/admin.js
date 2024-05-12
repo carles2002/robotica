@@ -6,6 +6,8 @@
 // · Cambiar IP del Robot
 // · Consola para mover al Robot
 // · Pantalla para ver lo que ve el Robot
+// · Comandos por voz
+// · Respuesta del robot
 //-------------------------------------------------------------------------------------------------
 
 //------------------------------------------------
@@ -14,6 +16,7 @@
 // · No hay pantalla
 // · La IP se guarda mediante la sesión Local (localstorage)
 // · Es posible controlar el movimiento con las flechas del teclado
+// · Se importa una clase para interactuar con comandos de voz con el robot
 //------------------------------------------------
 
 //------------------------------------------------
@@ -21,6 +24,8 @@
 //------------------------------------------------
 import "../classes/Robot.js"
 import { Robot } from "../classes/Robot.js"
+import { FakeVoice } from "../classes/FakeVoice.js"
+import { Habitat } from "../classes/Habitat.js"
 //------------------------------------------------
 // Variables y Constantes Globales
 //------------------------------------------------
@@ -39,6 +44,66 @@ if (localStorageIp) {
 
 console.log("Robot")
 console.log(robot)
+
+//------------------------------------------------
+// MICROFONO ROBOT
+//------------------------------------------------
+const btn_microfono = document.getElementById("btn_microfono");
+const fakevoice = new FakeVoice();
+var micro_pressed = true
+
+btn_microfono.addEventListener("click", function(){
+    if(micro_pressed){
+        micro_pressed = false
+        fakevoice.voice.listen()
+    }
+    else{
+        micro_pressed = true
+        fakevoice.voice.stopListen()
+    }
+});
+
+fakevoice.voice.recognition.onresult = (event) => {
+    micro_pressed = true
+    fakevoice.voice.stopListen()
+    var text = event.results[event.results.length - 1][0].transcript;
+    text = text.toLowerCase()
+    console.log("Text:" + text)
+    
+    var lugar = "Vamos a ver a"
+    var habitat = null;
+
+    if(text.includes("ver")||text.includes("ir a")){
+
+        if(text.includes("león")||text.includes("leones")){
+            //Mover al punto de leones
+            console.log("Iendo a los leones")
+            lugar+=" los leones"
+            fakevoice.voice.speech(lugar)
+    
+            habitat = new Habitat("leon")
+            habitat.ir()
+        }
+        else if(text.includes("mono"||"monos")){
+            //Mover al punto de los monos
+            console.log("Iendo a los monos")
+            lugar+=" los monos"
+            fakevoice.voice.speech(lugar)
+            
+            habitat = new Habitat("mono")
+            habitat.ir()
+        }
+        else if(text.includes("jirafa"||"jirafas")){
+            //Mover al punto de las jirafa
+            console.log("Iendo a las jirafas")
+            lugar+=" las jirafas"
+            fakevoice.voice.speech(lugar)
+            
+            habitat = new Habitat("jirafa")
+            habitat.ir()
+        }
+    }
+}
 //------------------------------------------------
 // EVENTLISTENERS
 //------------------------------------------------
@@ -88,7 +153,6 @@ function btn_listen() {
     }
 }
 btn_listen()
-
 //------------------------------------------------
 // INFORMACIÓN ROBOT
 //------------------------------------------------
@@ -100,6 +164,11 @@ function informacion() {
     span_rub.innerHTML = "Ubicación:"+robot.get_position()
 }
 informacion()
+
+//---------------------------------------
+// METODOS
+//---------------------------------------
+
 //---------------------------------------
 // form --> cambiar_ip()
 // Descripcion: Recoge una nueva IP de la página del admin y la cambia por la antigua
