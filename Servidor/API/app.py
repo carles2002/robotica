@@ -3,6 +3,7 @@ from flask_cors import CORS
 import os
 
 from Robot import Robot
+from Habitat import Habitat
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -48,7 +49,18 @@ def move():
             robot.console(move)
             print("En movimiento")
         return ('',204)
-    
+
+@app.route('/ir_a_habitat',methods=['POST'])
+def ir():
+    print("ir()")
+    if(request.method == 'POST'):
+        lugar = request.get_json()
+        lugar = lugar['habitat']
+        habitat = Habitat(lugar)
+        habitat.ir()
+        return ('',204)
+    #ir
+
 @app.route('/connect')
 def connect():
     print("Conectando a ubuntu@192.168.0.64")
