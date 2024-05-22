@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Administrator Page</title>
+    <title>Admin Page</title>
     <!--Bootstrap v5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -16,9 +16,21 @@
     <!-- header of the page -->
     <header class="header">
         <div class="container">
-            <div class="jumbotron text-center">
-                <h1>Hello ROS</h1>
-                <p>Let's connect our website to ROS</p>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="#" alt="Logo Empresa">
+                            <p>Nexa</p>
+                            <button id="btn_microfono" value="Microfono">
+                                <img src="#" alt="Microfono">   
+                            </button>
+                            <button id="btn_cerrar" value="Cerrar Sesión">
+                                <img src="#" alt="Cerrar Sesión">   
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -27,26 +39,34 @@
     <main>
         <div class="container">
             <div class="row">
+                <h1 class="text-center">Página de Administración</h1>
+                <!-- Ubicación del Robot -->
                 <div class="col-4">
                     <div class="card">
                         <div class="card-body">
-                            <h3 class="text-center">INFORMACIÓN</h3>
-                            <span id="span_rip">Robot IP: </span><br>
-                            <span id="span_rub">Ubicación: </span><br>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                Cambiar
-                            </button>
-                            <form>
-                                <div class="form-group">
-                                    <label for="inputRobotIp">Robot IP: </label>
-                                    <input type="text" class="form-control" id="inputRobotIp" placeholder="Example input">
-                                  </div>
-                                  <button id="btn_robotIp" class="btn btn-success" type="button">Enviar</button>
-                            </form>
+                            <img src="#" alt="Ubicación Robot">
+                            <button>Abrir ubicación del robot</button>
                         </div>
                     </div>
                 </div>
+                <!-- Reiniciar Robot -->
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="#" alt="Reiniciar Robot">
+                            <button>Reiniciar Robot</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Estado del Robot -->
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Estado del Robot</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Consola del Robot -->
                 <div class="col-4">
                     <div class="card">
                         <div class="card-body">
@@ -55,7 +75,7 @@
                                 <button class="btn_move" value="ArrowUp">Adelante</button>
                                 <br>
                                 <button class="btn_move" value="ArrowLeft">Izquierda</button>
-                                <button id="btn_microfono" value="Microfono">Microfono</button>
+                                <img src="#" alt="Robot PNG">
                                 <button class="btn_move" value="ArrowRight">Derecha</button>
                                 <br>
                                 <button class="btn_move" value="ArrowDown">Atras</button>
@@ -66,6 +86,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- Volver lugar seguro -->
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="#" alt="Lugar seguro">
+                            <button>Volver a un lugar seguro</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pantalla Robot -->
                 <div class="col-4">
                     <div class="card">
                         <div class="card-body">
@@ -77,13 +107,6 @@
             </div>
         </div>
     </main>
-
-    <!-- footer -->
-    <footer class="footer mt-auto bg-dark text-light">
-        <div class="container">
-            <h5>page ends here!</h5>
-        </div>
-    </footer>
 </body>
 
 </html>

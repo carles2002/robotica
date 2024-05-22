@@ -1,23 +1,8 @@
 //-------------------------------------------------------------------------------------------------
 // Autor: Arnau Soler Tomás
 // Fichero: admin.js
-// Descripción: Fichero encargado de gestionar la página del administrador. Tenemos:
-// · Información del Robot
-// · Cambiar IP del Robot
-// · Consola para mover al Robot
-// · Pantalla para ver lo que ve el Robot
-// · Comandos por voz
-// · Respuesta del robot
+// Descripción: Fichero encargado de gestionar la página del administrador.
 //-------------------------------------------------------------------------------------------------
-
-//------------------------------------------------
-// NOTAS
-// En esta versión:
-// · No hay pantalla
-// · La IP se guarda mediante la sesión Local (localstorage)
-// · Es posible controlar el movimiento con las flechas del teclado
-// · Se importa una clase para interactuar con comandos de voz con el robot
-//------------------------------------------------
 
 //------------------------------------------------
 // IMPORTS
@@ -62,6 +47,14 @@ btn_microfono.addEventListener("click", function(){
         fakevoice.voice.stopListen()
     }
 });
+//------------------------------------------------
+// HABLAR ROBOT
+//------------------------------------------------
+function ir_a(fakevoice, lugar, habitat){
+      lugar = "Vamos a ver a "+lugar
+      fakevoice.voice.speech(lugar)
+      habitat.ir()
+}
 
 fakevoice.voice.recognition.onresult = (event) => {
     micro_pressed = true
@@ -70,7 +63,7 @@ fakevoice.voice.recognition.onresult = (event) => {
     text = text.toLowerCase()
     console.log("Text:" + text)
     
-    var lugar = "Vamos a ver a"
+    var lugar = null;
     var habitat = null;
 
     if(text.includes("ver")||text.includes("ir a")){
@@ -78,43 +71,29 @@ fakevoice.voice.recognition.onresult = (event) => {
         if(text.includes("león")||text.includes("leones")){
             //Mover al punto de leones
             console.log("Iendo a los leones")
-            lugar+=" los leones"
-            fakevoice.voice.speech(lugar)
-    
+            lugar=" los leones"
             habitat = new Habitat("leon")
-            habitat.ir()
+            ir_a(fakevoice,lugar,habitat)
         }
         else if(text.includes("mono"||"monos")){
             //Mover al punto de los monos
             console.log("Iendo a los monos")
-            lugar+=" los monos"
-            fakevoice.voice.speech(lugar)
-            
+            lugar=" los monos"
             habitat = new Habitat("mono")
-            habitat.ir()
+            ir_a(fakevoice,lugar,habitat)
         }
         else if(text.includes("jirafa"||"jirafas")){
             //Mover al punto de las jirafa
             console.log("Iendo a las jirafas")
-            lugar+=" las jirafas"
-            fakevoice.voice.speech(lugar)
-            
+            lugar=" las jirafas"
             habitat = new Habitat("jirafa")
-            habitat.ir()
+            ir_a(fakevoice,lugar,habitat)
         }
     }
 }
 //------------------------------------------------
 // EVENTLISTENERS
 //------------------------------------------------
-
-// Escuchar cambio de IP
-document.getElementById('btn_robotIp').addEventListener("click", cambiar_ip);
-
-// Escuchar conectar
-document.getElementById("btn_robotConnect").addEventListener("click", function(){
-    robot.connect()
- });
 
 // Escuchar KeyPad
 document.addEventListener('keydown', (event) => {
@@ -153,55 +132,3 @@ function btn_listen() {
     }
 }
 btn_listen()
-//------------------------------------------------
-// INFORMACIÓN ROBOT
-//------------------------------------------------
-function informacion() {
-    var span_rip = document.getElementById("span_rip")
-    var span_rub = document.getElementById("span_rub")
-
-    span_rip.innerHTML = "Robot IP:"+robot.get_ip()
-    span_rub.innerHTML = "Ubicación:"+robot.get_position()
-}
-informacion()
-
-//---------------------------------------
-// METODOS
-//---------------------------------------
-
-//---------------------------------------
-// form --> cambiar_ip()
-// Descripcion: Recoge una nueva IP de la página del admin y la cambia por la antigua
-//---------------------------------------
-function cambiar_ip() {
-    //recoger ip del formulario
-    var ip = document.getElementById("inputRobotIp").value
-    //ip = "127.0.0.1" //Por defecto de la VirtualBox
-    console.log("cambiar_ip Inicio con Ip: " + ip)
-    //cambiar la ip por la del robot
-    robot.set_ip(ip)
-    localStorage.setItem("robot_ip", ip);
-
-    //Llamar a Servidor
-    fetch("http://localhost:5000/ip_robot", {
-        method: "POST",
-        body: { 'ip': ip },
-        headers: {
-            "content-type": "application/json; charset=UTF-8",
-        }
-    })
-        .then(info => {
-            // Code
-            console.log("Cambio de IP")
-            //console.log("Info: ")
-            //console.log(info)
-        })
-        .catch(error => {
-            // catch error
-            console.log("Error: " + error)
-        });
-
-    console.log("Fake cambiar_ip() hecho")
-    informacion()
-    //Fin
-}

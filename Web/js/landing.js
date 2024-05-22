@@ -1,0 +1,111 @@
+//-------------------------------------------------------------------------------------------------
+// Autor: Arnau Soler Tomás
+// Fichero: admin.js
+// Descripción: Fichero encargado de gestionar la página del administrador.
+//-------------------------------------------------------------------------------------------------
+
+//------------------------------------------------
+// IMPORTS
+//------------------------------------------------
+import "../classes/Robot.js"
+import { Robot } from "../classes/Robot.js"
+import { FakeVoice } from "../classes/FakeVoice.js"
+import { Habitat } from "../classes/Habitat.js"
+//------------------------------------------------
+// MICROFONO ROBOT
+//------------------------------------------------
+const btn_microfono = document.getElementById("btn_microfono");
+const fakevoice = new FakeVoice();
+var micro_pressed = true
+
+btn_microfono.addEventListener("click", function(){
+    if(micro_pressed){
+        micro_pressed = false
+        fakevoice.voice.listen()
+    }
+    else{
+        micro_pressed = true
+        fakevoice.voice.stopListen()
+    }
+});
+//------------------------------------------------
+// HABLAR ROBOT
+//------------------------------------------------
+function ir_a(fakevoice, lugar, habitat){
+      lugar = "Vamos a ver a "+lugar
+      fakevoice.voice.speech(lugar)
+      habitat.ir()
+}
+
+fakevoice.voice.recognition.onresult = (event) => {
+    micro_pressed = true
+    fakevoice.voice.stopListen()
+    var text = event.results[event.results.length - 1][0].transcript;
+    text = text.toLowerCase()
+    console.log("Text:" + text)
+    
+    var lugar = null;
+    var habitat = null;
+
+    if(text.includes("ver")||text.includes("ir a")){
+
+        if(text.includes("león")||text.includes("leones")){
+            //Mover al punto de leones
+            console.log("Iendo a los leones")
+            lugar=" los leones"
+            habitat = new Habitat("leon")
+            ir_a(fakevoice,lugar,habitat)
+        }
+        else if(text.includes("mono"||"monos")){
+            //Mover al punto de los monos
+            console.log("Iendo a los monos")
+            lugar=" los monos"
+            habitat = new Habitat("mono")
+            ir_a(fakevoice,lugar,habitat)
+        }
+        else if(text.includes("jirafa"||"jirafas")){
+            //Mover al punto de las jirafa
+            console.log("Iendo a las jirafas")
+            lugar=" las jirafas"
+            habitat = new Habitat("jirafa")
+            ir_a(fakevoice,lugar,habitat)
+        }
+    }
+}
+//------------------------------------------------
+// EVENTLISTENERS
+//------------------------------------------------
+
+// Escuchar boton acceso admin
+document.getElementById("btn_admin").addEventListener("click", function(){
+      console.log("Acceso Admin")
+   });
+
+//------------
+// ANIMALES
+//------------
+
+// Escuchar boton león
+document.getElementById("btn_ir_leon").addEventListener("click", function(){
+      const fakevoice = new FakeVoice();
+
+      lugar=" los leones"
+      habitat = new Habitat("leon")
+      ir_a(fakevoice,lugar,habitat)
+   });
+// Escuchar boton mono
+document.getElementById("btn_ir_mono").addEventListener("click", function(){
+      const fakevoice = new FakeVoice();
+
+      lugar=" los monos"
+      habitat = new Habitat("mono")
+      ir_a(fakevoice,lugar,habitat)
+   });
+// Escuchar boton jirafa
+document.getElementById("btn_ir_jirafa").addEventListener("click", function(){
+      const fakevoice = new FakeVoice();
+
+      lugar=" las jirafas"
+      habitat = new Habitat("jirafa")
+      ir_a(fakevoice,lugar,habitat)
+   });
