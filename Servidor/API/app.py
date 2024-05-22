@@ -4,6 +4,7 @@ import os
 
 from Robot import Robot
 from Habitat import Habitat
+from FaceRecognition import FaceRecognition
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -48,6 +49,20 @@ def ir():
         habitat.ir()
         return ('',204)
     #ir
+#-----------------------------------------------------------------
+# face_recognition() --> '204'||'400'
+# Descripcion: funcion para reconocer un rostro
+#-----------------------------------------------------------------
+@app.route('/face_recognition')
+def face_scan():
+    print("face_recognition()")
+    fr = FaceRecognition()
+    status=fr.run_recognition()
+    del fr
+    
+    if(status):
+        return ('ok',204)
+    return ('not ok',400)
 #-----------------------------------------------------------------
 # __main__
 # Descripcion: Para arrancar el puerto del servidor Flask

@@ -11,6 +11,15 @@ import "../classes/Robot.js"
 import { Robot } from "../classes/Robot.js"
 import { FakeVoice } from "../classes/FakeVoice.js"
 import { Habitat } from "../classes/Habitat.js"
+import { FaceRecognition } from "../classes/FaceRecognition.js"
+//------------------------------------------------
+// VARIABLES GLOBALES
+//------------------------------------------------
+let isAdmin=localStorage.getItem("isAdmin");
+if(isAdmin=='true'){
+      console.log("redireccionando...")
+      redirect_admin()
+}
 //------------------------------------------------
 // MICROFONO ROBOT
 //------------------------------------------------
@@ -77,9 +86,8 @@ fakevoice.voice.recognition.onresult = (event) => {
 //------------------------------------------------
 
 // Escuchar boton acceso admin
-document.getElementById("btn_admin").addEventListener("click", function(){
-      console.log("Acceso Admin")
-   });
+var btn_go_admin = document.getElementById("btn_admin")
+btn_go_admin.addEventListener("click",admin_site)
 
 //------------
 // ANIMALES
@@ -109,3 +117,31 @@ document.getElementById("btn_ir_jirafa").addEventListener("click", function(){
       habitat = new Habitat("jirafa")
       ir_a(fakevoice,lugar,habitat)
    });
+//------------------------------------------------
+// ADMINISTRADOR
+//------------------------------------------------
+async function admin_site(){
+      console.log("admin_site()")
+      var fr = new FaceRecognition()
+
+      await fr.run_recognition()
+      console.log("fr.status")
+      console.log(fr.status)
+      var status = fr.status
+      if (status){
+            //cambiar el localStorage
+            localStorage.setItem("isAdmin", true);
+            //redireccionar a admin
+            redirect_admin()
+      }
+      else{
+            console.log("Se ha abortado el proceso")
+      }
+      return
+}
+
+function redirect_admin(){
+      //redirecciona al admin
+      location.href = "admin.html";
+      return
+}

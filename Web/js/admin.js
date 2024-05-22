@@ -14,6 +14,9 @@ import { Habitat } from "../classes/Habitat.js"
 //------------------------------------------------
 // Variables y Constantes Globales
 //------------------------------------------------
+let isAdmin=localStorage.getItem("isAdmin");
+if(isAdmin=='false'){redirect_user()}
+
 var default_ip = "192.168.0.64"
 const localStorageIp = localStorage.getItem("robot_ip")
 
@@ -95,6 +98,10 @@ fakevoice.voice.recognition.onresult = (event) => {
 // EVENTLISTENERS
 //------------------------------------------------
 
+// Escuchar Cerrar Sesión
+var btn_admin_close = document.getElementById("btn_admin_close")
+btn_admin_close.addEventListener("click",cerrar_sesion)
+
 // Escuchar KeyPad
 document.addEventListener('keydown', (event) => {
     if (!key_pressed) {
@@ -132,3 +139,18 @@ function btn_listen() {
     }
 }
 btn_listen()
+//------------------------------------------------
+// METODOS
+//------------------------------------------------
+function cerrar_sesion(){
+      //cambiar el localStorage
+      localStorage.setItem("isAdmin", false);
+      //redireccionar a user
+      redirect_user()
+}
+
+function redirect_user(){
+      //redirecciona al admin
+      location.href = "landing.html";
+      return
+}
