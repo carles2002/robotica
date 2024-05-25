@@ -1,10 +1,11 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 
 from Robot import Robot
 from Habitat import Habitat
 from FaceRecognition import FaceRecognition
+from Animal import Animal
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -48,6 +49,7 @@ def ir():
         habitat = Habitat(lugar)
         habitat.ir()
         return ('',204)
+    return ('',400)
     #ir
 #-----------------------------------------------------------------
 # face_recognition() --> '204'||'400'
@@ -63,6 +65,19 @@ def face_scan():
     if(status):
         return ('ok',204)
     return ('not ok',400)
+#-----------------------------------------------------------------
+# Animal --> get_animal_info() --> info:Txt
+# Descripcion: funcion para reconocer un rostro
+#-----------------------------------------------------------------
+@app.route('/get_animal_info',methods=['POST'])
+def get_animal_info():
+    if(request.method == 'POST'):
+        especie = request.get_json()
+        especie = especie['especie']
+        animal = Animal()
+        animal.get_info(especie)
+        
+        return jsonify(animal.__dict__)
 #-----------------------------------------------------------------
 # __main__
 # Descripcion: Para arrancar el puerto del servidor Flask
