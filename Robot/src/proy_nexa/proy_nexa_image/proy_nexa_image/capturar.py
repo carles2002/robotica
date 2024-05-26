@@ -29,20 +29,24 @@ class Ros2OpenCVImageConverter(Node):
             print(e)
 
            
-        cv2.imshow("Imagen capturada por el robot", cv_image)
-        cv2.waitKey(1)   
-        cv2.imwrite(os.path.join(self.image_directory, 'captured_image.jpg'), cv_image) 
-        img = cv2.imread("captured_image.jpg")
+        sepia_img = self.apply_sepia(cv_image)
+        
+        
+        cv2.imshow("Imagen con filtro sepia", sepia_img)
+        cv2.waitKey(1)        
+        cv2.imwrite(os.path.join(self.image_directory, 'image_robot.jpg'), sepia_img) 
+        
 
-        #Propiedades de la imagen
-        print(type(img))
-        print(img.shape) #píxeles verticales y horizontales            print(img.size)
-        print(img.dtype)
+        
+    def apply_sepia(self, image):
 
-        top_left_px = img[0,0,:] #esto me devuelve una lista de 3 valores (BGR) del pixel 0,0
-        print(top_left_px)
-        top_left_px_R = img[0,0,2] #esto me devuelve solo la componente R
-        print(top_left_px_R)
+        sepia_filter = np.array([[0.272, 0.534, 0.131],
+                                 [0.349, 0.686, 0.168],
+                                 [0.393, 0.769, 0.189]])
+        
+        sepia_image = cv2.transform(image, sepia_filter)
+        sepia_image = np.clip(sepia_image, 0, 255).astype(np.uint8)        
+        return sepia_image
         
 
 def main(args=None):
