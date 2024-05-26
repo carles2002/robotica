@@ -1,8 +1,6 @@
-/* landing.css */
 body {
     background-color: #dfeaf7; 
-    font-family: 'Montserrat', sans-serif; 
-        
+    font-family: 'Josefin Sans', sans-serif; 
 }
 
 .bold-text {
@@ -15,28 +13,26 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     background-color: white;
 }
+
 .header .logo {
     height: 170px;
-    
     margin-top: -25px;
     margin-left: -30px;
     margin-bottom: -60px;
     margin-right: -20px;
-
     filter: url(#drop-shadow); /* Aplicar el filtro SVG */
 }
 
 .admin-butt {
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
 }
+
 .header .admin-icon {
     height: 50px;
-    
 }
 
-.main{
+.main {
     border-radius: 30px;
-    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     background-color: white;
 }
@@ -61,7 +57,7 @@ body {
 
 .btn:hover {
     transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Añade una sombra más pronunciada al hacer hover */
+    box-shadow: 0 4px 8px rgba(145, 145, 145, 0.15); /* Añade una sombra más pronunciada al hacer hover */
 }
 
 .btn-microfono.active {
@@ -82,4 +78,22 @@ body {
 .btn-jirafa.active {
     background-color: #FEA456; /* Color específico para el botón de la jirafa */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer clic */
+}
+
+/* Estilos para el modal */
+.modal-content {
+    background-color: #5dade2; /* Color de fondo del pop-up */
+    color: white; /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    padding: 20px; /* Padding interno */
+}
+
+.modal-img {
+    max-width: 30%; /* Ajusta el tamaño de la imagen dentro del modal */
+}
+
+.modal-text {
+    font-weight: 700; /* Hace el texto en negrita */
+    font-size: 250%;
 }
