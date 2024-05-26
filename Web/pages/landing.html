@@ -46,39 +46,40 @@
     <main class="main m-2 mt-3 p-0 pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-6">
-                    <div class="card border-1">
+                <div class="col-5">
+                    <div class="card border-0">
                         <div class="card-body m-0">
                             <h3 class="text-center">MAPA DEL ZOO</h3>
                             <img src="../assets/mapa_real.png" alt="Mapa zoo" class="map-image img-fluid mt-2">
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="card border-5">
+                <div class="col-7">
+                    <div class="card border-0 main">
                         <div class="card-body">
-                            <section>
-                                <h4>> ¿Qué animal quieres visitar?</h4>
-                                <button id="btn_microfono" value="Microfono">
-                                    <img src="#" alt="Microfono">   
+                            <section class="d-flex justify-content-between align-items-center">
+                                <h4 class="bold-text mr-1"> ¿Qué animal quieres visitar?</h4>
+                                <button id="btn_microfono" value="Microfono" class="btn btn-light p-2 button-custom btn-microfono">
+                                    <img src="../assets/image.png" alt="Microfono" class="img-fluid">
                                 </button>
                             </section>
                             <section>
-                                <div>
-                                    <button id="btn_ir_leon" value="Ir_leon">
-                                        <img src="#" alt="Cartoon Leon">
+                                <div class="d-flex justify-content-around mt-4">
+                                    <button id="btn_ir_leon" value="Ir_leon" class="btn btn-light p-3 m-2 button-custom btn-leon">
+                                        <img src="../assets/leon.png" alt="Cartoon Leon" class="img-fluid">
                                     </button>
-                                    <button id="btn_ir_mono" value="Ir_mono">
-                                        <img src="#" alt="Cartoon Mono">
+                                    <button id="btn_ir_mono" value="Ir_mono" class="btn btn-light p-3 m-2 button-custom btn-mono">
+                                        <img src="../assets/mono.png" alt="Cartoon Mono" class="img-fluid">
                                     </button>
-                                    <button id="btn_ir_jirafa" value="Ir_jirafa">
-                                        <img src="#" alt="Cartoon Jirafa">
+                                    <button id="btn_ir_jirafa" value="Ir_jirafa" class="btn btn-light p-3 m-2 button-custom btn-jirafa">
+                                        <img src="../assets/jirafa.png" alt="Cartoon Jirafa" class="img-fluid">
                                     </button>
                                 </div>   
                             </section>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </main>
@@ -99,6 +100,23 @@
         </filter>
     </defs>
 </svg>
+
+<!--Hacer que los botones se queden activados con un color -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const buttons = document.querySelectorAll('.button-custom');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                this.classList.add('active');
+                setTimeout(() => {
+                    this.classList.remove('active');
+                }, 2000); // Volver al estado original después de 2 segundos
+            });
+        });
+    });
+</script>
+
 
 
 </body>
