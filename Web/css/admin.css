@@ -56,6 +56,17 @@ body {
     box-shadow: 0 4px 8px rgba(145, 145, 145, 0.15); /* Añade una sombra más pronunciada al hacer hover */
 }
 
+/* Ajuste del color del texto para botones específicos */
+.btn-primary,
+.btn-danger {
+    color: black !important; /* Cambiar el color del texto a negro */
+}
+
+.btn-primary:hover,
+.btn-danger:hover {
+    color: black !important; /* Asegurar que el color del texto sea negro al hacer hover */
+}
+
 .btn-microfono.active {
     background-color: #88b9f4; /* Color específico para el botón del microfono */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer clic */
@@ -97,4 +108,32 @@ body {
 /* Subrayado para el encabezado */
 .underlined {
     text-decoration: underline;
+}
+
+/* Estilos adicionales para los componentes de la página de administración */
+.estado-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.camara-placeholder {
+    width: 100%;
+    height: 200px;
+}
+
+.control-buttons {
+    text-align: center;
+}
+
+.robot-img {
+    max-height: 50px;
+    margin: 10px 0;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
 }

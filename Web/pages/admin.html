@@ -11,8 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script type="module" src="../js/admin.js"></script>
     <link rel="stylesheet" href="../css/admin.css">
-   <!-- Fuente Josefin Sans -->
-   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Fuente Josefin Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -38,69 +38,69 @@
     <!-- main content -->
     <main>
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <h1 class="text-center mt-3 underlined">Página de Administración</h1>
                 <!-- Ubicación del Robot -->
-                <div class="col-4">
-                    <div class="card">
+                <div class="col-4 text-center mb-4">
+                    <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+                        <img src="../assets/ubicacion_robot.png" alt="Ubicación Robot" class="card-img-top">
                         <div class="card-body">
-                            <img src="#" alt="Ubicación Robot">
-                            <button>Abrir ubicación del robot</button>
+                            <button class="btn btn-primary">Abrir ubicación del robot</button>
                         </div>
                     </div>
                 </div>
                 <!-- Reiniciar Robot -->
-                <div class="col-4">
-                    <div class="card">
+                <div class="col-4 text-center mb-4">
+                    <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+                        <img src="../assets/reiniciar_robot.png" alt="Reiniciar Robot" class="card-img-top">
                         <div class="card-body">
-                            <img src="#" alt="Reiniciar Robot">
-                            <button>Reiniciar Robot</button>
+                            <button class="btn btn-danger">Reiniciar robot</button>
                         </div>
                     </div>
                 </div>
                 <!-- Estado del Robot -->
-                <div class="col-4">
-                    <div class="card">
+                <div class="col-4 text-center mb-4">
+                    <div class="card shadow-sm p-3 mb-5 bg-white rounded">
                         <div class="card-body">
                             <h4>Estado del Robot</h4>
+                            <div class="estado-circle bg-success mx-auto"></div>
                         </div>
                     </div>
                 </div>
                 <!-- Consola del Robot -->
-                <div class="col-4">
-                    <div class="card">
+                <div class="col-4 text-center mb-4">
+                    <div class="card shadow-sm p-3 mb-5 bg-white rounded">
                         <div class="card-body">
-                            <h3 class="text-center">CONSOLA</h3>
-                            <div style="text-align:center;">
-                                <button class="btn_move" value="ArrowUp">Adelante</button>
+                            <h4>MOVER ROBOT MANUALMENTE</h4>
+                            <div class="control-buttons">
+                                <button class="btn_move" value="ArrowUp"><img src="../assets/up_arrow.png" alt="Adelante"></button>
                                 <br>
-                                <button class="btn_move" value="ArrowLeft">Izquierda</button>
-                                <img src="#" alt="Robot PNG">
-                                <button class="btn_move" value="ArrowRight">Derecha</button>
+                                <button class="btn_move" value="ArrowLeft"><img src="../assets/left_arrow.png" alt="Izquierda"></button>
+                                <img src="../assets/robot.png" alt="Robot PNG" class="robot-img mx-2">
+                                <button class="btn_move" value="ArrowRight"><img src="../assets/right_arrow.png" alt="Derecha"></button>
                                 <br>
-                                <button class="btn_move" value="ArrowDown">Atras</button>
-                                <br>
-                                <br>
+                                <button class="btn_move" value="ArrowDown"><img src="../assets/down_arrow.png" alt="Atras"></button>
+                                <br><br>
                                 <button id="btn_robotConnect" class="btn btn-success" type="button" onclick="connect()">Connectar</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Volver lugar seguro -->
-                <div class="col-4">
-                    <div class="card">
+                <div class="col-4 text-center mb-4">
+                    <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+                        <img src="../assets/lugar_seguro.png" alt="Lugar seguro" class="card-img-top">
                         <div class="card-body">
-                            <img src="#" alt="Lugar seguro">
-                            <button>Volver a un lugar seguro</button>
+                            <button class="btn btn-info">Volver a un lugar seguro</button>
                         </div>
                     </div>
                 </div>
                 <!-- Pantalla Robot -->
-                <div class="col-4">
-                    <div class="card">
+                <div class="col-4 text-center mb-4">
+                    <div class="card shadow-sm p-3 mb-5 bg-white rounded">
                         <div class="card-body">
-                            <h3 class="text-center">PANTALLA ROBOT</h3>
-                            <br>
+                            <h4>CAMARA DEL ROBOT</h4>
+                            <div class="camara-placeholder bg-light mx-auto"></div>
                         </div>
                     </div>
                 </div>
