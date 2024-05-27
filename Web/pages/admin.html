@@ -10,24 +10,24 @@
     <!--Nuestros links-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script type="module" src="../js/admin.js"></script>
+    <link rel="stylesheet" href="../css/admin.css">
+   <!-- Fuente Josefin Sans -->
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column h-100">
     <!-- header of the page -->
-    <header class="header">
-        <div class="container">
+    <header class="header p-3">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="#" alt="Logo Empresa">
-                            <p>Nexa</p>
-                            <button id="btn_microfono" value="Microfono">
-                                <img src="#" alt="Microfono">   
-                            </button>
-                            <button id="btn_admin_close" value="Cerrar Sesión">
-                                <img src="#" alt="Cerrar Sesión">   
-                            </button>
+                <div class="col-12">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="../assets/logo_vectorial.svg" alt="Logo Empresa" class="logo">
+                            <p class="mb-0 bold-text fs-2">Nexa</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <button id="btn_admin" value="Admin" class="btn btn-light btn-lg mr-3 inicio-butt">INICIO</button>
                         </div>
                     </div>
                 </div>
@@ -39,7 +39,7 @@
     <main>
         <div class="container">
             <div class="row">
-                <h1 class="text-center">Página de Administración</h1>
+                <h1 class="text-center mt-3 underlined">Página de Administración</h1>
                 <!-- Ubicación del Robot -->
                 <div class="col-4">
                     <div class="card">
