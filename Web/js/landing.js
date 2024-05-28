@@ -124,6 +124,13 @@ document.getElementById("btn_ir_jirafa").addEventListener("click", function () {
     habitat = new Habitat("jirafa")
     ir_a(fakevoice, lugar, habitat)
 
+    /*
+    var myModal = new bootstrap.Modal(document.getElementById("myModal"), {});
+    document.onreadystatechange = function () {
+        myModal.show();
+    };
+    */
+
     localStorage.setItem("whichAnimal", "jirafa");
     animalModal.actualizarModal("jirafa")
 });

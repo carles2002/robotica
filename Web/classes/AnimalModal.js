@@ -14,6 +14,7 @@ import { Animal } from "./Animal.js"
 //------------------------------------------------
 let whichAnimal = localStorage.getItem("whichAnimal");
 const fakevoice = new FakeVoice();
+var animal = null;
 
 
 export class AnimalModal {
@@ -24,14 +25,16 @@ export class AnimalModal {
       //------------------------------------------------
       actualizarModal(especie) {
             console.log("actualizarModal() inicio")
-            var animal = new Animal()
+            animal = new Animal()
             animal.get_info(especie)
 
             setTimeout(function () {
                   var animal_name = document.getElementById("animal_name")
                   var animal_cartoon = document.getElementById("animal_cartoon")
-
                   var animal_description = document.getElementById("animal_description")
+
+                  animal_name.innerText = animal.get_especie().toUpperCase()
+                  //animal_cartoon.src = "../images/"+get_especie()+"_cartoon.png"
                   animal_description.innerText = animal.get_descripcion()
 
                   //set_image(animal)
@@ -45,18 +48,18 @@ export class AnimalModal {
       }
 
       explicar_habitat() {
-            habitat = animal.get_habitat()
-            explicar(habitat)
+            var habitat = animal.get_habitat()
+            this.explicar(habitat)
       }
 
       explicar_descripcion() {
-            descripcion = animal.get_descripcion()
-            explicar(descripcion)
+            var descripcion = animal.get_descripcion()
+            this.explicar(descripcion)
       }
 
       explicar_comida() {
-            comida = animal.get_comida()
-            explicar(comida)
+            var comida = animal.get_comida()
+            this.explicar(comida)
       }
 
       explicar(texto) {
