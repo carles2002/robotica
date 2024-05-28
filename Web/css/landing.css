@@ -81,6 +81,11 @@ body {
 }
 
 /* Estilos para el modal */
+.modal-dialog {
+    max-width: 95%;
+    margin: 1.75rem auto;
+}
+
 .modal-content {
     background-color: #5dade2; /* Color de fondo del pop-up */
     color: white; /* Color del texto */

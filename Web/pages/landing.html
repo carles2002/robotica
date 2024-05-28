@@ -55,13 +55,13 @@
                             </section>
                             <section>
                                 <div class="d-flex justify-content-around mt-4">
-                                    <button id="btn_ir_leon" value="Ir_leon" class="btn btn-light p-3 m-2 button-custom btn-leon">
+                                    <button id="btn_ir_leon" value="Ir_leon" class="btn btn-light p-3 m-2 button-custom btn-leon " data-bs-toggle="modal" data-bs-target="#myModal">
                                         <img src="../assets/leon.png" alt="Cartoon Leon" class="img-fluid">
                                     </button>
-                                    <button id="btn_ir_mono" value="Ir_mono" class="btn btn-light p-3 m-2 button-custom btn-mono">
+                                    <button id="btn_ir_mono" value="Ir_mono" class="btn btn-light p-3 m-2 button-custom btn-mono" data-bs-toggle="modal" data-bs-target="#myModal">
                                         <img src="../assets/mono.png" alt="Cartoon Mono" class="img-fluid">
                                     </button>
-                                    <button id="btn_ir_jirafa" value="Ir_jirafa" class="btn btn-light p-3 m-2 button-custom btn-jirafa">
+                                    <button id="btn_ir_jirafa" value="Ir_jirafa" class="btn btn-light p-3 m-2 button-custom btn-jirafa" data-bs-toggle="modal" data-bs-target="#myModal">
                                         <img src="../assets/jirafa.png" alt="Cartoon Jirafa" class="img-fluid">
                                     </button>
                                 </div>
@@ -115,5 +115,51 @@
             });
         });
     </script>
+
+    <!-- Modal content -->
+    <!-- Información del animal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">INFORMACIÓN SOBRE EL ANIMAL</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img id="animal_cartoon" src="#" alt="Animal Cartoon">
+                                        <p id="animal_name">LEÓN - Panthera leo</p>
+                                        <img id="animal_image" src="#" alt="Animal Image">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <button>
+                                            <img id="animal_habitat" src="#" alt="Animal Habitat">
+                                        </button>
+                                        <button>
+                                            <img id="animal_description_voice" src="#" alt="Animal Description Voice">
+                                        </button>
+                                        <p id="animal_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit at distinctio inventore voluptas nemo quae cupiditate voluptatum ratione qui, placeat doloremque vel similique, iste dolorem nobis iusto sunt, voluptatem beatae.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
