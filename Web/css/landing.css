@@ -61,6 +61,7 @@ body {
 }
 
 .btn-microfono.active {
+    width: 25%;
     background-color: #88b9f4; /* Color específico para el botón del microfono */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer clic */
 }
