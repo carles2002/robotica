@@ -120,9 +120,8 @@
     <!-- Información del animal -->
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog modal-lg">
-
             <!-- Modal content-->
-            <div class="modal-content">
+            <div class="modal-content modal-animal">
                 <div class="modal-header">
                     <h5 class="modal-title">INFORMACIÓN SOBRE EL ANIMAL</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -131,24 +130,26 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-6">
-                                <div class="card">
+                                <div class="card bg-transparent border-0">
                                     <div class="card-body">
-                                        <img id="animal_cartoon" src="#" alt="Animal Cartoon">
-                                        <p id="animal_name">LEÓN - Panthera leo</p>
-                                        <img id="animal_image" src="#" alt="Animal Image">
+                                        <img id="animal_cartoon" src="#" alt="Animal Cartoon" class="img-fluid mb-3">
+                                        <p id="animal_name" class="fw-bold text-uppercase">LEÓN - <span class="fst-italic">Panthera leo</span></p>
+                                        <img id="animal_image" src="#" alt="Animal Image" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="card">
+                                <div class="card bg-transparent border-0">
                                     <div class="card-body">
-                                        <button>
-                                            <img id="animal_habitat" src="#" alt="Animal Habitat">
+                                        <button class="btn btn-outline-secondary mb-3">
+                                            <img id="animal_habitat" src="../assets/habitat.png" alt="Animal Habitat" class="img-fluid icono">
+                                            Habitat
                                         </button>
-                                        <button>
-                                            <img id="animal_description_voice" src="#" alt="Animal Description Voice">
+                                        <button class="btn btn-outline-secondary mb-3">
+                                            <img id="animal_description_voice" src="../assets/sonido.png" alt="Animal Description Voice" class="img-fluid icono">
+                                            Sonido
                                         </button>
-                                        <p id="animal_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit at distinctio inventore voluptas nemo quae cupiditate voluptatum ratione qui, placeat doloremque vel similique, iste dolorem nobis iusto sunt, voluptatem beatae.</p>
+                                        <p id="animal_description" class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit at distinctio inventore voluptas nemo quae cupiditate voluptatum ratione qui, placeat doloremque vel similique, iste dolorem nobis iusto sunt, voluptatem beatae.</p>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +157,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-secondary text-dark" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>

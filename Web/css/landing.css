@@ -86,19 +86,88 @@ body {
     margin: 1.75rem auto;
 }
 
-.modal-content {
-    background-color: #5dade2; /* Color de fondo del pop-up */
-    color: white; /* Color del texto */
+.modal-animal {
+    background-color: #f9f7f1; /* Color de fondo del pop-up, puede variar según el animal */
+    color: #5a4b41; /* Color del texto */
     border-radius: 10px; /* Bordes redondeados */
     text-align: center; /* Texto centrado */
     padding: 20px; /* Padding interno */
 }
 
-.modal-img {
-    max-width: 30%; /* Ajusta el tamaño de la imagen dentro del modal */
+.modal-animal .modal-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
-.modal-text {
-    font-weight: 700; /* Hace el texto en negrita */
-    font-size: 250%;
+.modal-animal .modal-header {
+    border-bottom: none;
+}
+
+.modal-animal .modal-body {
+    padding: 20px 50px;
+}
+
+.modal-animal .modal-footer {
+    border-top: none;
+    justify-content: center;
+}
+
+.modal-animal .card {
+    background-color: transparent;
+}
+
+.modal-animal .card-body {
+    padding: 10px;
+}
+
+.modal-animal img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.modal-animal .icono {
+    width: 50px; /* Ajusta el tamaño del icono */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.modal-animal p {
+    font-size: 1.2rem;
+    color: #5a4b41; /* Color del texto, puede variar según el animal */
+}
+
+.modal-animal p.fw-bold {
+    color: #b38b59; /* Color más oscuro para el texto en negrita */
+}
+
+.modal-animal p span.fst-italic {
+    font-style: italic;
+    color: #8d7041; /* Color más oscuro para el texto en cursiva */
+}
+
+.btn-outline-secondary {
+    border: none; /* Quitar el borde */
+    color: #5a4b41; /* Color del texto */
+    transition: all 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra */
+}
+
+.btn-outline-secondary:hover {
+    background-color: #d6cc6e; /* Color de fondo al hacer hover */
+    color: #ffffff; /* Color del texto al hacer hover */
+}
+
+.btn-secondary {
+    background-color: #c9ad9a; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra */
+}
+
+.btn-secondary:hover {
+    background-color: #cfbe5f; /* Color de fondo más oscuro al hacer hover */
 }
