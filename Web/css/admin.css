@@ -1,0 +1,216 @@
+body {
+    background-color: #e6e6e6; 
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+.bold-text {
+    font-weight: 600; 
+}
+
+.header {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: white;
+}
+
+.header .logo {
+    height: 170px;
+    margin-top: -25px;
+    margin-left: -30px;
+    margin-bottom: -60px;
+    margin-right: -20px;
+    filter: url(#drop-shadow); /* Aplicar el filtro SVG */
+}
+
+.inicio-butt {
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+}
+
+.main {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: white;
+}
+
+.map-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.btn img {
+    max-height: 100px; 
+    border-radius: 10px; 
+}
+
+.btn {
+    background-color: #ffffff; /* Fondo blanco para los botones */
+    border: none; /* Sin bordes */
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s; /* Transición suave para el efecto de hover */
+    padding: 15px;
+    display: flex;
+    flex-direction: row; /* Cambia la dirección del contenido a fila */
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Altura fija para todos los botones */
+}
+
+.btn img.icono-boton {
+    max-width: 30px;
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
+
+/* Estilos para los botones con sus colores específicos */
+.btn-primary {
+    background-color: #88b9f4; /* Azul claro */
+    color: black !important; /* Cambiar el color del texto a negro */
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #6699ff !important; /* Azul más claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra al hacer hover */
+}
+
+.btn-danger {
+    background-color: #ff9999; /* Rojo claro */
+    color: black !important; /* Cambiar el color del texto a negro */
+}
+
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:focus {
+    background-color: #ff6666 !important; /* Rojo más claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra al hacer hover */
+}
+
+.btn-info {
+    background-color: #5d85b7; /* Azul claro */
+    color: black !important; /* Cambiar el color del texto a negro */
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info:focus {
+    background-color: #66ccff !important; /* Azul más claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra al hacer hover */
+}
+
+/* Sombra y animación para todos los botones al hacer hover */
+.btn:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
+    box-shadow: 0 4px 8px rgba(145, 145, 145, 0.15); /* Añade una sombra más pronunciada al hacer hover */
+}
+
+.btn-microfono.active {
+    background-color: #88b9f4; /* Color específico para el botón del microfono */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer clic */
+}
+
+.btn-leon.active {
+    background-color: #F9CE7F; /* Color específico para el botón del león */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer clic */
+}
+
+.btn-mono.active {
+    background-color: #7b9768; /* Color específico para el botón del mono */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer clic */
+}
+
+.btn-jirafa.active {
+    background-color: #FEA456; /* Color específico para el botón de la jirafa */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al hacer clic */
+}
+
+/* Estilos para el modal */
+.modal-content {
+    background-color: #5dade2; /* Color de fondo del pop-up */
+    color: white; /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Texto centrado */
+    padding: 20px; /* Padding interno */
+}
+
+.modal-img {
+    max-width: 30%; /* Ajusta el tamaño de la imagen dentro del modal */
+}
+
+.modal-text {
+    font-weight: 700; /* Hace el texto en negrita */
+    font-size: 250%;
+}
+
+/* Subrayado para el encabezado */
+.underlined {
+    text-decoration: underline;
+}
+
+/* Estilos adicionales para los componentes de la página de administración */
+.estado-card {
+    background: white;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.estado-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.camara-placeholder {
+    width: 100%;
+    height: 200px;
+}
+
+.control-buttons {
+    text-align: center;
+}
+
+.robot-img {
+    max-height: 50px;
+    margin: 10px 0;
+}
+
+.card {
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+}
+
+/* Estilos específicos para los botones de dirección */
+.control-buttons button {
+    background-color: transparent;
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.control-buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(145, 145, 145, 0.15);
+}
+
+.control-buttons img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform-origin: center center;
+}
+
+
+
+.robot-img {
+    width: 50px;
+    height: 50px;
+}
+
+.mx-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
