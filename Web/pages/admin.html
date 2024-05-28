@@ -40,25 +40,25 @@
         <div class="container">
             <div class="row justify-content-center">
                 <h1 class="text-center mt-3 underlined">Página de Administración</h1>
-                <!-- Ubicación del Robot -->
-                <div class="col-4 text-center mb-4">
-                    <button class="btn btn-primary">
-                        <img src="../assets/ubicacion_robot.png" alt="Ubicación Robot" class="icono-boton">
-                        Abrir ubicación del robot
-                    </button>
-                </div>
-                <!-- Reiniciar Robot -->
-                <div class="col-4 text-center mb-4">
-                    <button class="btn btn-danger">
-                        <img src="../assets/reiniciar_robot.png" alt="Reiniciar Robot" class="icono-boton">
-                        Reiniciar robot
-                    </button>
-                </div>
-                <!-- Estado del Robot -->
-                <div class="col-4 text-center mb-4">
-                    <div class="estado-card">
-                        <h4>Estado del Robot</h4>
-                        <div class="estado-circle bg-success mx-auto"></div>
+                <!-- Botones en la parte superior -->
+                <div class="d-flex justify-content-around w-100 mb-4">
+                    <div class="flex-fill mx-2">
+                        <button class="btn btn-primary w-100">
+                            <img src="../assets/ubicacion.png" alt="Ubicación Robot" class="icono-boton">
+                            Abrir ubicación del robot
+                        </button>
+                    </div>
+                    <div class="flex-fill mx-2">
+                        <button class="btn btn-danger w-100">
+                            <img src="../assets/reiniciar.png" alt="Reiniciar Robot" class="icono-boton">
+                            Reiniciar robot
+                        </button>
+                    </div>
+                    <div class="flex-fill mx-2">
+                        <button class="btn btn-info w-100">
+                            <img src="../assets/ubicacion.png" alt="Lugar seguro" class="icono-boton">
+                            Ir a lugar seguro
+                        </button>
                     </div>
                 </div>
                 <!-- Consola del Robot -->
@@ -67,31 +67,31 @@
                         <div class="card-body">
                             <h4>MOVER ROBOT MANUALMENTE</h4>
                             <div class="control-buttons">
-                                <button class="btn_move" value="ArrowUp"><img src="../assets/up_arrow.png" alt="Adelante"></button>
+                                <button class="btn_move" value="ArrowUp"><img src="../assets/caret-arriba.png" alt="Adelante"></button>
                                 <div class="d-flex justify-content-center my-2">
-                                    <button class="btn_move mx-2" value="ArrowLeft"><img src="../assets/left_arrow.png" alt="Izquierda"></button>
-                                    <img src="../assets/robot.png" alt="Robot PNG" class="robot-img mx-2">
-                                    <button class="btn_move mx-2" value="ArrowRight"><img src="../assets/right_arrow.png" alt="Derecha"></button>
+                                    <button class="btn_move mx-2" value="ArrowLeft"><img src="../assets/caret-izquierda.png" alt="Izquierda"></button>
+                                    <img src="../assets/asistente-robot.png" alt="Robot PNG" class="robot-img mx-2">
+                                    <button class="btn_move mx-2" value="ArrowRight"><img src="../assets/caret-derecha.png" alt="Derecha"></button>
                                 </div>
-                                <button class="btn_move" value="ArrowDown"><img src="../assets/down_arrow.png" alt="Atras"></button>
+                                <button class="btn_move" value="ArrowDown"><img src="../assets/caret-abajo.png" alt="Atras"></button>
                                 <br><br>
                                 <button id="btn_robotConnect" class="btn btn-success" type="button" onclick="connect()">Connectar</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Volver lugar seguro -->
-                <div class="col-2 text-center mb-4">
-                    <button class="btn btn-info">
-                        <img src="../assets/lugar_seguro.png" alt="Lugar seguro" class="icono-boton">
-                        Ir a lugar seguro
-                    </button>
-                </div>
                 <!-- Pantalla Robot -->
-                <div class="col-4 text-center mb-4">
+                <div class="col-6 text-center mb-4">
                     <div class="estado-card">
                         <h4>CAMARA DEL ROBOT</h4>
                         <div class="camara-placeholder bg-light mx-auto"></div>
+                    </div>
+                </div>
+                <!-- Estado del Robot -->
+                <div class="col-4 text-center mb-4">
+                    <div class="estado-card">
+                        <h4>Estado del Robot</h4>
+                        <div class="estado-circle bg-success mx-auto"></div>
                     </div>
                 </div>
             </div>

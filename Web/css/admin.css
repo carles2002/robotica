@@ -51,13 +51,15 @@ body {
     transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s; /* Transición suave para el efecto de hover */
     padding: 15px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Cambia la dirección del contenido a fila */
     align-items: center;
+    justify-content: center;
+    height: 100px; /* Altura fija para todos los botones */
 }
 
 .btn img.icono-boton {
-    max-width: 50px;
-    margin-bottom: 10px;
+    max-width: 30px;
+    margin-right: 10px; /* Espacio entre el icono y el texto */
 }
 
 /* Estilos para los botones con sus colores específicos */
@@ -87,13 +89,13 @@ body {
 
 .btn-info {
     background-color: #5d85b7; /* Azul claro */
-    color: black !重要; /* Cambiar el color del texto a negro */
+    color: black !important; /* Cambiar el color del texto a negro */
 }
 
 .btn-info:hover,
 .btn-info:active,
 .btn-info:focus {
-    background-color: #66ccff !重要; /* Azul más claro */
+    background-color: #66ccff !important; /* Azul más claro */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra al hacer hover */
 }
 
@@ -186,13 +188,22 @@ body {
 .control-buttons button {
     background-color: transparent;
     border: none;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.control-buttons button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(145, 145, 145, 0.15);
 }
 
 .control-buttons img {
     width: 50px;
     height: 50px;
     cursor: pointer;
+    transform-origin: center center;
 }
+
+
 
 .robot-img {
     width: 50px;
