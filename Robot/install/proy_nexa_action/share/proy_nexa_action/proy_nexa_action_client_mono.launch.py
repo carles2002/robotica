@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
         Node(
             package='proy_nexa_action',
-            executable='proy_nexa_action_client',
+            executable='proy_nexa_action_client_mono',
             output='screen'
-        ),
+        )
     ])
