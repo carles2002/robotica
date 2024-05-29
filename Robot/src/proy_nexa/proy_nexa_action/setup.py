@@ -23,7 +23,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'proy_nexa_action_client = proy_nexa_action.proy_nexa_action_client:main'
+            'proy_nexa_action_client_girafa = proy_nexa_action.proy_nexa_action_client_girafa:main',
+            'proy_nexa_action_client_mono = proy_nexa_action.proy_nexa_action_client_mono:main',
+            'proy_nexa_action_client_leon = proy_nexa_action.proy_nexa_action_client_leon:main'
         ],
     },
 )
