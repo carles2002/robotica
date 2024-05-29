@@ -64,7 +64,8 @@ function btn_listen() {
         btn_move_list[i].addEventListener('mousedown', (event) => {
             if (!mouse_pressed) {
                 mouse_pressed = true
-                robot.console(event.target.value)
+                console.log(event.target.parentElement.value)
+                robot.console(event.target.parentElement.value)
             }
             btn_listen()
         });
