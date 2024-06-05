@@ -34,7 +34,8 @@ export class AnimalModal {
                   var animal_description = document.getElementById("animal_description")
 
                   animal_name.innerText = animal.get_especie().toUpperCase()
-                  //animal_cartoon.src = "../images/"+get_especie()+"_cartoon.png"
+                  animal_cartoon.src = "../assets/"+animal.get_especie()+".png"
+                  animal_cartoon.width="20%"
                   animal_description.innerText = animal.get_descripcion()
 
                   //set_image(animal)
