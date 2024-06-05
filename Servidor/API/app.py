@@ -1,9 +1,11 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 
 from Robot import Robot
 from Habitat import Habitat
+from FaceRecognition import FaceRecognition
+from Animal import Animal
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -15,21 +17,6 @@ robot = Robot(default_ip)
 @app.route('/')
 def index():
     return "¡Hola Mundo!"
-#-----------------------------------------------------------------
-# ip --> ip_robot()
-# Descripcion: funcion para cambiar la IP al robot
-#-----------------------------------------------------------------
-@app.route('/ip_robot',methods=['POST'])
-def ip_robot():
-    print("app ip_robot()")
-    if(request.method == 'POST'):
-        ip = request.form.get('ip')
-        #robot = Robot(ip)
-        #Guardar
-        #robot.save()
-        print(ip)
-        return ('',204)
-
 #-----------------------------------------------------------------
 # move --> move()
 # Descripcion: funcion para mover o detener al robot
@@ -49,7 +36,10 @@ def move():
             robot.console(move)
             print("En movimiento")
         return ('',204)
-
+#-----------------------------------------------------------------
+# habitat --> ir()
+# Descripcion: funcion para ir a un habitat
+#-----------------------------------------------------------------
 @app.route('/ir_a_habitat',methods=['POST'])
 def ir():
     print("ir()")
@@ -59,14 +49,38 @@ def ir():
         habitat = Habitat(lugar)
         habitat.ir()
         return ('',204)
+    return ('',400)
     #ir
-
-@app.route('/connect')
-def connect():
-    print("Conectando a ubuntu@192.168.0.64")
-    os.system("bash ../comandos/conectar.bash")
-
-    return "ok"
-
+#-----------------------------------------------------------------
+# face_recognition() --> '204'||'400'
+# Descripcion: funcion para reconocer un rostro
+#-----------------------------------------------------------------
+@app.route('/face_recognition')
+def face_scan():
+    print("face_recognition()")
+    fr = FaceRecognition()
+    status=fr.run_recognition()
+    del fr
+    
+    if(status):
+        return ('ok',204)
+    return ('not ok',400)
+#-----------------------------------------------------------------
+# Animal --> get_animal_info() --> info:Txt
+# Descripcion: funcion para reconocer un rostro
+#-----------------------------------------------------------------
+@app.route('/get_animal_info',methods=['POST'])
+def get_animal_info():
+    if(request.method == 'POST'):
+        especie = request.get_json()
+        especie = especie['especie']
+        animal = Animal()
+        animal.get_info(especie)
+        
+        return jsonify(animal.__dict__)
+#-----------------------------------------------------------------
+# __main__
+# Descripcion: Para arrancar el puerto del servidor Flask
+#-----------------------------------------------------------------
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

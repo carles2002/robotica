@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Administrator Page</title>
+    <title>Admin Page</title>
     <!--Bootstrap v5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -10,15 +10,27 @@
     <!--Nuestros links-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script type="module" src="../js/admin.js"></script>
+    <link rel="stylesheet" href="../css/admin.css">
+    <!-- Fuente Josefin Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column h-100">
     <!-- header of the page -->
-    <header class="header">
-        <div class="container">
-            <div class="jumbotron text-center">
-                <h1>Hello ROS</h1>
-                <p>Let's connect our website to ROS</p>
+    <header class="header p-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="../assets/logo_vectorial.svg" alt="Logo Empresa" class="logo">
+                            <p class="mb-0 bold-text fs-2">Nexa</p>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <button id="btn_admin_inicio" value="Admin" class="btn btn-light btn-lg mr-3 inicio-butt">INICIO</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -26,64 +38,65 @@
     <!-- main content -->
     <main>
         <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="text-center">INFORMACIÓN</h3>
-                            <span id="span_rip">Robot IP: </span><br>
-                            <span id="span_rub">Ubicación: </span><br>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                Cambiar
-                            </button>
-                            <form>
-                                <div class="form-group">
-                                    <label for="inputRobotIp">Robot IP: </label>
-                                    <input type="text" class="form-control" id="inputRobotIp" placeholder="Example input">
-                                  </div>
-                                  <button id="btn_robotIp" class="btn btn-success" type="button">Enviar</button>
-                            </form>
-                        </div>
+            <div class="row justify-content-center">
+                <h1 class="text-center mt-3 underlined">Página de Administración</h1>
+                <!-- Botones en la parte superior -->
+                <div class="d-flex justify-content-around w-100 mb-4">
+                    <div class="flex-fill mx-2">
+                        <button class="btn btn-primary w-100">
+                            <img src="../assets/ubicacion.png" alt="Ubicación Robot" class="icono-boton">
+                            Abrir ubicación del robot
+                        </button>
+                    </div>
+                    <div class="flex-fill mx-2">
+                        <button class="btn btn-danger w-100">
+                            <img src="../assets/reiniciar.png" alt="Reiniciar Robot" class="icono-boton">
+                            Reiniciar robot
+                        </button>
+                    </div>
+                    <div class="flex-fill mx-2">
+                        <button class="btn btn-info w-100">
+                            <img src="../assets/ubicacion.png" alt="Lugar seguro" class="icono-boton">
+                            Ir a lugar seguro
+                        </button>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card">
+                <!-- Consola del Robot -->
+                <div class="col-6 text-center mb-4">
+                    <div class="card shadow-sm p-3 mb-5 bg-white estado-card">
                         <div class="card-body">
-                            <h3 class="text-center">CONSOLA</h3>
-                            <div style="text-align:center;">
-                                <button class="btn_move" value="ArrowUp">Adelante</button>
-                                <br>
-                                <button class="btn_move" value="ArrowLeft">Izquierda</button>
-                                <button id="btn_microfono" value="Microfono">Microfono</button>
-                                <button class="btn_move" value="ArrowRight">Derecha</button>
-                                <br>
-                                <button class="btn_move" value="ArrowDown">Atras</button>
-                                <br>
-                                <br>
+                            <h4>MOVER ROBOT MANUALMENTE</h4>
+                            <div class="control-buttons">
+                                <button class="btn_move" value="ArrowUp"><img src="../assets/caret-arriba.png" alt="Adelante"></button>
+                                <div class="d-flex justify-content-center my-2">
+                                    <button class="btn_move mx-2" value="ArrowLeft"><img src="../assets/caret-izquierda.png" alt="Izquierda"></button>
+                                    <img src="../assets/asistente-robot.png" alt="Robot PNG" class="robot-img mx-2">
+                                    <button class="btn_move mx-2" value="ArrowRight"><img src="../assets/caret-derecha.png" alt="Derecha"></button>
+                                </div>
+                                <button class="btn_move" value="ArrowDown"><img src="../assets/caret-abajo.png" alt="Atras"></button>
+                                <br><br>
                                 <button id="btn_robotConnect" class="btn btn-success" type="button" onclick="connect()">Connectar</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="text-center">PANTALLA ROBOT</h3>
-                            <br>
-                        </div>
+                <!-- Pantalla Robot -->
+                <div class="col-6 text-center mb-4">
+                    <div class="estado-card">
+                        <h4>CAMARA DEL ROBOT</h4>
+                        <div class="camara-placeholder bg-light mx-auto"></div>
+                    </div>
+                </div>
+                <!-- Estado del Robot -->
+                <div class="col-4 text-center mb-4">
+                    <div class="estado-card">
+                        <h4>Estado del Robot</h4>
+                        <div class="estado-circle bg-success mx-auto"></div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-
-    <!-- footer -->
-    <footer class="footer mt-auto bg-dark text-light">
-        <div class="container">
-            <h5>page ends here!</h5>
-        </div>
-    </footer>
 </body>
 
 </html>
