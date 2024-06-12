@@ -12,7 +12,7 @@ class ImageRecognitionNode(Node):
         super().__init__('image_recognition_node')
 
         # Declarar y obtener el parámetro 'use_camera'
-        self.use_camera = self.declare_parameter('use_camera', False).get_parameter_value().bool_value
+        self.use_camera = self.declare_parameter('use_camera', True).get_parameter_value().bool_value
 
         # Obtener la ruta del directorio del paquete
         package_share_directory = get_package_share_directory('image_recognition')
@@ -60,13 +60,16 @@ class ImageRecognitionNode(Node):
         index = np.argmax(prediction)
         class_name = self.class_names[index] if index < len(self.class_names) else "Unknown"
         confidence_score = float(np.round(prediction[0][index] * 100, 2))
-        message = f'Class: {class_name}, Confidence: {confidence_score}%'
-        self.publisher_.publish(String(data=message))
+
+        # Publicar solo si la confianza es mayor al 95%
+        if confidence_score > 98:
+            message = f'Class: {class_name}, Confidence: {confidence_score}%'
+            self.publisher_.publish(String(data=message))
 
     def on_shutdown(self):
         if self.use_camera:
             self.camera.release()
-        cv2.destroyAllWindows()
+        cvq.destroyAllWindows()
 
 def main(args=None):
     rclpy.init(args=args)
