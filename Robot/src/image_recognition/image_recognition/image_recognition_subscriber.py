@@ -14,7 +14,7 @@ class ImageRecognitionSubscriber(Node):
         self.subscription  # Prevent unused variable warning
 
     def listener_callback(self, msg):
-        print('I heard: "%s"' % msg.data)
+        print('Detectado: "%s"' % msg.data)
 
 def main(args=None):
     rclpy.init(args=args)
