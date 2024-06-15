@@ -79,6 +79,16 @@ def get_animal_info():
         
         return jsonify(animal.__dict__)
 #-----------------------------------------------------------------
+# cam_web_server() --> '204'||'400'
+# Descripcion: funcion para reconocer un rostro
+#-----------------------------------------------------------------
+@app.route('/cam_web_server')
+def cam_web_server():
+    print("cam_web_server()")
+    robot.camara_web()
+    
+    return ('',204)
+#-----------------------------------------------------------------
 # __main__
 # Descripcion: Para arrancar el puerto del servidor Flask
 #-----------------------------------------------------------------
