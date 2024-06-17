@@ -86,11 +86,17 @@ btn_listen()
 //------------------------------------------------
 // METODOS
 //------------------------------------------------
+let activar_camara=true
 function abrir_camara_robot(){
-    robot.camara_web()
-
-    let iframe_camera_web = document.getElementById("iframe_camera_web")
-    iframe_camera_web.src = "http://0.0.0.0:8080/stream?topic=/image&type=mjpeg&width=300&height=200"
+    if(activar_camara){
+        robot.camara_web()
+        activar_camara=false
+        let iframe_camera_web = document.getElementById("iframe_camera_web")
+        iframe_camera_web.src = "http://0.0.0.0:8080/stream?topic=/image&type=mjpeg&width=300&height=200"
+    }
+    setTimeout(function () {
+        iframe_camera_web.contentDocument.location.reload(true);
+    }, 2000)
 }
 
 function cerrar_sesion(){

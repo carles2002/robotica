@@ -1,0 +1,263 @@
+[4.909s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'web_video_server']
+[4.910s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f21395eaa30>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['web_video_server'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f21395eaa30>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f213916d0d0>)
+[5.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.231s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/chen/repositorio2/Robot/src'
+[5.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.232s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.233s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extensions ['ignore', 'ignore_ament_install']
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'ignore'
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'ignore_ament_install'
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extensions ['colcon_pkg']
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'colcon_pkg'
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extensions ['colcon_meta']
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'colcon_meta'
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extensions ['ros']
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(async_web_server_cpp) by extension 'ros'
+[5.314s] DEBUG:colcon.colcon_core.package_identification:Package 'async_web_server_cpp' with type 'ros.catkin' and name 'async_web_server_cpp'
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extensions ['ignore', 'ignore_ament_install']
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extension 'ignore'
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extension 'ignore_ament_install'
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extensions ['colcon_pkg']
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extension 'colcon_pkg'
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extensions ['colcon_meta']
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extension 'colcon_meta'
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extensions ['ros']
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extension 'ros'
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extensions ['cmake', 'python']
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extension 'cmake'
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extension 'python'
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extensions ['python_setup_py']
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa) by extension 'python_setup_py'
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/my_world) by extensions ['ignore', 'ignore_ament_install']
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/my_world) by extension 'ignore'
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/my_world) by extension 'ignore_ament_install'
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/my_world) by extensions ['colcon_pkg']
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/my_world) by extension 'colcon_pkg'
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/my_world) by extensions ['colcon_meta']
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/my_world) by extension 'colcon_meta'
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/my_world) by extensions ['ros']
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/my_world) by extension 'ros'
+[5.319s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/my_world' with type 'ros.ament_cmake' and name 'my_world'
+[5.339s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa) by extensions ['ignore', 'ignore_ament_install']
+[5.339s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa) by extension 'ignore'
+[5.339s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa) by extension 'ignore_ament_install'
+[5.339s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa) by extensions ['colcon_pkg']
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa) by extension 'colcon_pkg'
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa) by extensions ['colcon_meta']
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa) by extension 'colcon_meta'
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa) by extensions ['ros']
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa) by extension 'ros'
+[5.341s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/proy_nexa' with type 'ros.ament_cmake' and name 'proy_nexa'
+[5.341s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_action) by extensions ['ignore', 'ignore_ament_install']
+[5.347s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_action) by extension 'ignore'
+[5.347s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_action) by extension 'ignore_ament_install'
+[5.347s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_action) by extensions ['colcon_pkg']
+[5.347s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_action) by extension 'colcon_pkg'
+[5.348s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_action) by extensions ['colcon_meta']
+[5.348s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_action) by extension 'colcon_meta'
+[5.348s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_action) by extensions ['ros']
+[5.348s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_action) by extension 'ros'
+[5.349s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/proy_nexa_action' with type 'ros.ament_python' and name 'proy_nexa_action'
+[5.350s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_image) by extensions ['ignore', 'ignore_ament_install']
+[5.350s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_image) by extension 'ignore'
+[5.350s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_image) by extension 'ignore_ament_install'
+[5.350s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_image) by extensions ['colcon_pkg']
+[5.350s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_image) by extension 'colcon_pkg'
+[5.350s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_image) by extensions ['colcon_meta']
+[5.350s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_image) by extension 'colcon_meta'
+[5.350s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_image) by extensions ['ros']
+[5.350s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_image) by extension 'ros'
+[5.351s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/proy_nexa_image' with type 'ros.ament_python' and name 'proy_nexa_image'
+[5.352s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_interface) by extensions ['ignore', 'ignore_ament_install']
+[5.352s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_interface) by extension 'ignore'
+[5.352s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_interface) by extension 'ignore_ament_install'
+[5.353s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_interface) by extensions ['colcon_pkg']
+[5.370s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_interface) by extension 'colcon_pkg'
+[5.370s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_interface) by extensions ['colcon_meta']
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_interface) by extension 'colcon_meta'
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_interface) by extensions ['ros']
+[5.371s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_interface) by extension 'ros'
+[5.372s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/proy_nexa_interface' with type 'ros.ament_cmake' and name 'proy_nexa_interface'
+[5.372s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_my_slam) by extensions ['ignore', 'ignore_ament_install']
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_my_slam) by extension 'ignore'
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_my_slam) by extension 'ignore_ament_install'
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_my_slam) by extensions ['colcon_pkg']
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_my_slam) by extension 'colcon_pkg'
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_my_slam) by extensions ['colcon_meta']
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_my_slam) by extension 'colcon_meta'
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_my_slam) by extensions ['ros']
+[5.373s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_my_slam) by extension 'ros'
+[5.374s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/proy_nexa_my_slam' with type 'ros.ament_python' and name 'proy_nexa_my_slam'
+[5.374s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_nav2_system) by extensions ['ignore', 'ignore_ament_install']
+[5.374s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_nav2_system) by extension 'ignore'
+[5.375s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_nav2_system) by extension 'ignore_ament_install'
+[5.375s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_nav2_system) by extensions ['colcon_pkg']
+[5.375s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_nav2_system) by extension 'colcon_pkg'
+[5.375s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_nav2_system) by extensions ['colcon_meta']
+[5.375s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_nav2_system) by extension 'colcon_meta'
+[5.375s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_nav2_system) by extensions ['ros']
+[5.375s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_nav2_system) by extension 'ros'
+[5.376s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/proy_nexa_nav2_system' with type 'ros.ament_python' and name 'proy_nexa_nav2_system'
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_provide_map) by extensions ['ignore', 'ignore_ament_install']
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_provide_map) by extension 'ignore'
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_provide_map) by extension 'ignore_ament_install'
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_provide_map) by extensions ['colcon_pkg']
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_provide_map) by extension 'colcon_pkg'
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_provide_map) by extensions ['colcon_meta']
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_provide_map) by extension 'colcon_meta'
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_provide_map) by extensions ['ros']
+[5.377s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_provide_map) by extension 'ros'
+[5.378s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/proy_nexa_provide_map' with type 'ros.ament_python' and name 'proy_nexa_provide_map'
+[5.378s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_service) by extensions ['ignore', 'ignore_ament_install']
+[5.384s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_service) by extension 'ignore'
+[5.385s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_service) by extension 'ignore_ament_install'
+[5.385s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_service) by extensions ['colcon_pkg']
+[5.385s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_service) by extension 'colcon_pkg'
+[5.385s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_service) by extensions ['colcon_meta']
+[5.385s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_service) by extension 'colcon_meta'
+[5.385s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_service) by extensions ['ros']
+[5.385s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_service) by extension 'ros'
+[5.387s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/proy_nexa_service' with type 'ros.ament_python' and name 'proy_nexa_service'
+[5.387s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_show_msg) by extensions ['ignore', 'ignore_ament_install']
+[5.387s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_show_msg) by extension 'ignore'
+[5.387s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_show_msg) by extension 'ignore_ament_install'
+[5.387s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_show_msg) by extensions ['colcon_pkg']
+[5.387s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_show_msg) by extension 'colcon_pkg'
+[5.387s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_show_msg) by extensions ['colcon_meta']
+[5.387s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_show_msg) by extension 'colcon_meta'
+[5.387s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_show_msg) by extensions ['ros']
+[5.387s] Level 1:colcon.colcon_core.package_identification:_identify(proy_nexa/proy_nexa_show_msg) by extension 'ros'
+[5.388s] DEBUG:colcon.colcon_core.package_identification:Package 'proy_nexa/proy_nexa_show_msg' with type 'ros.ament_python' and name 'proy_nexa_show_msg'
+[5.388s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['ignore', 'ignore_ament_install']
+[5.388s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ignore'
+[5.388s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ignore_ament_install'
+[5.388s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['colcon_pkg']
+[5.389s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'colcon_pkg'
+[5.389s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['colcon_meta']
+[5.389s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'colcon_meta'
+[5.389s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extensions ['ros']
+[5.389s] Level 1:colcon.colcon_core.package_identification:_identify(web_video_server) by extension 'ros'
+[5.390s] DEBUG:colcon.colcon_core.package_identification:Package 'web_video_server' with type 'ros.ament_cmake' and name 'web_video_server'
+[5.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.786s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'async_web_server_cpp' in 'async_web_server_cpp'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_world' in 'proy_nexa/my_world'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'proy_nexa_image' in 'proy_nexa/proy_nexa_image'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'proy_nexa_interface' in 'proy_nexa/proy_nexa_interface'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'proy_nexa_my_slam' in 'proy_nexa/proy_nexa_my_slam'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'proy_nexa_nav2_system' in 'proy_nexa/proy_nexa_nav2_system'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'proy_nexa_provide_map' in 'proy_nexa/proy_nexa_provide_map'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'proy_nexa_show_msg' in 'proy_nexa/proy_nexa_show_msg'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'proy_nexa_action' in 'proy_nexa/proy_nexa_action'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'proy_nexa_service' in 'proy_nexa/proy_nexa_service'
+[5.787s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'proy_nexa' in 'proy_nexa/proy_nexa'
+[6.002s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 21 installed packages in /home/chen/turtlebot3_ws/install
+[6.331s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/chen/turtlebot3_ws/src/my_first_service/install
+[6.406s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 336 installed packages in /opt/ros/galactic
+[6.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.889s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_args' from command line to 'None'
+[6.889s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target' from command line to 'None'
+[6.889s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.890s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_cache' from command line to 'False'
+[6.891s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_first' from command line to 'False'
+[6.891s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_force_configure' from command line to 'False'
+[6.891s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'ament_cmake_args' from command line to 'None'
+[6.891s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_cmake_args' from command line to 'None'
+[6.891s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.891s] DEBUG:colcon.colcon_core.verb:Building package 'web_video_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/chen/repositorio2/Robot/src/build/web_video_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/chen/repositorio2/Robot/src/install/web_video_server', 'merge_install': False, 'path': '/home/chen/repositorio2/Robot/src/web_video_server', 'symlink_install': False, 'test_result_base': None}
+[7.051s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.201s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.202s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/chen/repositorio2/Robot/src/web_video_server' with build type 'ament_cmake'
+[7.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/chen/repositorio2/Robot/src/web_video_server'
+[7.338s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/src/build/web_video_server': CMAKE_PREFIX_PATH=/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/install/capture_image:/home/chen/turtlebot3_ws/install/apellido1_apellido2_ex_my_nav2_system:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic:/home/chen/repositorio2/Robot/src/install/async_web_server_cpp:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/pkgconfig ROS_PACKAGE_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share /home/chen/.local/bin/cmake --build /home/chen/repositorio2/Robot/src/build/web_video_server -- -j2 -l2
+[8.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/src/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/install/capture_image:/home/chen/turtlebot3_ws/install/apellido1_apellido2_ex_my_nav2_system:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic:/home/chen/repositorio2/Robot/src/install/async_web_server_cpp:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/pkgconfig ROS_PACKAGE_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share /home/chen/.local/bin/cmake --build /home/chen/repositorio2/Robot/src/build/web_video_server -- -j2 -l2
+[9.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/chen/repositorio2/Robot/src/build/web_video_server': CMAKE_PREFIX_PATH=/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/install/capture_image:/home/chen/turtlebot3_ws/install/apellido1_apellido2_ex_my_nav2_system:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic:/home/chen/repositorio2/Robot/src/install/async_web_server_cpp:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/pkgconfig ROS_PACKAGE_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share /home/chen/.local/bin/cmake --install /home/chen/repositorio2/Robot/src/build/web_video_server
+[9.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[9.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/chen/repositorio2/Robot/src/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/home/chen/turtlebot3_ws/install/show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_show_msg:/home/chen/turtlebot3_ws/install/proy_nexa_service:/home/chen/turtlebot3_ws/install/provide_map:/home/chen/turtlebot3_ws/install/my_slam:/home/chen/turtlebot3_ws/install/my_nav2_system:/home/chen/turtlebot3_ws/install/my_first_subscriber:/home/chen/turtlebot3_ws/install/my_first_service:/home/chen/turtlebot3_ws/install/my_first_publisher:/home/chen/turtlebot3_ws/install/my_first_node:/home/chen/turtlebot3_ws/install/my_first_action:/home/chen/turtlebot3_ws/install/capture_image:/home/chen/turtlebot3_ws/install/apellido1_apellido2_ex_my_nav2_system:/home/chen/turtlebot3_ws/src/my_first_service/install/my_first_service:/opt/ros/galactic:/home/chen/repositorio2/Robot/src/install/async_web_server_cpp:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/pkgconfig ROS_PACKAGE_PATH=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share /home/chen/.local/bin/cmake --install /home/chen/repositorio2/Robot/src/build/web_video_server
+[10.123s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server' for CMake module files
+[10.146s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server' for CMake config files
+[10.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[10.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[10.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[10.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[10.267s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/lib'
+[10.268s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/bin'
+[10.268s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/lib/pkgconfig/web_video_server.pc'
+[10.268s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/lib/python3.8/site-packages'
+[10.268s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/bin'
+[10.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.ps1'
+[10.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.dsv'
+[10.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.sh'
+[10.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.bash'
+[10.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.zsh'
+[10.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/src/install/web_video_server/share/colcon-core/packages/web_video_server)
+[10.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[10.889s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server' for CMake module files
+[10.893s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server' for CMake config files
+[10.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[10.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[11.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[11.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[11.022s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/lib'
+[11.022s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/bin'
+[11.023s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/lib/pkgconfig/web_video_server.pc'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/lib/python3.8/site-packages'
+[11.026s] Level 1:colcon.colcon_core.environment:checking '/home/chen/repositorio2/Robot/src/install/web_video_server/bin'
+[11.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.ps1'
+[11.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.dsv'
+[11.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.sh'
+[11.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.bash'
+[11.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/chen/repositorio2/Robot/src/install/web_video_server/share/web_video_server/package.zsh'
+[11.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/chen/repositorio2/Robot/src/install/web_video_server/share/colcon-core/packages/web_video_server)
+[11.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.205s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.376s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.382s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.384s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/repositorio2/Robot/src/install/local_setup.ps1'
+[11.546s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/repositorio2/Robot/src/install/_local_setup_util_ps1.py'
+[11.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/repositorio2/Robot/src/install/setup.ps1'
+[11.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/repositorio2/Robot/src/install/local_setup.sh'
+[11.669s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/chen/repositorio2/Robot/src/install/_local_setup_util_sh.py'
+[11.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/repositorio2/Robot/src/install/setup.sh'
+[11.753s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/repositorio2/Robot/src/install/local_setup.bash'
+[11.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/repositorio2/Robot/src/install/setup.bash'
+[11.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/chen/repositorio2/Robot/src/install/local_setup.zsh'
+[11.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/chen/repositorio2/Robot/src/install/setup.zsh'

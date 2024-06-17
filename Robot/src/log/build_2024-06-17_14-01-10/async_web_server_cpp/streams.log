@@ -1,0 +1,42 @@
+[0.323s] Invoking command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp': /home/chen/.local/bin/cmake --build /home/chen/repositorio2/Robot/src/build/async_web_server_cpp -- -j2 -l2
+[0.714s] [ 83%] Built target async_web_server_cpp
+[0.744s] [100%] Built target test_web_server
+[0.775s] Invoked command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp' returned '0': /home/chen/.local/bin/cmake --build /home/chen/repositorio2/Robot/src/build/async_web_server_cpp -- -j2 -l2
+[1.443s] Invoking command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp': /home/chen/.local/bin/cmake --install /home/chen/repositorio2/Robot/src/build/async_web_server_cpp
+[1.506s] -- Install configuration: ""
+[1.506s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/environment/library_path.sh
+[1.506s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/environment/library_path.dsv
+[1.506s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/ament_index/resource_index/package_run_dependencies/async_web_server_cpp
+[1.506s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/ament_index/resource_index/parent_prefix_path/async_web_server_cpp
+[1.507s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/environment/ament_prefix_path.sh
+[1.507s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/environment/ament_prefix_path.dsv
+[1.507s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/environment/path.sh
+[1.507s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/environment/path.dsv
+[1.507s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.bash
+[1.507s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.sh
+[1.507s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.zsh
+[1.507s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.dsv
+[1.507s] -- Installing: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/package.dsv
+[1.508s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/ament_index/resource_index/packages/async_web_server_cpp
+[1.508s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppTargetsExport.cmake
+[1.508s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppTargetsExport-noconfig.cmake
+[1.508s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/cmake/find_dependencies.cmake
+[1.508s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[1.509s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppConfig.cmake
+[1.509s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppConfig-version.cmake
+[1.509s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/share/async_web_server_cpp/package.xml
+[1.509s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/libasync_web_server_cpp.so.2.0.0
+[1.509s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/libasync_web_server_cpp.so.1
+[1.535s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/lib/libasync_web_server_cpp.so
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/http_request.hpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/http_reply.hpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/http_header.hpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/http_connection.hpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/websocket_request_handler.hpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/http_server.hpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/websocket_connection.hpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/http_request_parser.hpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/websocket_message.hpp
+[1.536s] -- Up-to-date: /home/chen/repositorio2/Robot/src/install/async_web_server_cpp/include/async_web_server_cpp/http_request_handler.hpp
+[1.551s] Invoked command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp' returned '0': /home/chen/.local/bin/cmake --install /home/chen/repositorio2/Robot/src/build/async_web_server_cpp
