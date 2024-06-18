@@ -11,11 +11,12 @@ import "../classes/Robot.js"
 import { Robot } from "../classes/Robot.js"
 import { FakeVoice } from "../classes/FakeVoice.js"
 import { Habitat } from "../classes/Habitat.js"
+import { Roslib } from "../classes/Roslib.js"
 //------------------------------------------------
 // Variables y Constantes Globales
 //------------------------------------------------
-let isAdmin=localStorage.getItem("isAdmin");
-if(isAdmin=='false'){redirect_user()}
+let isAdmin = localStorage.getItem("isAdmin");
+if (isAdmin == 'false') { redirect_user() }
 
 var default_ip = "192.168.0.64"
 const localStorageIp = localStorage.getItem("robot_ip")
@@ -33,13 +34,15 @@ if (localStorageIp) {
 console.log("Robot")
 console.log(robot)
 
+var roslib = new Roslib()
+
 //------------------------------------------------
 // EVENTLISTENERS
 //------------------------------------------------
 
 // Escuchar Cerrar Sesión
 var btn_admin_inicio = document.getElementById("btn_admin_inicio")
-btn_admin_inicio.addEventListener("click",cerrar_sesion)
+btn_admin_inicio.addEventListener("click", cerrar_sesion)
 
 // Escuchar Conectar Camara Web
 var btn_camara_web = document.getElementById("btn_camara_web")
@@ -83,6 +86,21 @@ function btn_listen() {
     }
 }
 btn_listen()
+
+// Escuchar posición actual
+let btn_ubic_robot = document.getElementById("btn_ubic_robot");
+btn_ubic_robot.addEventListener('click', (event) => {
+    if (roslib.data.connected == false){
+        roslib.connect()
+        setTimeout(function () {
+            roslib.escucharposicion()
+      }, 1000)
+    }
+    else {
+        roslib.escucharposicion()
+        //roslib.disconnect()
+    }
+});
 //------------------------------------------------
 // METODOS
 //------------------------------------------------
@@ -106,8 +124,8 @@ function cerrar_sesion(){
       redirect_user()
 }
 
-function redirect_user(){
-      //redirecciona al admin
-      location.href = "landing.html";
-      return
+function redirect_user() {
+    //redirecciona al admin
+    location.href = "landing.html";
+    return
 }
