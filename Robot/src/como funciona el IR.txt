@@ -1,0 +1,15 @@
+Para iniciar el servicio de reconocimiento: 
+ros2 run image_recognition image_recognition
+
+
+Para iniciar el servicio que recibe los mensajes:
+ros2 run image_recognition image_recognition_subscriber
+
+
+El archivo labels.txt son las clases que tiene el clasificador.
+El archivo keras_model.h5 es el modelo entrenado.
+
+Para que todo funcione bien, revisar que despues del colcon build en la carpeta
+[install/iamge-recognition/share/image_recognition/resources/(aquí los archivos)]
+de install se han pasado en resources estos dos ultimos arcivos (el label y el modelo), 
+si no lo han hecho pegarlos ahi.
