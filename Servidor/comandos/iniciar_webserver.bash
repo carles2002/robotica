@@ -4,6 +4,8 @@ cd ../../Robot/src/
 git clone --branch ros2 https://github.com/RobotWebTools/web_video_server
 git clone https://github.com/fkie/async_web_server_cpp.git
 
+cd ..
+
 colcon build --packages-select async_web_server_cpp
 colcon build --packages-select web_video_server
 
