@@ -48,6 +48,10 @@ btn_admin_inicio.addEventListener("click", cerrar_sesion)
 var btn_camara_web = document.getElementById("btn_camara_web")
 btn_camara_web.addEventListener("click",abrir_camara_robot)
 
+// Escuchar Tomar Foto
+var btn_foto = document.getElementById("btn_foto")
+btn_foto.addEventListener("click",tomar_foto)
+
 // Escuchar KeyPad
 document.addEventListener('keydown', (event) => {
     if (!key_pressed) {
@@ -115,6 +119,11 @@ function abrir_camara_robot(){
     setTimeout(function () {
         iframe_camera_web.contentDocument.location.reload(true);
     }, 2000)
+}
+
+function tomar_foto(){
+    //Función para tomar una foto desde el robot
+    robot.capturar_image()
 }
 
 function cerrar_sesion(){

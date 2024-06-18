@@ -232,4 +232,26 @@ export class Robot{
         //Fin
         console.log("camara_web() hecho")
     }
+    //------------------------------------------------------------
+    // capturar_image()
+    // Descripcion: Toma una foto desde el robot real
+    //------------------------------------------------------------
+    capturar_image(){
+        //Llamar a Servidor
+        fetch("http://localhost:5000/capturar_image", {
+            headers:{
+                "Content-Type": "application/json",
+            }
+         })
+         .then(info =>{
+            // Code
+            console.log("Foto tomada")
+         })
+         .catch(error =>{
+            // catch error
+            console.log("Error: "+error)
+         });
+        //Fin
+        console.log("capturar_image() hecho")
+    }
 }

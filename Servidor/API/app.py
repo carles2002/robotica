@@ -97,7 +97,16 @@ def launchWebSocket():
     print("launchWebSocket()")
     #os.system("export ROS_DOMAIN_ID=5")
     #os.system("ros2 topic list")
-    os.system("bash comandos/rosbridge.bash")
+    os.system("bash ../comandos/rosbridge.bash")
+    return ('',204)
+#-----------------------------------------------------------------
+# capturar_image() --> '204'||'400'
+# Descripcion: funcion para lanzar el WebSocket de Roslib
+#-----------------------------------------------------------------
+@app.route('/capturar_image')
+def capturar_image():
+    print("capturar_image()")
+    robot.capturar_image()
     return ('',204)
 #-----------------------------------------------------------------
 # __main__

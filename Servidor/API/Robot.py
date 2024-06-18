@@ -81,7 +81,7 @@ class Robot:
         else:
             return "Error 404 - No move"
     #------------------------------------------------------------
-    # stop_move()
+    # camara_web()
     # Descripcion: 
     # - Inicia el paquete web_video_server
     # - Se subscribe al topic /imagen
@@ -90,3 +90,9 @@ class Robot:
         os.system("gnome-terminal -- bash -c '../comandos/iniciar_webserver.bash; exec bash'")
         os.system("gnome-terminal -- bash -c '../comandos/subscribirse_imagen.bash; exec bash'")
         return
+    #------------------------------------------------------------
+    # capturar_image()
+    # Descripcion: Toma una foto desde el robot real
+    #------------------------------------------------------------
+    def capturar_image(self):
+        os.system("bash ../comandos/image.bash")
