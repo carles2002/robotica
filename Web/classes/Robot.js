@@ -208,4 +208,28 @@ export class Robot{
                 this.stop_move(url_move)
         }
     }
+    //---------------------------------------
+    // camara_web()
+    // Descripcion: 
+    // - Inicia el paquete web_video_server
+    // - Se subscribe al topic /imagen
+    //---------------------------------------
+    camara_web(){
+        //Llamar a Servidor
+        fetch("http://localhost:5000/cam_web_server", {
+            headers:{
+                "Content-Type": "application/json",
+            }
+         })
+         .then(info =>{
+            // Code
+            console.log("Servidor Camara Web conectado")
+         })
+         .catch(error =>{
+            // catch error
+            console.log("Error: "+error)
+         });
+        //Fin
+        console.log("camara_web() hecho")
+    }
 }

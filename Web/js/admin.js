@@ -41,6 +41,10 @@ console.log(robot)
 var btn_admin_inicio = document.getElementById("btn_admin_inicio")
 btn_admin_inicio.addEventListener("click",cerrar_sesion)
 
+// Escuchar Conectar Camara Web
+var btn_camara_web = document.getElementById("btn_camara_web")
+btn_camara_web.addEventListener("click",abrir_camara_robot)
+
 // Escuchar KeyPad
 document.addEventListener('keydown', (event) => {
     if (!key_pressed) {
@@ -82,6 +86,19 @@ btn_listen()
 //------------------------------------------------
 // METODOS
 //------------------------------------------------
+let activar_camara=true
+function abrir_camara_robot(){
+    if(activar_camara){
+        robot.camara_web()
+        activar_camara=false
+        let iframe_camera_web = document.getElementById("iframe_camera_web")
+        iframe_camera_web.src = "http://0.0.0.0:8080/stream?topic=/image&type=mjpeg&width=300&height=200"
+    }
+    setTimeout(function () {
+        iframe_camera_web.contentDocument.location.reload(true);
+    }, 2000)
+}
+
 function cerrar_sesion(){
       //cambiar el localStorage
       localStorage.setItem("isAdmin", false);

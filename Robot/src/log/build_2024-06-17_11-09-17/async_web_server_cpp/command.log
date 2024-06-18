@@ -1,0 +1,6 @@
+Invoking command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp': /home/chen/.local/bin/cmake /home/chen/repositorio2/Robot/src/async_web_server_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp
+Invoked command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp' returned '0': /home/chen/.local/bin/cmake /home/chen/repositorio2/Robot/src/async_web_server_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/chen/repositorio2/Robot/src/install/async_web_server_cpp
+Invoking command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp': /home/chen/.local/bin/cmake --build /home/chen/repositorio2/Robot/src/build/async_web_server_cpp -- -j2 -l2
+Invoked command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp' returned '0': /home/chen/.local/bin/cmake --build /home/chen/repositorio2/Robot/src/build/async_web_server_cpp -- -j2 -l2
+Invoking command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp': /home/chen/.local/bin/cmake --install /home/chen/repositorio2/Robot/src/build/async_web_server_cpp
+Invoked command in '/home/chen/repositorio2/Robot/src/build/async_web_server_cpp' returned '0': /home/chen/.local/bin/cmake --install /home/chen/repositorio2/Robot/src/build/async_web_server_cpp
