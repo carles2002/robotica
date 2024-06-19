@@ -77,15 +77,20 @@ class ImageRecognitionNode(Node):
             image = self.static_image.copy()
             self.execution_count += 1  # Incrementar el contador de ejecuciones
 
-        image = cv2.resize(image, (224, 224), interpolation=cv2.INTER_AREA)
-        image = np.asarray(image, dtype=np.float32).reshape(1, 224, 224, 3)
-        image = (image / 127.5) - 1
-        prediction = self.model.predict(image)
+        # Mostrar la imagen en una ventana
+        cv2.imshow("Image", image)
+        cv2.waitKey(1)
+
+        # Procesar la imagen para clasificación
+        resized_image = cv2.resize(image, (224, 224), interpolation=cv2.INTER_AREA)
+        resized_image = np.asarray(resized_image, dtype=np.float32).reshape(1, 224, 224, 3)
+        resized_image = (resized_image / 127.5) - 1
+        prediction = self.model.predict(resized_image)
         index = np.argmax(prediction)
         class_name = self.class_names[index] if index < len(self.class_names) else "Unknown"
         confidence_score = float(np.round(prediction[0][index] * 100, 2))
 
-        # Publicar solo si la confianza es mayor al 95%
+        # Publicar solo si la confianza es mayor al 98%
         if confidence_score > 98:
             message = f'Class: {class_name}, Confidence: {confidence_score}%'
             self.publisher_.publish(String(data=message))
