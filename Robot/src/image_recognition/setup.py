@@ -23,7 +23,9 @@ setup(
     entry_points={
         'console_scripts': [
             'image_recognition = image_recognition.image_recognition:main',
-            'image_recognition_subscriber = image_recognition.image_recognition_subscriber:main'
+            'image_recognition_subscriber = image_recognition.image_recognition_subscriber:main',
+            'image_publisher = image_recognition.image_publisher:main'
+        
         ],
     },
 )
