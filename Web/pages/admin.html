@@ -6,7 +6,9 @@
     <!--Bootstrap v5-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- RosLibJS -->
     <script src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
     <!--Nuestros links-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script type="module" src="../js/admin.js"></script>
@@ -43,7 +45,7 @@
                 <!-- Botones en la parte superior -->
                 <div class="d-flex justify-content-around w-100 mb-4">
                     <div class="flex-fill mx-2">
-                        <button class="btn btn-primary w-100">
+                        <button id="btn_ubic_robot" class="btn btn-primary w-100">
                             <img src="../assets/ubicacion.png" alt="Ubicación Robot" class="icono-boton">
                             Abrir ubicación del robot
                         </button>
@@ -84,7 +86,9 @@
                 <div class="col-6 text-center mb-4">
                     <div class="estado-card">
                         <h4>CAMARA DEL ROBOT</h4>
-                        <div class="camara-placeholder bg-light mx-auto"></div>
+                        <button id="btn_camara_web">Conectar</button>
+                        <iframe class="responsive-iframe" referrerpolicy="unsafe-url" id="iframe_camera_web" src="http://0.0.0.0:8080/stream?topic=/image&type=mjpeg" height="350" width="400" title="Iframe Camara Robot - Topic /image"></iframe>
+                        
                     </div>
                 </div>
                 <!-- Estado del Robot -->

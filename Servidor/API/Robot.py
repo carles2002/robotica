@@ -64,6 +64,10 @@ class Robot:
         #Parar
         os.system("bash ../comandos/movimiento/stop.bash")
         return
+    #------------------------------------------------------------
+    # console()
+    # Descripcion: Detiene el movimiento del robot
+    #------------------------------------------------------------
     def console(self, move):
         print("Robot_console")
         if(move=="left"):
@@ -76,3 +80,13 @@ class Robot:
             self.move_forward()
         else:
             return "Error 404 - No move"
+    #------------------------------------------------------------
+    # stop_move()
+    # Descripcion: 
+    # - Inicia el paquete web_video_server
+    # - Se subscribe al topic /imagen
+    #------------------------------------------------------------
+    def camara_web(self):
+        os.system("gnome-terminal -- bash -c '../comandos/iniciar_webserver.bash; exec bash'")
+        os.system("gnome-terminal -- bash -c '../comandos/subscribirse_imagen.bash; exec bash'")
+        return

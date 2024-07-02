@@ -23,8 +23,8 @@ class MyActionClient(Node):
         # y lo rellena con el argumento dado
         goal_pose = NavigateToPose.Goal()
         goal_pose.pose.header.frame_id = 'map'
-        goal_pose.pose.pose.position.x = 17.0
-        goal_pose.pose.pose.position.y = 0.0
+        goal_pose.pose.pose.position.x = -0.54
+        goal_pose.pose.pose.position.y = 0.34
         goal_pose.pose.pose.position.z = 0.0
         goal_pose.pose.pose.orientation.x = 0.0
         goal_pose.pose.pose.orientation.y = 0.0
