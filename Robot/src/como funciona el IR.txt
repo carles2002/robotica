@@ -13,3 +13,11 @@ Para que todo funcione bien, revisar que despues del colcon build en la carpeta
 [install/iamge-recognition/share/image_recognition/resources/(aquí los archivos)]
 de install se han pasado en resources estos dos ultimos arcivos (el label y el modelo), 
 si no lo han hecho pegarlos ahi.
+
+
+Para iniciar el reconocimiento en el robot: 
+ros2 run image_tools cam2image --ros-args -p burger_mode:=false -p frequency:=10.0 -p reliability:=reliable
+
+
+Arrancar el pulbicador de prueba: 
+ros2 launch image_recognition publisher.launch.py

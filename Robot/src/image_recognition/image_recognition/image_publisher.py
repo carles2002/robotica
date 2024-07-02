@@ -8,7 +8,7 @@ import cv2
 class ImagePublisher(Node):
     def __init__(self):
         super().__init__('image_publisher')
-        self.publisher_ = self.create_publisher(Image, '/camera/image_raw', 10)
+        self.publisher_ = self.create_publisher(Image, '/image', 10)
         self.timer = self.create_timer(0.1, self.publish_image)
         self.bridge = CvBridge()
 
