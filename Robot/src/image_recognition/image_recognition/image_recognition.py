@@ -1,18 +1,21 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+from sensor_msgs.msg import Image
 from keras.models import load_model
 import cv2
 import numpy as np
 import os
 from ament_index_python.packages import get_package_share_directory
+from cv_bridge import CvBridge, CvBridgeError
 
 class ImageRecognitionNode(Node):
     def __init__(self):
         super().__init__('image_recognition_node')
 
-        # Declarar y obtener el parámetro 'use_camera'
+        # Declarar y obtener el parámetro 'use_camera' y 'use_robot_camera'
         self.use_camera = self.declare_parameter('use_camera', True).get_parameter_value().bool_value
+        self.use_robot_camera = self.declare_parameter('use_robot_camera', False).get_parameter_value().bool_value
 
         # Obtener la ruta del directorio del paquete
         package_share_directory = get_package_share_directory('image_recognition')
@@ -22,10 +25,20 @@ class ImageRecognitionNode(Node):
 
         self.publisher_ = self.create_publisher(String, 'classification', 10)
 
-        # Inicializar cámara o leer imagen estática basada en el parámetro
+        # Inicializar cámara, cámara del robot o leer imagen estática basada en el parámetro
         if self.use_camera:
-            self.get_logger().info("Using camera.")
+            self.get_logger().info("Using USB camera.")
             self.camera = cv2.VideoCapture(0)
+        elif self.use_robot_camera:
+            self.get_logger().info("Using robot camera.")
+            self.bridge = CvBridge()
+            self.image_sub = self.create_subscription(
+                Image,
+                '/image',
+                self.camera_callback,
+                10
+            )
+            self.latest_image = None
         else:
             self.get_logger().info("Using static image.")
             self.static_image = cv2.imread(self.image_path)
@@ -39,12 +52,23 @@ class ImageRecognitionNode(Node):
 
         self.timer = self.create_timer(0.1, self.publish_classification)
 
+    def camera_callback(self, msg):
+        try:
+            self.latest_image = self.bridge.imgmsg_to_cv2(msg, "bgr8")
+        except CvBridgeError as e:
+            self.get_logger().error(f"Failed to convert image: {e}")
+
     def publish_classification(self):
         if self.use_camera:
             ret, image = self.camera.read()
             if not ret:
-                self.get_logger().error("Failed to capture image from camera.")
+                self.get_logger().error("Failed to capture image from USB camera.")
                 return
+        elif self.use_robot_camera:
+            if self.latest_image is None:
+                self.get_logger().warning("No image received from robot camera yet.")
+                return
+            image = self.latest_image
         else:
             if self.execution_count >= 5:  # Cancelar el temporizador después de 5 ejecuciones
                 self.timer.cancel()
@@ -53,29 +77,35 @@ class ImageRecognitionNode(Node):
             image = self.static_image.copy()
             self.execution_count += 1  # Incrementar el contador de ejecuciones
 
-        image = cv2.resize(image, (224, 224), interpolation=cv2.INTER_AREA)
-        image = np.asarray(image, dtype=np.float32).reshape(1, 224, 224, 3)
-        image = (image / 127.5) - 1
-        prediction = self.model.predict(image)
+        # Mostrar la imagen en una ventana
+        cv2.imshow("Image", image)
+        cv2.waitKey(1)
+
+        # Procesar la imagen para clasificación
+        resized_image = cv2.resize(image, (224, 224), interpolation=cv2.INTER_AREA)
+        resized_image = np.asarray(resized_image, dtype=np.float32).reshape(1, 224, 224, 3)
+        resized_image = (resized_image / 127.5) - 1
+        prediction = self.model.predict(resized_image)
         index = np.argmax(prediction)
         class_name = self.class_names[index] if index < len(self.class_names) else "Unknown"
         confidence_score = float(np.round(prediction[0][index] * 100, 2))
 
-        # Publicar solo si la confianza es mayor al 95%
-        if confidence_score > 98:
+        # Publicar solo si la confianza es mayor al 98%
+        if confidence_score > 99:
             message = f'Class: {class_name}, Confidence: {confidence_score}%'
             self.publisher_.publish(String(data=message))
 
     def on_shutdown(self):
         if self.use_camera:
             self.camera.release()
-        cvq.destroyAllWindows()
+        cv2.destroyAllWindows()
 
 def main(args=None):
     rclpy.init(args=args)
     node = ImageRecognitionNode()
     rclpy.spin(node)
-    rclpy.shutdown(callback=node.on_shutdown)
+    node.on_shutdown()
+    rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
